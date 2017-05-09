@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="android.sample.cts" appPackageName="android.sample" name="CtsSampleDeviceTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="sample">
+<TestSuite name="cts">
+<TestCase name="SampleDeviceResultTest">
+<Test name="testFactorialIterative" />
+<Test name="testFactorialRecursive" />
+</TestCase>
+<TestCase name="SampleDeviceTest">
+<Test name="testSharedPreferences" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

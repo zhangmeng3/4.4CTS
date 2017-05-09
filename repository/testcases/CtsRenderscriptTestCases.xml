@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.renderscript" appPackageName="android.renderscript" name="CtsRenderscriptTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="renderscript">
+<TestSuite name="cts">
+<TestCase name="AcosPiTest">
+<Test name="testAcosPiF32" />
+<Test name="testAcosPiF32_2" />
+<Test name="testAcosPiF32_2_relaxed" />
+<Test name="testAcosPiF32_3" />
+<Test name="testAcosPiF32_3_relaxed" />
+<Test name="testAcosPiF32_4" />
+<Test name="testAcosPiF32_4_relaxed" />
+<Test name="testAcosPiF32_relaxed" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="AcosTest">
+<Test name="testAcosF32" />
+<Test name="testAcosF32_2" />
+<Test name="testAcosF32_2_relaxed" />
+<Test name="testAcosF32_3" />
+<Test name="testAcosF32_3_relaxed" />
+<Test name="testAcosF32_4" />
+<Test name="testAcosF32_4_relaxed" />
+<Test name="testAcosF32_relaxed" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="AcoshTest">
+<Test name="testAcoshF32" />
+<Test name="testAcoshF32_2" />
+<Test name="testAcoshF32_2_relaxed" />
+<Test name="testAcoshF32_3" />
+<Test name="testAcoshF32_3_relaxed" />
+<Test name="testAcoshF32_4" />
+<Test name="testAcoshF32_4_relaxed" />
+<Test name="testAcoshF32_relaxed" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="AllocationCopy2DRangeTest">
+<Test name="testAllocationCopy2DRange" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="AllocationResize">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testResize" />
+</TestCase>
+<TestCase name="AllocationTest">
+<Test name="test1DCopyOperations" />
+<Test name="test2DCopyOperations" />
+<Test name="testAllocationMipmapControl" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCopyFromAllocation" />
+<Test name="testCreateFromBitmap" />
+<Test name="testCreateSized" />
+<Test name="testCreateTyped" />
+<Test name="testCubemapFaces" />
+<Test name="testSetElementAt" />
+<Test name="testSetElementAt2D" />
+</TestCase>
+<TestCase name="AsinPiTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAsinPiF32" />
+<Test name="testAsinPiF32_2" />
+<Test name="testAsinPiF32_2_relaxed" />
+<Test name="testAsinPiF32_3" />
+<Test name="testAsinPiF32_3_relaxed" />
+<Test name="testAsinPiF32_4" />
+<Test name="testAsinPiF32_4_relaxed" />
+<Test name="testAsinPiF32_relaxed" />
+</TestCase>
+<TestCase name="AsinTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAsinF32" />
+<Test name="testAsinF32_2" />
+<Test name="testAsinF32_2_relaxed" />
+<Test name="testAsinF32_3" />
+<Test name="testAsinF32_3_relaxed" />
+<Test name="testAsinF32_4" />
+<Test name="testAsinF32_4_relaxed" />
+<Test name="testAsinF32_relaxed" />
+</TestCase>
+<TestCase name="AsinhTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAsinhF32" />
+<Test name="testAsinhF32_2" />
+<Test name="testAsinhF32_2_relaxed" />
+<Test name="testAsinhF32_3" />
+<Test name="testAsinhF32_3_relaxed" />
+<Test name="testAsinhF32_4" />
+<Test name="testAsinhF32_4_relaxed" />
+<Test name="testAsinhF32_relaxed" />
+</TestCase>
+<TestCase name="Atan2PiTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAtan2PiF32" />
+<Test name="testAtan2PiF32_2" />
+<Test name="testAtan2PiF32_2_relaxed" />
+<Test name="testAtan2PiF32_3" />
+<Test name="testAtan2PiF32_3_relaxed" />
+<Test name="testAtan2PiF32_4" />
+<Test name="testAtan2PiF32_4_relaxed" />
+<Test name="testAtan2PiF32_relaxed" />
+</TestCase>
+<TestCase name="Atan2Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAtan2F32" />
+<Test name="testAtan2F32_2" />
+<Test name="testAtan2F32_2_relaxed" />
+<Test name="testAtan2F32_3" />
+<Test name="testAtan2F32_3_relaxed" />
+<Test name="testAtan2F32_4" />
+<Test name="testAtan2F32_4_relaxed" />
+<Test name="testAtan2F32_relaxed" />
+</TestCase>
+<TestCase name="AtanPiTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAtanPiF32" />
+<Test name="testAtanPiF32_2" />
+<Test name="testAtanPiF32_2_relaxed" />
+<Test name="testAtanPiF32_3" />
+<Test name="testAtanPiF32_3_relaxed" />
+<Test name="testAtanPiF32_4" />
+<Test name="testAtanPiF32_4_relaxed" />
+<Test name="testAtanPiF32_relaxed" />
+</TestCase>
+<TestCase name="AtanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAtanF32" />
+<Test name="testAtanF32_2" />
+<Test name="testAtanF32_2_relaxed" />
+<Test name="testAtanF32_3" />
+<Test name="testAtanF32_3_relaxed" />
+<Test name="testAtanF32_4" />
+<Test name="testAtanF32_4_relaxed" />
+<Test name="testAtanF32_relaxed" />
+</TestCase>
+<TestCase name="AtanhTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAtanhF32" />
+<Test name="testAtanhF32_2" />
+<Test name="testAtanhF32_2_relaxed" />
+<Test name="testAtanhF32_3" />
+<Test name="testAtanhF32_3_relaxed" />
+<Test name="testAtanhF32_4" />
+<Test name="testAtanhF32_4_relaxed" />
+<Test name="testAtanhF32_relaxed" />
+</TestCase>
+<TestCase name="BaseObjTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBaseObj" />
+</TestCase>
+<TestCase name="CbrtTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCbrtF32" />
+<Test name="testCbrtF32_2" />
+<Test name="testCbrtF32_2_relaxed" />
+<Test name="testCbrtF32_3" />
+<Test name="testCbrtF32_3_relaxed" />
+<Test name="testCbrtF32_4" />
+<Test name="testCbrtF32_4_relaxed" />
+<Test name="testCbrtF32_relaxed" />
+</TestCase>
+<TestCase name="CeilTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCeilF32" />
+<Test name="testCeilF32_2" />
+<Test name="testCeilF32_2_relaxed" />
+<Test name="testCeilF32_3" />
+<Test name="testCeilF32_3_relaxed" />
+<Test name="testCeilF32_4" />
+<Test name="testCeilF32_4_relaxed" />
+<Test name="testCeilF32_relaxed" />
+</TestCase>
+<TestCase name="ClearObjectTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClearObjectElement" />
+<Test name="testclearObjectAllocation" />
+<Test name="testclearObjectSampler" />
+<Test name="testclearObjectScript" />
+<Test name="testclearObjectType" />
+</TestCase>
+<TestCase name="CompilerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMissingLink" />
+</TestCase>
+<TestCase name="ComputeTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testArrayInit" />
+<Test name="testClamp" />
+<Test name="testClampRelaxed" />
+<Test name="testForEach" />
+<Test name="testInstance" />
+<Test name="testJavaVectorTypes" />
+<Test name="testPrimitives" />
+<Test name="testStructObject" />
+<Test name="testUtilityFunctions" />
+<Test name="testVector" />
+</TestCase>
+<TestCase name="CopysignTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCopysignF32" />
+<Test name="testCopysignF32_2" />
+<Test name="testCopysignF32_2_relaxed" />
+<Test name="testCopysignF32_3" />
+<Test name="testCopysignF32_3_relaxed" />
+<Test name="testCopysignF32_4" />
+<Test name="testCopysignF32_4_relaxed" />
+<Test name="testCopysignF32_relaxed" />
+</TestCase>
+<TestCase name="CosTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCosF32" />
+<Test name="testCosF32_2" />
+<Test name="testCosF32_2_relaxed" />
+<Test name="testCosF32_3" />
+<Test name="testCosF32_3_relaxed" />
+<Test name="testCosF32_4" />
+<Test name="testCosF32_4_relaxed" />
+<Test name="testCosF32_relaxed" />
+</TestCase>
+<TestCase name="CoshTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCoshF32" />
+<Test name="testCoshF32_2" />
+<Test name="testCoshF32_2_relaxed" />
+<Test name="testCoshF32_3" />
+<Test name="testCoshF32_3_relaxed" />
+<Test name="testCoshF32_4" />
+<Test name="testCoshF32_4_relaxed" />
+<Test name="testCoshF32_relaxed" />
+</TestCase>
+<TestCase name="CrossTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCrossF32_3" />
+<Test name="testCrossF32_4" />
+</TestCase>
+<TestCase name="DebugContext">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDebugContextI" />
+<Test name="testDebugContextK" />
+</TestCase>
+<TestCase name="DegreesTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDegreesF32" />
+<Test name="testDegreesF32_2" />
+<Test name="testDegreesF32_2_relaxed" />
+<Test name="testDegreesF32_3" />
+<Test name="testDegreesF32_3_relaxed" />
+<Test name="testDegreesF32_4" />
+<Test name="testDegreesF32_4_relaxed" />
+<Test name="testDegreesF32_relaxed" />
+</TestCase>
+<TestCase name="ElementTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreatePixel" />
+<Test name="testCreateVector" />
+<Test name="testDataKind" />
+<Test name="testDataType" />
+<Test name="testElementBuilder" />
+<Test name="testEquals" />
+<Test name="testIsCompatible" />
+<Test name="testIsComplex" />
+<Test name="testPrebuiltElements" />
+</TestCase>
+<TestCase name="ExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExceptions" />
+</TestCase>
+<TestCase name="Exp10Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExp10F32" />
+<Test name="testExp10F32_2" />
+<Test name="testExp10F32_2_relaxed" />
+<Test name="testExp10F32_3" />
+<Test name="testExp10F32_3_relaxed" />
+<Test name="testExp10F32_4" />
+<Test name="testExp10F32_4_relaxed" />
+<Test name="testExp10F32_relaxed" />
+</TestCase>
+<TestCase name="Exp2Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExp2F32" />
+<Test name="testExp2F32_2" />
+<Test name="testExp2F32_2_relaxed" />
+<Test name="testExp2F32_3" />
+<Test name="testExp2F32_3_relaxed" />
+<Test name="testExp2F32_4" />
+<Test name="testExp2F32_4_relaxed" />
+<Test name="testExp2F32_relaxed" />
+</TestCase>
+<TestCase name="ExpTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExpF32" />
+<Test name="testExpF32_2" />
+<Test name="testExpF32_2_relaxed" />
+<Test name="testExpF32_3" />
+<Test name="testExpF32_3_relaxed" />
+<Test name="testExpF32_4" />
+<Test name="testExpF32_4_relaxed" />
+<Test name="testExpF32_relaxed" />
+</TestCase>
+<TestCase name="Expm1Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExpm1F32" />
+<Test name="testExpm1F32_2" />
+<Test name="testExpm1F32_2_relaxed" />
+<Test name="testExpm1F32_3" />
+<Test name="testExpm1F32_3_relaxed" />
+<Test name="testExpm1F32_4" />
+<Test name="testExpm1F32_4_relaxed" />
+<Test name="testExpm1F32_relaxed" />
+</TestCase>
+<TestCase name="FabsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testfabsF32" />
+<Test name="testfabsF32_2" />
+<Test name="testfabsF32_2_relaxed" />
+<Test name="testfabsF32_3" />
+<Test name="testfabsF32_3_relaxed" />
+<Test name="testfabsF32_4" />
+<Test name="testfabsF32_4_relaxed" />
+<Test name="testfabsF32_relaxed" />
+</TestCase>
+<TestCase name="FdimTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testfdimF32" />
+<Test name="testfdimF32_2" />
+<Test name="testfdimF32_2_relaxed" />
+<Test name="testfdimF32_3" />
+<Test name="testfdimF32_3_relaxed" />
+<Test name="testfdimF32_4" />
+<Test name="testfdimF32_4_relaxed" />
+<Test name="testfdimF32_relaxed" />
+</TestCase>
+<TestCase name="FieldPackerTest">
+<Test name="testAddAllTypes" />
+<Test name="testAlignResetSkip" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="FloorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testfloorF32" />
+<Test name="testfloorF32_2" />
+<Test name="testfloorF32_2_relaxed" />
+<Test name="testfloorF32_3" />
+<Test name="testfloorF32_3_relaxed" />
+<Test name="testfloorF32_4" />
+<Test name="testfloorF32_4_relaxed" />
+<Test name="testfloorF32_relaxed" />
+</TestCase>
+<TestCase name="FmaTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFmaF32" />
+<Test name="testFmaF32_2" />
+<Test name="testFmaF32_2_relaxed" />
+<Test name="testFmaF32_3" />
+<Test name="testFmaF32_3_relaxed" />
+<Test name="testFmaF32_4" />
+<Test name="testFmaF32_4_relaxed" />
+<Test name="testFmaF32_relaxed" />
+</TestCase>
+<TestCase name="FmaxTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testfmaxF32" />
+<Test name="testfmaxF32_2" />
+<Test name="testfmaxF32_2_relaxed" />
+<Test name="testfmaxF32_3" />
+<Test name="testfmaxF32_3_relaxed" />
+<Test name="testfmaxF32_4" />
+<Test name="testfmaxF32_4_relaxed" />
+<Test name="testfmaxF32_relaxed" />
+</TestCase>
+<TestCase name="FminTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testfminF32" />
+<Test name="testfminF32_2" />
+<Test name="testfminF32_2_relaxed" />
+<Test name="testfminF32_3" />
+<Test name="testfminF32_3_relaxed" />
+<Test name="testfminF32_4" />
+<Test name="testfminF32_4_relaxed" />
+<Test name="testfminF32_relaxed" />
+</TestCase>
+<TestCase name="FmodTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testfmodF32" />
+<Test name="testfmodF32_2" />
+<Test name="testfmodF32_2_relaxed" />
+<Test name="testfmodF32_3" />
+<Test name="testfmodF32_3_relaxed" />
+<Test name="testfmodF32_4" />
+<Test name="testfmodF32_4_relaxed" />
+<Test name="testfmodF32_relaxed" />
+</TestCase>
+<TestCase name="ForEachTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testForEach" />
+<Test name="testMultipleForEach" />
+<Test name="testNoRoot" />
+</TestCase>
+<TestCase name="GetAllocationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetAllocation" />
+</TestCase>
+<TestCase name="GetElementAt">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testX" />
+<Test name="testXY" />
+</TestCase>
+<TestCase name="GlobalSync">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIKGlobalSync" />
+<Test name="testIKStaticGlobalSync" />
+<Test name="testKIGlobalSync" />
+<Test name="testKIStaticGlobalSync" />
+</TestCase>
+<TestCase name="GlobalTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLargeGlobal" />
+</TestCase>
+<TestCase name="HypotTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testHypotF32" />
+<Test name="testHypotF32_2" />
+<Test name="testHypotF32_2_relaxed" />
+<Test name="testHypotF32_3" />
+<Test name="testHypotF32_3_relaxed" />
+<Test name="testHypotF32_4" />
+<Test name="testHypotF32_4_relaxed" />
+<Test name="testHypotF32_relaxed" />
+</TestCase>
+<TestCase name="ImageProcessingTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBlend" />
+<Test name="testBlur" />
+<Test name="testColorMatrix" />
+<Test name="testConvolve3x3" />
+<Test name="testConvolve5x5" />
+<Test name="testLUT" />
+<Test name="testScriptGroup" />
+</TestCase>
+<TestCase name="InitTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testInitTest" />
+</TestCase>
+<TestCase name="IntrinsicBase">
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="IntrinsicColorMatrix">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="test_F32_F32_Ident" />
+<Test name="test_F32_F32_Rand" />
+<Test name="test_F32_U8_Ident" />
+<Test name="test_F32_U8_Rand" />
+<Test name="test_U8_F32_Ident" />
+<Test name="test_U8_F32_Rand" />
+<Test name="test_U8_U8_Ident" />
+<Test name="test_U8_U8_Rand" />
+</TestCase>
+<TestCase name="IntrinsicConvolve3x3">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="test_F32_1" />
+<Test name="test_F32_2" />
+<Test name="test_F32_3" />
+<Test name="test_F32_4" />
+<Test name="test_U8_1" />
+<Test name="test_U8_2" />
+<Test name="test_U8_3" />
+<Test name="test_U8_4" />
+</TestCase>
+<TestCase name="IntrinsicConvolve5x5">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="test_F32_1" />
+<Test name="test_F32_2" />
+<Test name="test_F32_3" />
+<Test name="test_F32_4" />
+<Test name="test_U8_1" />
+<Test name="test_U8_2" />
+<Test name="test_U8_3" />
+<Test name="test_U8_4" />
+</TestCase>
+<TestCase name="IntrinsicHistogram">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="test_dot_1" />
+<Test name="test_dot_2" />
+<Test name="test_dot_3" />
+<Test name="test_dot_4" />
+<Test name="test_norm_1_1" />
+<Test name="test_norm_2_1" />
+<Test name="test_norm_2_2" />
+<Test name="test_norm_3_1" />
+<Test name="test_norm_3_2" />
+<Test name="test_norm_3_3" />
+<Test name="test_norm_4_1" />
+<Test name="test_norm_4_2" />
+<Test name="test_norm_4_3" />
+<Test name="test_norm_4_4" />
+</TestCase>
+<TestCase name="IsObjectTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIsObjectAllocation" />
+<Test name="testIsObjectElement" />
+<Test name="testIsObjectSampler" />
+<Test name="testIsObjectScript" />
+<Test name="testIsObjectType" />
+</TestCase>
+<TestCase name="KernelTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testForEach" />
+<Test name="testMultipleForEach" />
+<Test name="testNoRoot" />
+</TestCase>
+<TestCase name="LeakTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testForLeaks" />
+</TestCase>
+<TestCase name="Log10Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLog10F32" />
+<Test name="testLog10F32_2" />
+<Test name="testLog10F32_2_relaxed" />
+<Test name="testLog10F32_3" />
+<Test name="testLog10F32_3_relaxed" />
+<Test name="testLog10F32_4" />
+<Test name="testLog10F32_4_relaxed" />
+<Test name="testLog10F32_relaxed" />
+</TestCase>
+<TestCase name="Log1PTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLog1PF32" />
+<Test name="testLog1PF32_2" />
+<Test name="testLog1PF32_2_relaxed" />
+<Test name="testLog1PF32_3" />
+<Test name="testLog1PF32_3_relaxed" />
+<Test name="testLog1PF32_4" />
+<Test name="testLog1PF32_4_relaxed" />
+<Test name="testLog1PF32_relaxed" />
+</TestCase>
+<TestCase name="Log2Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLog2F32" />
+<Test name="testLog2F32_2" />
+<Test name="testLog2F32_2_relaxed" />
+<Test name="testLog2F32_3" />
+<Test name="testLog2F32_3_relaxed" />
+<Test name="testLog2F32_4" />
+<Test name="testLog2F32_4_relaxed" />
+<Test name="testLog2F32_relaxed" />
+</TestCase>
+<TestCase name="LogTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLogF32" />
+<Test name="testLogF32_2" />
+<Test name="testLogF32_2_relaxed" />
+<Test name="testLogF32_3" />
+<Test name="testLogF32_3_relaxed" />
+<Test name="testLogF32_4" />
+<Test name="testLogF32_4_relaxed" />
+<Test name="testLogF32_relaxed" />
+</TestCase>
+<TestCase name="LogbTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLogbF32" />
+<Test name="testLogbF32_2" />
+<Test name="testLogbF32_2_relaxed" />
+<Test name="testLogbF32_3" />
+<Test name="testLogbF32_3_relaxed" />
+<Test name="testLogbF32_4" />
+<Test name="testLogbF32_4_relaxed" />
+<Test name="testLogbF32_relaxed" />
+</TestCase>
+<TestCase name="MadTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMadF32" />
+<Test name="testMadF32_2" />
+<Test name="testMadF32_2_relaxed" />
+<Test name="testMadF32_3" />
+<Test name="testMadF32_3_relaxed" />
+<Test name="testMadF32_4" />
+<Test name="testMadF32_4_relaxed" />
+<Test name="testMadF32_relaxed" />
+</TestCase>
+<TestCase name="Matrix2fTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreation" />
+<Test name="testGet" />
+<Test name="testLoad" />
+<Test name="testLoadIdentity" />
+<Test name="testLoadScale" />
+<Test name="testMultiply" />
+<Test name="testRotateLoadRotate" />
+<Test name="testScale" />
+<Test name="testSet" />
+<Test name="testTranspose" />
+</TestCase>
+<TestCase name="Matrix3fTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreation" />
+<Test name="testGet" />
+<Test name="testLoad" />
+<Test name="testLoadIdentity" />
+<Test name="testLoadScale" />
+<Test name="testLoadTranslate" />
+<Test name="testMultiply" />
+<Test name="testScale" />
+<Test name="testSet" />
+<Test name="testTranspose" />
+</TestCase>
+<TestCase name="Matrix4fTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreation" />
+<Test name="testGet" />
+<Test name="testInverse" />
+<Test name="testLoad" />
+<Test name="testLoadIdentity" />
+<Test name="testLoadScale" />
+<Test name="testLoadTranslate" />
+<Test name="testMultiply" />
+<Test name="testScale" />
+<Test name="testSet" />
+<Test name="testTranspose" />
+</TestCase>
+<TestCase name="NextafterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNextafterF32" />
+<Test name="testNextafterF32_2" />
+<Test name="testNextafterF32_2_relaxed" />
+<Test name="testNextafterF32_3" />
+<Test name="testNextafterF32_3_relaxed" />
+<Test name="testNextafterF32_4" />
+<Test name="testNextafterF32_4_relaxed" />
+<Test name="testNextafterF32_relaxed" />
+</TestCase>
+<TestCase name="PowTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPowF32" />
+<Test name="testPowF32_2" />
+<Test name="testPowF32_2_relaxed" />
+<Test name="testPowF32_3" />
+<Test name="testPowF32_3_relaxed" />
+<Test name="testPowF32_4" />
+<Test name="testPowF32_4_relaxed" />
+<Test name="testPowF32_relaxed" />
+</TestCase>
+<TestCase name="PownTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPownF32" />
+<Test name="testPownF32_2" />
+<Test name="testPownF32_2_relaxed" />
+<Test name="testPownF32_3" />
+<Test name="testPownF32_3_relaxed" />
+<Test name="testPownF32_4" />
+<Test name="testPownF32_4_relaxed" />
+<Test name="testPownF32_relaxed" />
+</TestCase>
+<TestCase name="PowrTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPowrF32" />
+<Test name="testPowrF32_2" />
+<Test name="testPowrF32_2_relaxed" />
+<Test name="testPowrF32_3" />
+<Test name="testPowrF32_3_relaxed" />
+<Test name="testPowrF32_4" />
+<Test name="testPowrF32_4_relaxed" />
+<Test name="testPowrF32_relaxed" />
+</TestCase>
+<TestCase name="RadiansTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRadiansF32" />
+<Test name="testRadiansF32_2" />
+<Test name="testRadiansF32_2_relaxed" />
+<Test name="testRadiansF32_3" />
+<Test name="testRadiansF32_3_relaxed" />
+<Test name="testRadiansF32_4" />
+<Test name="testRadiansF32_4_relaxed" />
+<Test name="testRadiansF32_relaxed" />
+</TestCase>
+<TestCase name="RemainderTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRemainderF32" />
+<Test name="testRemainderF32_2" />
+<Test name="testRemainderF32_2_relaxed" />
+<Test name="testRemainderF32_3" />
+<Test name="testRemainderF32_3_relaxed" />
+<Test name="testRemainderF32_4" />
+<Test name="testRemainderF32_4_relaxed" />
+<Test name="testRemainderF32_relaxed" />
+</TestCase>
+<TestCase name="RenderScriptTest">
+<Test name="testAPI" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPriority" />
+<Test name="testRSErrorHandler" />
+<Test name="testRSMessageHandler" />
+<Test name="testRenderScript" />
+</TestCase>
+<TestCase name="RintTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRintF32" />
+<Test name="testRintF32_2" />
+<Test name="testRintF32_2_relaxed" />
+<Test name="testRintF32_3" />
+<Test name="testRintF32_3_relaxed" />
+<Test name="testRintF32_4" />
+<Test name="testRintF32_4_relaxed" />
+<Test name="testRintF32_relaxed" />
+</TestCase>
+<TestCase name="RootnTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRootnF32" />
+<Test name="testRootnF32_2" />
+<Test name="testRootnF32_2_relaxed" />
+<Test name="testRootnF32_3" />
+<Test name="testRootnF32_3_relaxed" />
+<Test name="testRootnF32_4" />
+<Test name="testRootnF32_4_relaxed" />
+<Test name="testRootnF32_relaxed" />
+</TestCase>
+<TestCase name="RoundTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRoundF32" />
+<Test name="testRoundF32_2" />
+<Test name="testRoundF32_2_relaxed" />
+<Test name="testRoundF32_3" />
+<Test name="testRoundF32_3_relaxed" />
+<Test name="testRoundF32_4" />
+<Test name="testRoundF32_4_relaxed" />
+<Test name="testRoundF32_relaxed" />
+</TestCase>
+<TestCase name="RsFracTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRsFrac" />
+<Test name="testRsFrac_relaxed" />
+</TestCase>
+<TestCase name="RsPackColorTo8888Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRsPackColorTo8888F32_3" />
+<Test name="testRsPackColorTo8888F32_4" />
+<Test name="testRsPackColorTo8888RGB" />
+<Test name="testRsPackColorTo8888RGBA" />
+</TestCase>
+<TestCase name="RsUnpackColor8888Test">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRsUnpackColor8888RGB" />
+</TestCase>
+<TestCase name="RsqrtTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRsqrtF32" />
+<Test name="testRsqrtF32_2" />
+<Test name="testRsqrtF32_2_relaxed" />
+<Test name="testRsqrtF32_3" />
+<Test name="testRsqrtF32_3_relaxed" />
+<Test name="testRsqrtF32_4" />
+<Test name="testRsqrtF32_4_relaxed" />
+<Test name="testRsqrtF32_relaxed" />
+</TestCase>
+<TestCase name="SampleTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNearest" />
+</TestCase>
+<TestCase name="SamplerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPrebuiltSamplers" />
+<Test name="testSamplerBuilder" />
+<Test name="testSamplerValue" />
+</TestCase>
+<TestCase name="ScriptCTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testScriptC" />
+</TestCase>
+<TestCase name="ScriptGroupTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testScriptGroupDisconnectedDAG" />
+<Test name="testScriptGroupDisconnectedKernel" />
+<Test name="testScriptGroupFieldConnection" />
+<Test name="testScriptGroupSharedGlobal" />
+<Test name="testScriptGroupSingleKernel" />
+<Test name="testScriptGroupTorture" />
+</TestCase>
+<TestCase name="ScriptTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testScript" />
+</TestCase>
+<TestCase name="SendToClient">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSendToClient" />
+<Test name="testSendToClient1" />
+</TestCase>
+<TestCase name="SendToClientBlockingTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSendToClientBlocking1Params" />
+<Test name="testSendToClientBlocking3Params" />
+</TestCase>
+<TestCase name="SetObjectTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSetObjectAllocation" />
+<Test name="testSetObjectElement" />
+<Test name="testSetObjectSampler" />
+<Test name="testSetObjectScript" />
+<Test name="testSetObjectType" />
+</TestCase>
+<TestCase name="SignTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSignF32" />
+<Test name="testSignF32_2" />
+<Test name="testSignF32_2_relaxed" />
+<Test name="testSignF32_3" />
+<Test name="testSignF32_3_relaxed" />
+<Test name="testSignF32_4" />
+<Test name="testSignF32_4_relaxed" />
+<Test name="testSignF32_relaxed" />
+</TestCase>
+<TestCase name="SinTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSinF32" />
+<Test name="testSinF32_2" />
+<Test name="testSinF32_2_relaxed" />
+<Test name="testSinF32_3" />
+<Test name="testSinF32_3_relaxed" />
+<Test name="testSinF32_4" />
+<Test name="testSinF32_4_relaxed" />
+<Test name="testSinF32_relaxed" />
+</TestCase>
+<TestCase name="SinhTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSinhF32" />
+<Test name="testSinhF32_2" />
+<Test name="testSinhF32_2_relaxed" />
+<Test name="testSinhF32_3" />
+<Test name="testSinhF32_3_relaxed" />
+<Test name="testSinhF32_4" />
+<Test name="testSinhF32_4_relaxed" />
+<Test name="testSinhF32_relaxed" />
+</TestCase>
+<TestCase name="SqrtTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSqrtF32" />
+<Test name="testSqrtF32_2" />
+<Test name="testSqrtF32_2_relaxed" />
+<Test name="testSqrtF32_3" />
+<Test name="testSqrtF32_3_relaxed" />
+<Test name="testSqrtF32_4" />
+<Test name="testSqrtF32_4_relaxed" />
+<Test name="testSqrtF32_relaxed" />
+</TestCase>
+<TestCase name="StepTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testStepF32" />
+<Test name="testStepF32_2" />
+<Test name="testStepF32_2_relaxed" />
+<Test name="testStepF32_3" />
+<Test name="testStepF32_3_relaxed" />
+<Test name="testStepF32_4" />
+<Test name="testStepF32_4_relaxed" />
+<Test name="testStepF32_relaxed" />
+</TestCase>
+<TestCase name="StructArrayTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testStructArrays" />
+</TestCase>
+<TestCase name="StructPadTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testStructPadding" />
+</TestCase>
+<TestCase name="TanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testTanF32" />
+<Test name="testTanF32_2" />
+<Test name="testTanF32_2_relaxed" />
+<Test name="testTanF32_3" />
+<Test name="testTanF32_3_relaxed" />
+<Test name="testTanF32_4" />
+<Test name="testTanF32_4_relaxed" />
+<Test name="testTanF32_relaxed" />
+</TestCase>
+<TestCase name="TanhTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testTanhF32" />
+<Test name="testTanhF32_2" />
+<Test name="testTanhF32_2_relaxed" />
+<Test name="testTanhF32_3" />
+<Test name="testTanhF32_3_relaxed" />
+<Test name="testTanhF32_4" />
+<Test name="testTanhF32_4_relaxed" />
+<Test name="testTanhF32_relaxed" />
+</TestCase>
+<TestCase name="TruncTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testTruncF32" />
+<Test name="testTruncF32_2" />
+<Test name="testTruncF32_2_relaxed" />
+<Test name="testTruncF32_3" />
+<Test name="testTruncF32_3_relaxed" />
+<Test name="testTruncF32_4" />
+<Test name="testTruncF32_4_relaxed" />
+<Test name="testTruncF32_relaxed" />
+</TestCase>
+<TestCase name="TypeTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testEquals" />
+<Test name="testGetCount" />
+<Test name="testGetElement" />
+<Test name="testGetMipmaps" />
+<Test name="testGetX" />
+<Test name="testGetY" />
+<Test name="testGetZ" />
+<Test name="testHasFaces" />
+<Test name="testTypeBuilder" />
+<Test name="testTypeCubemapFace" />
+</TestCase>
+<TestCase name="VersionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testVersion11" />
+<Test name="testVersion12" />
+<Test name="testVersion13" />
+<Test name="testVersion14" />
+<Test name="testVersion15" />
+<Test name="testVersion16" />
+<Test name="testVersion17" />
+<Test name="testVersion_too_high" />
+</TestCase>
+<TestCase name="VoidPtr">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testVoidInChar" />
+<Test name="testVoidInInt" />
+<Test name="testVoidOutChar" />
+<Test name="testVoidOutInt" />
+</TestCase>
+<TestCase name="YuvTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testV17" />
+<Test name="test_NV21" />
+<Test name="test_YV12" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

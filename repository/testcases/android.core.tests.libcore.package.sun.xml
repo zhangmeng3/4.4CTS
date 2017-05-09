@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestPackage AndroidFramework="Android 1.0" appNameSpace="android.core.tests.libcore.package.sun" appPackageName="android.core.tests.libcore.package.sun" javaPackageFilter="sun" name="android.core.tests.libcore.package.sun" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="android.core.tests.runner" targetNameSpace="android.core.tests.runner" version="1.0">
+    <TestSuite name="sun">
+        <TestSuite name="misc">
+            <TestCase name="UnsafeTest">
+                <Test name="test_getUnsafeForbidden"/>
+                <Test name="test_getUnsafeForbiddenWithSystemCaller"/>
+                <Test name="test_allocateInstance"/>
+            </TestCase>
+        </TestSuite>
+    </TestSuite>
+</TestPackage>

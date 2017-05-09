@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.textureview" appPackageName="android.textureview" name="CtsTextureViewTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="textureview">
+<TestSuite name="cts">
+<TestCase name="TextureViewSnapshotTest">
+<Test name="testTextureViewGrabSnapshot" />
+</TestCase>
+<TestCase name="TextureViewTest">
+<Test name="testTextureViewStress200Hz" />
+<Test name="testTextureViewStress48Hz" />
+<Test name="testTextureViewStress60Hz" />
+<Test name="testTextureViewStress70Hz" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

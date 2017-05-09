@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.sax" appPackageName="android.sax" name="CtsSaxTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="sax">
+<TestSuite name="cts">
+<TestCase name="ElementTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testParse" />
+</TestCase>
+<TestCase name="RootElementTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRoot" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.util" appPackageName="android.util" name="CtsUtilTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="util">
+<TestSuite name="cts">
+<TestCase name="AndroidExceptionTest">
+<Test name="testAndroidException" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="AndroidRuntimeExceptionTest">
+<Test name="testAndroidRuntimeException" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="DebugUtilsTest">
+<Test name="testIsObjectSelected" />
+</TestCase>
+<TestCase name="DisplayMetricsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDisplayMetricsOp" />
+</TestCase>
+<TestCase name="EventLogTest">
+<Test name="testGetTagCode" />
+<Test name="testGetTagName" />
+<Test name="testReadEvents" />
+<Test name="testWriteEvent" />
+<Test name="testWriteEventWithOversizeValue" />
+<Test name="testWriteNullEvent" />
+</TestCase>
+<TestCase name="FloatMathTest">
+<Test name="testFloatMathMethods" />
+</TestCase>
+<TestCase name="LogPrinterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testPrintln" />
+</TestCase>
+<TestCase name="LogTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLogOperations" />
+</TestCase>
+<TestCase name="LongSparseArrayTest">
+<Test name="testIterationOrder" />
+<Test name="testSparseArrayWithDefaultCapacity" />
+<Test name="testSparseArrayWithSpecifiedCapacity" />
+</TestCase>
+<TestCase name="MonthDisplayHelperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testFirstDayOfMonth" />
+<Test name="testGetColumnOf" />
+<Test name="testGetDayAt" />
+<Test name="testGetRowOf" />
+<Test name="testHelperProperties" />
+<Test name="testIsWithinCurrentMonth" />
+<Test name="testMonthRows" />
+<Test name="testNextMonth" />
+<Test name="testNumberOfDaysInCurrentMonth" />
+<Test name="testPrevMonth" />
+</TestCase>
+<TestCase name="PrintStreamPrinterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testPrintln" />
+</TestCase>
+<TestCase name="PrintWriterPrinterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testPrintln" />
+</TestCase>
+<TestCase name="SparseArrayTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIterationOrder" />
+<Test name="testSparseArrayWithDefaultCapacity" />
+<Test name="testSparseArrayWithSpecifiedCapacity" />
+</TestCase>
+<TestCase name="SparseBooleanArrayTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIterationOrder" />
+<Test name="testSparseBooleanArrayWithDefaultCapacity" />
+<Test name="testSparseBooleanArrayWithSpecifiedCapacity" />
+</TestCase>
+<TestCase name="SparseIntArrayTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIterationOrder" />
+<Test name="testSparseIntArrayRemoveAt" />
+<Test name="testSparseIntArrayWithDefaultCapacity" />
+<Test name="testSparseIntArrayWithSpecifiedCapacity" />
+</TestCase>
+<TestCase name="SparseLongArrayTest">
+<Test name="testIterationOrder" />
+<Test name="testSparseArrayWithDefaultCapacity" />
+<Test name="testSparseArrayWithSpecifiedCapacity" />
+</TestCase>
+<TestCase name="StateSetTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDump" />
+<Test name="testStateSetMatches" />
+<Test name="testTrimStateSet" />
+</TestCase>
+<TestCase name="StringBuilderPrinterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testStringBuilderPrinter" />
+</TestCase>
+<TestCase name="TimeUtilsTest">
+<Test name="testOld" />
+<Test name="testUnitedStates" />
+<Test name="testWeirdUnitedStates" />
+<Test name="testWorldWeird" />
+</TestCase>
+<TestCase name="TimingLoggerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testTimingLogger" />
+</TestCase>
+<TestCase name="TypedValueTest">
+<Test name="testApplyDimension" />
+<Test name="testCoerceToString1" />
+<Test name="testCoerceToString2" />
+<Test name="testComplexToDimension" />
+<Test name="testComplexToDimensionNoisy" />
+<Test name="testComplexToDimensionPixelSize" />
+<Test name="testComplexToFloat" />
+<Test name="testComplexToFraction" />
+<Test name="testConstructor" />
+<Test name="testGetDimension" />
+<Test name="testGetFloat" />
+<Test name="testGetFraction" />
+<Test name="testSetTo" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="XmlEncodingTest">
+<Test name="testValueOf" />
+</TestCase>
+<TestCase name="XmlTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAsAttributeSet" />
+<Test name="testFindEncodingByName" />
+<Test name="testNewSerializer" />
+<Test name="testParseInputStreamEncodingContentHandler" />
+<Test name="testParseReaderContentHander" />
+<Test name="testParseStringContentHandler" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

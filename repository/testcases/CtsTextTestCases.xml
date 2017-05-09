@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.text" appPackageName="android.text" name="CtsTextTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="text">
+<TestSuite name="cts">
+<TestCase name="AlteredCharSequenceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCharAt" />
+<Test name="testGetChars" />
+<Test name="testLength" />
+<Test name="testMake" />
+<Test name="testSubSequence" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="AndroidCharacterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetDirectionalities" />
+<Test name="testGetEastAsianWidth" />
+<Test name="testGetEastAsianWidths" />
+<Test name="testGetMirror" />
+<Test name="testMirror" />
+</TestCase>
+<TestCase name="AnnotationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetKey" />
+<Test name="testGetSpanTypeId" />
+<Test name="testGetValue" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="AutoTextTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGet" />
+<Test name="testGetSize" />
+</TestCase>
+<TestCase name="BidiFormatterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBuilderIsRtlContext" />
+<Test name="testIsRtl" />
+<Test name="testIsRtlContext" />
+<Test name="testMarkAfter" />
+<Test name="testMarkBefore" />
+<Test name="testUnicodeWrap" />
+</TestCase>
+<TestCase name="BoringLayoutTest">
+<Test name="testAlignment" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructors" />
+<Test name="testDraw" />
+<Test name="testGetLineDirections" />
+<Test name="testIncludePadding" />
+<Test name="testIsBoringString" />
+<Test name="testMake" />
+<Test name="testPreconditions" />
+<Test name="testReplaceOrMake" />
+<Test name="testScale" />
+</TestCase>
+<TestCase name="BoringLayout_MetricsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMetrics" />
+</TestCase>
+<TestCase name="ClipboardManagerTest">
+<Test name="testAccessText" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testHasText" />
+</TestCase>
+<TestCase name="DynamicLayoutTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructors" />
+<Test name="testEllipsis" />
+<Test name="testIncludePadding" />
+<Test name="testLineLayout" />
+</TestCase>
+<TestCase name="Editable_FactoryTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetInstance" />
+<Test name="testNewEditable" />
+</TestCase>
+<TestCase name="EmojiTest">
+<Test name="testEmojiCodePoints" />
+<Test name="testEmojiEditable" />
+<Test name="testEmojiGlyph" />
+</TestCase>
+<TestCase name="HtmlTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBadHtml" />
+<Test name="testBadSurrogates" />
+<Test name="testBlockquote" />
+<Test name="testColor" />
+<Test name="testEntities" />
+<Test name="testImg" />
+<Test name="testMarkup" />
+<Test name="testParagraphs" />
+<Test name="testSingleTagOnWhileString" />
+<Test name="testSurrogates" />
+<Test name="testSymbols" />
+<Test name="testUtf8" />
+</TestCase>
+<TestCase name="InputFilter_AllCapsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFilter" />
+</TestCase>
+<TestCase name="InputFilter_LengthFilterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFilter" />
+</TestCase>
+<TestCase name="LayoutTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetAlignment" />
+<Test name="testGetDesiredWidth" />
+<Test name="testGetDesiredWidthRange" />
+<Test name="testGetEllipsizedWidth" />
+<Test name="testGetHeight" />
+<Test name="testGetLineAscent" />
+<Test name="testGetLineBaseline" />
+<Test name="testGetLineBottom" />
+<Test name="testGetLineBounds" />
+<Test name="testGetLineEnd" />
+<Test name="testGetLineForOffset" />
+<Test name="testGetLineForVertical" />
+<Test name="testGetLineVisibleEnd" />
+<Test name="testGetPaint" />
+<Test name="testGetParagraphAlignment" />
+<Test name="testGetParagraphLeft" />
+<Test name="testGetParagraphRight" />
+<Test name="testGetSpacingAdd" />
+<Test name="testGetSpacingMultiplier" />
+<Test name="testGetText" />
+<Test name="testGetWidth" />
+<Test name="testIncreaseWidthTo" />
+<Test name="testIsSpanned" />
+</TestCase>
+<TestCase name="LoginFilterTest">
+<Test name="testFilter" />
+<Test name="testOnInvalidCharacter" />
+<Test name="testOnStart" />
+<Test name="testOnStop" />
+</TestCase>
+<TestCase name="LoginFilter_PasswordFilterGMailTest">
+<Test name="testConstructor" />
+<Test name="testIsAllowed" />
+</TestCase>
+<TestCase name="LoginFilter_UsernameFilterGMailTest">
+<Test name="testConstructor" />
+<Test name="testIsAllowed" />
+</TestCase>
+<TestCase name="LoginFilter_UsernameFilterGenericTest">
+<Test name="testConstructor" />
+<Test name="testIsAllowed" />
+</TestCase>
+<TestCase name="MyanmarTest">
+<Test name="testCompositionSemantics" />
+</TestCase>
+<TestCase name="SelectionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExtendDown" />
+<Test name="testExtendLeft" />
+<Test name="testExtendRight" />
+<Test name="testExtendSelection" />
+<Test name="testExtendToLeftEdge" />
+<Test name="testExtendToRightEdge" />
+<Test name="testExtendUp" />
+<Test name="testGetSelectionEnd" />
+<Test name="testGetSelectionStart" />
+<Test name="testMoveDown" />
+<Test name="testMoveLeft" />
+<Test name="testMoveRight" />
+<Test name="testMoveToLeftEdge" />
+<Test name="testMoveToRightEdge" />
+<Test name="testMoveUp" />
+<Test name="testRemoveSelection" />
+<Test name="testSelectAll" />
+<Test name="testSetSelection1" />
+<Test name="testSetSelection2" />
+</TestCase>
+<TestCase name="SpannableStringBuilderSpanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testReplaceWithSpans" />
+</TestCase>
+<TestCase name="SpannableStringBuilderTest">
+<Test name="testAccessFilters" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAppend1" />
+<Test name="testAppend2" />
+<Test name="testAppend3" />
+<Test name="testCharAt" />
+<Test name="testClear" />
+<Test name="testClearSpans" />
+<Test name="testConstructor1" />
+<Test name="testConstructor2" />
+<Test name="testDelete" />
+<Test name="testGetChars" />
+<Test name="testGetSpanEnd" />
+<Test name="testGetSpanFlags" />
+<Test name="testGetSpanStart" />
+<Test name="testGetSpans" />
+<Test name="testInsert1" />
+<Test name="testInsert2" />
+<Test name="testLength" />
+<Test name="testNextSpanTransition" />
+<Test name="testRemoveSpan" />
+<Test name="testReplace1" />
+<Test name="testReplace2" />
+<Test name="testSetSpan" />
+<Test name="testSubSequence" />
+<Test name="testToString" />
+<Test name="testValueOf" />
+</TestCase>
+<TestCase name="SpannableStringTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testRemoveSpan" />
+<Test name="testSetSpan" />
+<Test name="testSubSequence" />
+<Test name="testValueOf" />
+</TestCase>
+<TestCase name="Spannable_FactoryTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetInstance" />
+<Test name="testNewSpannable" />
+</TestCase>
+<TestCase name="SpannedStringTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testSubSequence" />
+<Test name="testValueOf" />
+</TestCase>
+<TestCase name="StaticLayoutLineBreakingTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClassID" />
+<Test name="testClassIS" />
+<Test name="testClassSYandHY" />
+<Test name="testMaxLines" />
+<Test name="testMultipleSpacesAtBreak" />
+<Test name="testNarrowWidth" />
+<Test name="testNarrowWidthWithSpace" />
+<Test name="testNarrowWidthZeroWidth" />
+<Test name="testNoLineBreak" />
+<Test name="testOneLineBreak" />
+<Test name="testParagraphs" />
+<Test name="testReplacementSpan" />
+<Test name="testSpaceAtBreak" />
+<Test name="testWithEmoji" />
+<Test name="testWithOneSpan" />
+<Test name="testWithSpans" />
+<Test name="testWithSurrogate" />
+<Test name="testWithTwoSpans" />
+<Test name="testZeroWidthCharacters" />
+</TestCase>
+<TestCase name="StaticLayoutTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetBottomPadding" />
+<Test name="testGetContainsTab" />
+<Test name="testGetEllipsisCount" />
+<Test name="testGetEllipsisStart" />
+<Test name="testGetEllipsizedWidth" />
+<Test name="testGetLineCount" />
+<Test name="testGetLineDescent" />
+<Test name="testGetLineDirections" />
+<Test name="testGetLineForVertical" />
+<Test name="testGetLineStart" />
+<Test name="testGetLineTop" />
+<Test name="testGetParagraphDirection" />
+<Test name="testGetTopPadding" />
+<Test name="testImmutableStaticLayout" />
+</TestCase>
+<TestCase name="TextPaintTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testSet" />
+</TestCase>
+<TestCase name="TextUtilsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCommaEllipsize" />
+<Test name="testConcat" />
+<Test name="testCopySpansFrom" />
+<Test name="testDumpSpans" />
+<Test name="testEllipsize" />
+<Test name="testEllipsizeCallback" />
+<Test name="testEquals" />
+<Test name="testExpandTemplate" />
+<Test name="testGetCapsMode" />
+<Test name="testGetCapsModeException" />
+<Test name="testGetChars" />
+<Test name="testGetLayoutDirectionFromLocale" />
+<Test name="testGetOffsetAfter" />
+<Test name="testGetOffsetBefore" />
+<Test name="testGetReverse" />
+<Test name="testGetTrimmedLength" />
+<Test name="testHtmlEncode" />
+<Test name="testIndexOf1" />
+<Test name="testIndexOf2" />
+<Test name="testIndexOf3" />
+<Test name="testIndexOf4" />
+<Test name="testIndexOf5" />
+<Test name="testIndexOf6" />
+<Test name="testIsDigitsOnly" />
+<Test name="testIsEmpty" />
+<Test name="testIsGraphicChar" />
+<Test name="testIsGraphicCharSequence" />
+<Test name="testJoin1" />
+<Test name="testJoin2" />
+<Test name="testLastIndexOf1" />
+<Test name="testLastIndexOf2" />
+<Test name="testLastIndexOf3" />
+<Test name="testRegionMatches" />
+<Test name="testReplace" />
+<Test name="testSplitPattern" />
+<Test name="testSplitString" />
+<Test name="testStringOrSpannedString" />
+<Test name="testSubString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="TextUtils_SimpleStringSplitterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testHasNext" />
+<Test name="testIterator" />
+<Test name="testNext1" />
+<Test name="testNext2" />
+<Test name="testRemove" />
+<Test name="testSetString" />
+</TestCase>
+</TestSuite>
+<TestSuite name="format">
+<TestSuite name="cts">
+<TestCase name="DateFormatTest">
+<Test name="test2038" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFormatMethods" />
+<Test name="test_bug_8359981" />
+<Test name="test_format_E" />
+<Test name="test_format_L" />
+<Test name="test_format_M" />
+<Test name="test_format_c" />
+<Test name="test_is24HourFormat" />
+</TestCase>
+<TestCase name="DateUtilsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFormatDateRange" />
+<Test name="testFormatSameDayTime" />
+<Test name="testGetAMPMString" />
+<Test name="testGetDayOfWeekString" />
+<Test name="testGetMonthString" />
+<Test name="testIsToday" />
+<Test name="test_bug_7548161" />
+<Test name="test_formatElapsedTime" />
+<Test name="test_getRelativeDateTimeString" />
+<Test name="test_getRelativeTimeSpanString" />
+</TestCase>
+<TestCase name="FormatterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFormatFileSize" />
+<Test name="testFormatIpAddress" />
+</TestCase>
+<TestCase name="TimeTest">
+<Test name="testAfterBefore" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBug16002" />
+<Test name="testBug22225" />
+<Test name="testClear0" />
+<Test name="testCompare0" />
+<Test name="testCompareNullFailure" />
+<Test name="testConstructor" />
+<Test name="testCtor0" />
+<Test name="testFormat0" />
+<Test name="testGetActualMaximum0" />
+<Test name="testGetJulianDay" />
+<Test name="testGetWeekNumber" />
+<Test name="testIsEpoch" />
+<Test name="testMillis0" />
+<Test name="testNormalize" />
+<Test name="testNormalize1" />
+<Test name="testParse0" />
+<Test name="testParseNull" />
+<Test name="testSet" />
+<Test name="testSet0" />
+<Test name="testSet1" />
+<Test name="testSetJulianDay" />
+<Test name="testSetToNow0" />
+<Test name="testSwitchTimezone" />
+<Test name="testSwitchTimezone0" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="method">
+<TestSuite name="cts">
+<TestCase name="ArrowKeyMovementMethodTest">
+<Test name="testCanSelectArbitrarily" />
+<Test name="testConstructor" />
+<Test name="testFollowingWordEndToStartWithNumbers" />
+<Test name="testFollowingWordEndToStartWithOneCharFinalWord" />
+<Test name="testFollowingWordStartToEnd" />
+<Test name="testFollowingWordStartToEndWithNumbers" />
+<Test name="testFollowingWordStartToEndWithOneCharFinalWord" />
+<Test name="testGetInstance" />
+<Test name="testInitialize" />
+<Test name="testMovementFromMiddleOfWord" />
+<Test name="testOnKeyDownWithKeyCodeDown" />
+<Test name="testOnKeyDownWithKeyCodeLeft" />
+<Test name="testOnKeyDownWithKeyCodeRight" />
+<Test name="testOnKeyDownWithKeyCodeUp" />
+<Test name="testOnKeyDownWithNullLayout" />
+<Test name="testOnKeyDownWithOtherKeyCode" />
+<Test name="testOnKeyOther" />
+<Test name="testOnKeyUp" />
+<Test name="testOnTakeFocus" />
+<Test name="testOnTakeFocusWithNullParameters" />
+<Test name="testOnTakeFoucusWithNullLayout" />
+<Test name="testOnTouchEvent" />
+<Test name="testOnTouchEventWithNullLayout" />
+<Test name="testOnTouchEventWithNullParameters" />
+<Test name="testOnTouchEventWithoutFocus" />
+<Test name="testOnTrackballEven" />
+<Test name="testPrecedingWordEndToStart" />
+</TestCase>
+<TestCase name="BaseKeyListenerTest">
+<Test name="testBackspace" />
+<Test name="testBackspace_withSendKeys" />
+<Test name="testPressKey" />
+</TestCase>
+<TestCase name="CharacterPickerDialogTest">
+<Test name="testConstructor" />
+<Test name="testOnClick" />
+<Test name="testOnCreate" />
+<Test name="testOnItemClick" />
+</TestCase>
+<TestCase name="DateKeyListenerTest">
+<Test name="testConstructor" />
+<Test name="testDateTimeKeyListener" />
+<Test name="testGetAcceptedChars" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance" />
+</TestCase>
+<TestCase name="DateTimeKeyListenerTest">
+<Test name="testConstructor" />
+<Test name="testDateTimeKeyListener" />
+<Test name="testGetAcceptedChars" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance" />
+</TestCase>
+<TestCase name="DialerKeyListenerTest">
+<Test name="testConstructor" />
+<Test name="testGetAcceptedChars" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance" />
+<Test name="testLookup" />
+</TestCase>
+<TestCase name="DigitsKeyListenerTest">
+<Test name="testConstructor" />
+<Test name="testDigitsKeyListener1" />
+<Test name="testDigitsKeyListener2" />
+<Test name="testDigitsKeyListener3" />
+<Test name="testDigitsKeyListener4" />
+<Test name="testDigitsKeyListener5" />
+<Test name="testFilter1" />
+<Test name="testFilter2" />
+<Test name="testFilter3" />
+<Test name="testFilter4" />
+<Test name="testGetAcceptedChars" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance1" />
+<Test name="testGetInstance2" />
+<Test name="testGetInstance3" />
+</TestCase>
+<TestCase name="HideReturnsTransformationMethodTest">
+<Test name="testConstructor" />
+<Test name="testGetInstance" />
+<Test name="testGetOriginal" />
+<Test name="testGetReplacement" />
+</TestCase>
+<TestCase name="LinkMovementMethodTest">
+<Test name="testConstructor" />
+<Test name="testDown" />
+<Test name="testGetInstance" />
+<Test name="testInitialize" />
+<Test name="testLeft" />
+<Test name="testMoveAroundUnclickable" />
+<Test name="testOnKeyDown" />
+<Test name="testOnKeyUp" />
+<Test name="testOnTakeFocus" />
+<Test name="testOnTouchEvent" />
+<Test name="testRight" />
+<Test name="testUp" />
+</TestCase>
+<TestCase name="MetaKeyKeyListenerTest">
+<Test name="testAdjustMetaAfterKeypress" />
+<Test name="testAdjustMetaAfterKeypress2" />
+<Test name="testClearMetaKeyState" />
+<Test name="testClearMetaKeyState2" />
+<Test name="testClearMetaKeyState3" />
+<Test name="testGetMetaState" />
+<Test name="testGetMetaState2" />
+<Test name="testHandleKeyDown" />
+<Test name="testHandleKeyUp" />
+<Test name="testIsMetaTracker" />
+<Test name="testIsSelectingMetaTracker" />
+<Test name="testPressKey" />
+<Test name="testReleaseKey" />
+<Test name="testResetLockedMeta" />
+<Test name="testResetLockedMeta2" />
+<Test name="testResetMetaState" />
+</TestCase>
+<TestCase name="MultiTapKeyListenerTest">
+<Test name="testConstructor" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance" />
+<Test name="testOnKeyDown_capitalizeCharacters" />
+<Test name="testOnKeyDown_capitalizeNone" />
+<Test name="testOnKeyDown_capitalizeSentences" />
+<Test name="testOnKeyDown_capitalizeWords" />
+<Test name="testOnSpanAdded" />
+<Test name="testOnSpanChanged" />
+<Test name="testOnSpanRemoved" />
+</TestCase>
+<TestCase name="NumberKeyListenerTest">
+<Test name="testFilter" />
+<Test name="testLookup" />
+<Test name="testOk" />
+<Test name="testPressKey" />
+</TestCase>
+<TestCase name="PasswordTransformationMethodTest">
+<Test name="testConstructor" />
+<Test name="testGetInstance" />
+<Test name="testGetTransformation" />
+<Test name="testOnFocusChanged" />
+<Test name="testTextChangedCallBacks" />
+</TestCase>
+<TestCase name="QwertyKeyListenerTest">
+<Test name="testConstructor" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance" />
+<Test name="testMarkAsReplaced" />
+<Test name="testOnKeyDown_capitalizeCharacters" />
+<Test name="testOnKeyDown_capitalizeNone" />
+<Test name="testOnKeyDown_capitalizeSentences" />
+<Test name="testOnKeyDown_capitalizeWords" />
+</TestCase>
+<TestCase name="ReplacementTransformationMethodTest">
+<Test name="testGetTransformation" />
+<Test name="testGetTransformationWithAbmornalOriginal" />
+<Test name="testGetTransformationWithAbmornalReplacement" />
+<Test name="testGetTransformationWithAbnormalCharSequence" />
+<Test name="testOnFocusChanged" />
+</TestCase>
+<TestCase name="ScrollingMovementMethodTest">
+<Test name="testCanSelectArbitrarily" />
+<Test name="testConstructor" />
+<Test name="testGetInstance" />
+<Test name="testHorizontalMovement" />
+<Test name="testInitialize" />
+<Test name="testMovementWithNullLayout" />
+<Test name="testOnKeyDownExceptions" />
+<Test name="testOnKeyDownHorizontalMovement" />
+<Test name="testOnKeyDownVerticalMovement" />
+<Test name="testOnKeyOther" />
+<Test name="testOnKeyUp" />
+<Test name="testOnTakeFocus" />
+<Test name="testOnTouchEventExceptional" />
+<Test name="testOnTouchEventHorizontalMotion" />
+<Test name="testOnTouchEventVerticalMotion" />
+<Test name="testOnTrackballEvent" />
+<Test name="testVerticalMovement" />
+</TestCase>
+<TestCase name="SingleLineTransformationMethodTest">
+<Test name="testConstructor" />
+<Test name="testGetInstance" />
+<Test name="testGetReplacement" />
+<Test name="testGetTransformation" />
+</TestCase>
+<TestCase name="TextKeyListenerTest">
+<Test name="testClear" />
+<Test name="testConstructor" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance1" />
+<Test name="testGetInstance2" />
+<Test name="testOnKeyOther" />
+<Test name="testOnSpanAdded" />
+<Test name="testOnSpanChanged" />
+<Test name="testOnSpanRemoved" />
+<Test name="testPressKey" />
+<Test name="testShouldCap" />
+</TestCase>
+<TestCase name="TimeKeyListenerTest">
+<Test name="testConstructor" />
+<Test name="testGetAcceptedChars" />
+<Test name="testGetInputType" />
+<Test name="testGetInstance" />
+<Test name="testTimeKeyListener" />
+</TestCase>
+<TestCase name="TouchTest">
+<Test name="testOnTouchEvent" />
+<Test name="testScrollTo" />
+</TestCase>
+<TestCase name="WordIteratorTest">
+<Test name="testBeginningEnd" />
+<Test name="testEmptyString" />
+<Test name="testOneWord" />
+<Test name="testSpacesOnly" />
+<Test name="testSurrogate" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="style">
+<TestSuite name="cts">
+<TestCase name="AbsoluteSizeSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSize" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="AlignmentSpan_StandardTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetAlignment" />
+<Test name="testGetSpanTypeId" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="BackgroundColorSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetBackgroundColor" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="BulletSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testDrawLeadingMargin" />
+<Test name="testDrawLeadingMarginFailure" />
+<Test name="testGetLeadingMargin" />
+<Test name="testGetSpanTypeId" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="CharacterStyleTest">
+<Test name="testGetUnderlying" />
+<Test name="testWrap" />
+</TestCase>
+<TestCase name="ClickableSpanTest">
+<Test name="testUpdateDrawState" />
+</TestCase>
+<TestCase name="DrawableMarginSpanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testChooseHeight" />
+<Test name="testConstructor" />
+<Test name="testDrawLeadingMargin" />
+<Test name="testGetLeadingMargin" />
+</TestCase>
+<TestCase name="DynamicDrawableSpanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetSize" />
+</TestCase>
+<TestCase name="ForegroundColorSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetForegroundColor" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="IconMarginSpanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testChooseHeight" />
+<Test name="testConstructor" />
+<Test name="testDrawLeadingMargin" />
+<Test name="testGetLeadingMargin" />
+</TestCase>
+<TestCase name="ImageSpanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetDrawable" />
+<Test name="testGetSource" />
+</TestCase>
+<TestCase name="LeadingMarginSpan_StandardTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testDrawLeadingMargin" />
+<Test name="testGetLeadingMargin" />
+<Test name="testGetSpanTypeId" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="MaskFilterSpanTest">
+<Test name="testConstructor" />
+<Test name="testGetMaskFilter" />
+<Test name="testUpdateDrawState" />
+</TestCase>
+<TestCase name="MetricAffectingSpanTest">
+<Test name="testGetUnderlying" />
+</TestCase>
+<TestCase name="QuoteSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testDrawLeadingMargin" />
+<Test name="testGetColor" />
+<Test name="testGetLeadingMargin" />
+<Test name="testGetSpanTypeId" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="RasterizerSpanTest">
+<Test name="testConstructor" />
+<Test name="testGetRasterizer" />
+<Test name="testUpdateDrawState" />
+</TestCase>
+<TestCase name="RelativeSizeSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSizeChange" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="ReplacementSpanTest">
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+</TestCase>
+<TestCase name="ScaleXSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetScaleX" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="StrikethroughSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="StyleSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSpanTypeId" />
+<Test name="testGetStyle" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="SubscriptSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="SuperscriptSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="TabStopSpan_StandardTest">
+<Test name="testConstructor" />
+<Test name="testGetTabStop" />
+</TestCase>
+<TestCase name="TextAppearanceSpanTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetFamily" />
+<Test name="testGetLinkTextColor" />
+<Test name="testGetSpanTypeId" />
+<Test name="testGetTextColor" />
+<Test name="testGetTextSize" />
+<Test name="testGetTextStyle" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="TypefaceSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetFamily" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testUpdateMeasureState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="URLSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSpanTypeId" />
+<Test name="testGetURL" />
+<Test name="testOnClick" />
+<Test name="testOnClickFailure" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="UnderlineSpanTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetSpanTypeId" />
+<Test name="testUpdateDrawState" />
+<Test name="testWriteToParcel" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="util">
+<TestSuite name="cts">
+<TestCase name="LinkifyTest">
+<Test name="testAddLinks1" />
+<Test name="testAddLinks2" />
+<Test name="testAddLinks3" />
+<Test name="testAddLinks4" />
+<Test name="testAddLinks5" />
+<Test name="testAddLinks6" />
+<Test name="testAddLinks7" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="Rfc822TokenTest">
+<Test name="testAccessAddress" />
+<Test name="testAccessComment" />
+<Test name="testAccessName" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testQuoteComment" />
+<Test name="testQuoteName" />
+<Test name="testQuoteNameIfNecessary" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="Rfc822TokenizerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testFindTokenEnd" />
+<Test name="testFindTokenStart" />
+<Test name="testTerminateToken" />
+<Test name="testTokenize" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

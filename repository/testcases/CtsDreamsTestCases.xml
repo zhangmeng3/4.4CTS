@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.dreams" appPackageName="android.dreams" name="CtsDreamsTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="service">
+<TestSuite name="dreams">
+<TestSuite name="cts">
+<TestCase name="DreamsFeatureTest">
+<Test name="testDreamManagerExists" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

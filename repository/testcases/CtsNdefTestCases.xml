@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.ndef" appPackageName="android.ndef" name="CtsNdefTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="ndef">
+<TestSuite name="cts">
+<TestCase name="NdefTest">
+<Test name="testConstructor" />
+<Test name="testCreateApplicationRecord" />
+<Test name="testCreateExternal" />
+<Test name="testCreateMime" />
+<Test name="testCreateUri" />
+<Test name="testEquals" />
+<Test name="testInvalidParsing" />
+<Test name="testToByteArray" />
+<Test name="testToMimeType" />
+<Test name="testToUri" />
+<Test name="testValidParsing" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

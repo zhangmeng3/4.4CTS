@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.security" appPackageName="android.security" name="CtsSecurityTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="security">
+<TestSuite name="cts">
+<TestCase name="AslrTest">
+<Test name="testOneExecutableIsPie" />
+<Test name="testVaRandomize" />
+</TestCase>
+<TestCase name="AudioPolicyBinderTest">
+<Test name="test_isStreamActive" />
+<Test name="test_startOutput" />
+<Test name="test_stopOutput" />
+</TestCase>
+<TestCase name="BannedFilesTest">
+<Test name="testNoCmdClient" />
+<Test name="testNoEnableRoot" />
+<Test name="testNoRootCmdSocket" />
+<Test name="testNoSetuidIp" />
+<Test name="testNoSetuidTcpdump" />
+<Test name="testNoSu" />
+<Test name="testNoSuInPath" />
+<Test name="testNoSyncAgent" />
+</TestCase>
+<TestCase name="BrowserTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBrowserPrivateDataAccess" />
+<Test name="testTabExhaustion" />
+<Test name="testTabReuse" />
+</TestCase>
+<TestCase name="CertificateTest">
+<Test name="testBlockCertificates" />
+<Test name="testNoAddedCertificates" />
+<Test name="testNoRemovedCertificates" />
+</TestCase>
+<TestCase name="CharDeviceTest">
+<Test name="testExynosKernelMemoryRead" />
+<Test name="testExynosRootingVuln" />
+</TestCase>
+<TestCase name="ClonedSecureRandomTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCheckForDuplicateOutput" />
+</TestCase>
+<TestCase name="IntentSenderRemovalTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIntentSenderIntent" />
+</TestCase>
+<TestCase name="KernelSettingsTest">
+<Test name="testDmesgRestrict" />
+<Test name="testKptrRestrict" />
+<Test name="testMmapMinAddr" />
+<Test name="testNoConfigGz" />
+<Test name="testSELinuxEnforcing" />
+<Test name="testSetuidDumpable" />
+<Test name="testXattrInKernel" />
+</TestCase>
+<TestCase name="KeystoreExploitTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testKeystoreCrash" />
+</TestCase>
+<TestCase name="LinuxRngTest">
+<Test name="testDevRandomMajorMinor" />
+<Test name="testDevUrandomMajorMinor" />
+</TestCase>
+<TestCase name="ListeningPortsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNoListeningLoopbackTcp6Ports" />
+<Test name="testNoListeningLoopbackTcpPorts" />
+<Test name="testNoListeningLoopbackUdp6Ports" />
+<Test name="testNoListeningLoopbackUdpPorts" />
+<Test name="testNoRemotelyAccessibleListeningTcp6Ports" />
+<Test name="testNoRemotelyAccessibleListeningTcpPorts" />
+<Test name="testNoRemotelyAccessibleListeningUdp6Ports" />
+<Test name="testNoRemotelyAccessibleListeningUdpPorts" />
+</TestCase>
+<TestCase name="LoadEffectLibraryTest">
+<Test name="testLoadLibrary" />
+</TestCase>
+<TestCase name="NativeCodeTest">
+<Test name="testCVE20141710" />
+<Test name="testFutex" />
+<Test name="testPerfEvent" />
+<Test name="testPerfEvent2" />
+<Test name="testSockDiag" />
+<Test name="testVroot" />
+</TestCase>
+<TestCase name="NetdTest">
+<Test name="testThrottleSanitization" />
+</TestCase>
+<TestCase name="OpenSSLEarlyCCSTest">
+<Test name="testEarlyCCSInjectedIntoClient" />
+<Test name="testEarlyCCSInjectedIntoServer" />
+<Test name="testWithoutEarlyCCS" />
+</TestCase>
+<TestCase name="OpenSSLHeartbleedTest">
+<Test name="testClientHeartbleed" />
+<Test name="testServerHeartbleed" />
+<Test name="testWithoutHeartbeats" />
+</TestCase>
+<TestCase name="PackageSignatureTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPackageSignatures" />
+</TestCase>
+<TestCase name="ServicePermissionsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDumpProtected" />
+</TestCase>
+<TestCase name="SqliteJournalLeakTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testJournal" />
+<Test name="testShm" />
+<Test name="testWal" />
+</TestCase>
+<TestCase name="VoldExploitTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testTryCommandInjection" />
+<Test name="testTryToCrashVold" />
+<Test name="testZergRushCrash" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.animation" appPackageName="android.animation" name="CtsAnimationTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="animation">
+<TestSuite name="cts">
+<TestCase name="AnimatorSetTest">
+<Test name="testDuration" />
+<Test name="testPlaySequentially" />
+<Test name="testPlayTogether" />
+<Test name="testSetInterpolator" />
+<Test name="testStartDelay" />
+<Test name="testgetChildAnimations" />
+</TestCase>
+<TestCase name="AnimatorTest">
+<Test name="testCancel" />
+<Test name="testClone" />
+<Test name="testConstructor" />
+<Test name="testEnd" />
+<Test name="testGetDuration" />
+<Test name="testIsRunning" />
+<Test name="testIsStarted" />
+<Test name="testRemoveAllListenerers" />
+<Test name="testRemoveListener" />
+<Test name="testSetInterpolator" />
+<Test name="testSetListener" />
+<Test name="testStart" />
+<Test name="testStartDelay" />
+</TestCase>
+<TestCase name="ArgbEvaluatorTest">
+<Test name="testEvaluate" />
+</TestCase>
+<TestCase name="FloatEvaluatorTest">
+<Test name="testEvaluate" />
+</TestCase>
+<TestCase name="IntEvaluatorTest">
+<Test name="testEvaluate" />
+</TestCase>
+<TestCase name="KeyframeTest">
+<Test name="testClone" />
+<Test name="testGetFraction" />
+<Test name="testGetType" />
+<Test name="testOfFloat" />
+<Test name="testOfFloatValue" />
+<Test name="testOfIntValue" />
+<Test name="testOfObject" />
+<Test name="testOfObjectValue" />
+<Test name="testSetFraction" />
+<Test name="testSetInterpolator" />
+<Test name="testSetValue" />
+</TestCase>
+<TestCase name="LayoutAnimationTest">
+<Test name="testAddTransitionListener" />
+<Test name="testAnimationWithAnimator" />
+<Test name="testIsChangingLayout" />
+<Test name="testIsRunning" />
+<Test name="testSetAnimator" />
+<Test name="testSetDuration" />
+<Test name="testSetDurationForTransitionType" />
+<Test name="testSetInterpolator" />
+<Test name="testSetStagger" />
+<Test name="testStartDelay" />
+</TestCase>
+<TestCase name="ObjectAnimatorTest">
+<Test name="testClone" />
+<Test name="testDuration" />
+<Test name="testGetPropertyName" />
+<Test name="testGetTarget" />
+<Test name="testIsStarted" />
+<Test name="testOfFloat" />
+<Test name="testOfFloatBase" />
+<Test name="testOfInt" />
+<Test name="testOfObject" />
+<Test name="testOfPropertyValuesHolder" />
+<Test name="testSetFloatValues" />
+</TestCase>
+<TestCase name="PropertyValuesHolderTest">
+<Test name="testClone" />
+<Test name="testGetPropertyName" />
+<Test name="testOfFloat_Property" />
+<Test name="testOfInt" />
+<Test name="testOfInt_Property" />
+<Test name="testOffloat" />
+<Test name="testSetProperty" />
+<Test name="testSetPropertyName" />
+<Test name="testSetValues" />
+</TestCase>
+<TestCase name="ValueAnimatorTest">
+<Test name="testCancel" />
+<Test name="testCurrentPlayTime" />
+<Test name="testDuration" />
+<Test name="testEnd" />
+<Test name="testGetAnimatedFraction" />
+<Test name="testGetAnimatedValue" />
+<Test name="testGetAnimatedValue_PropertyName" />
+<Test name="testGetFrameDelay" />
+<Test name="testIsRunning" />
+<Test name="testIsStarted" />
+<Test name="testOfFloat" />
+<Test name="testOfInt" />
+<Test name="testRepeatCount" />
+<Test name="testRepeatMode" />
+<Test name="testSetInterpolator" />
+<Test name="testStartDelay" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

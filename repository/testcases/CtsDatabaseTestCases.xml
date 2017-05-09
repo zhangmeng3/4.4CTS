@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.database" appPackageName="android.database" name="CtsDatabaseTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="database">
+<TestSuite name="cts">
+<TestCase name="AbstractCursorTest">
+<Test name="testCheckPosition" />
+<Test name="testConstructor" />
+<Test name="testCopyStringToBuffer" />
+<Test name="testDeactivate" />
+<Test name="testGetBlob" />
+<Test name="testGetColumnCount" />
+<Test name="testGetColumnIndex" />
+<Test name="testGetColumnIndexOrThrow" />
+<Test name="testGetColumnName" />
+<Test name="testGetColumnNames" />
+<Test name="testGetCount" />
+<Test name="testGetExtras" />
+<Test name="testGetUpdatedField" />
+<Test name="testGetWantsAllOnMoveCalls" />
+<Test name="testGetWindow" />
+<Test name="testIsClosed" />
+<Test name="testIsFieldUpdated" />
+<Test name="testMoveToPrevious" />
+<Test name="testOnChange" />
+<Test name="testOnMove" />
+<Test name="testRegisterContentObserver" />
+<Test name="testRegisterDataSetObserver" />
+<Test name="testRequery" />
+<Test name="testRespond" />
+<Test name="testSetNotificationUri" />
+</TestCase>
+<TestCase name="AbstractCursor_SelfContentObserverTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDeliverSelfNotifications" />
+<Test name="testOnChange" />
+</TestCase>
+<TestCase name="AbstractWindowedCursorTest">
+<Test name="testCheckPosition" />
+<Test name="testCopyStringToBuffer" />
+<Test name="testGetBlob" />
+<Test name="testGetDouble" />
+<Test name="testGetFloat" />
+<Test name="testGetInt" />
+<Test name="testGetLong" />
+<Test name="testGetShort" />
+<Test name="testGetString" />
+<Test name="testHasWindow" />
+<Test name="testIsBlob" />
+<Test name="testIsNull" />
+</TestCase>
+<TestCase name="CharArrayBufferTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCharArrayBuffer" />
+</TestCase>
+<TestCase name="ContentObservableTest">
+<Test name="testDispatchChange" />
+<Test name="testDispatchChangeWithUri" />
+<Test name="testNotifyChange" />
+</TestCase>
+<TestCase name="ContentObserverTest">
+<Test name="testContentObserver" />
+<Test name="testContentObserverWithUri" />
+<Test name="testDeliverSelfNotifications" />
+</TestCase>
+<TestCase name="CursorIndexOutOfBoundsExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructors" />
+</TestCase>
+<TestCase name="CursorJoinerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCursorJoinerAndIterator" />
+<Test name="testNext" />
+</TestCase>
+<TestCase name="CursorWindowTest">
+<Test name="testAccessDataValues" />
+<Test name="testAccessStartPosition" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClearAndOnAllReferencesReleased" />
+<Test name="testConstructors" />
+<Test name="testCopyStringToBuffer" />
+<Test name="testDataStructureOperations" />
+<Test name="testDescribeContents" />
+<Test name="testEmptyString" />
+<Test name="testNull" />
+<Test name="testWriteCursorToWindow" />
+</TestCase>
+<TestCase name="CursorWrapperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstrucotorAndClose" />
+<Test name="testContentObsererOperations" />
+<Test name="testCopyStringToBuffer" />
+<Test name="testDeactivate" />
+<Test name="testGetCount" />
+<Test name="testGetExtras" />
+<Test name="testGetWantsAllOnMoveCalls" />
+<Test name="testGettingColumnInfos" />
+<Test name="testGettingValues" />
+<Test name="testPositioning" />
+<Test name="testRespond" />
+</TestCase>
+<TestCase name="DataSetObservableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNotifyMethods" />
+</TestCase>
+<TestCase name="DataSetObserverTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testOnChanged" />
+<Test name="testOnInvalidated" />
+</TestCase>
+<TestCase name="DatabaseCursorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBlob" />
+<Test name="testCursor1" />
+<Test name="testCursor2" />
+<Test name="testLargeField" />
+<Test name="testManyRowsLong" />
+<Test name="testManyRowsTxt" />
+<Test name="testManyRowsTxtLong" />
+<Test name="testRealColumns" />
+<Test name="testRequery" />
+<Test name="testRequeryWithAlteredSelectionArgs" />
+<Test name="testRequeryWithSelection" />
+<Test name="testRequeryWithSelectionArgs" />
+</TestCase>
+<TestCase name="DatabaseUtilsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAppendEscapedSQLString" />
+<Test name="testAppendValueToSql" />
+<Test name="testBindObjectToProgram" />
+<Test name="testBlobFileDescriptorForQuery" />
+<Test name="testCollationKey" />
+<Test name="testCreateDbFromSqlStatements" />
+<Test name="testCursorDoubleToContentValues" />
+<Test name="testCursorDoubleToCursorValues" />
+<Test name="testCursorIntToContentValues" />
+<Test name="testCursorRowToContentValues" />
+<Test name="testCursorStringToContentValues" />
+<Test name="testCursorStringToInsertHelper" />
+<Test name="testDumpCurrentRow" />
+<Test name="testDumpCursor" />
+<Test name="testExceptionFromParcel" />
+<Test name="testLongForQuery" />
+<Test name="testQueryNumEntries" />
+<Test name="testSqlEscapeString" />
+<Test name="testStringForQuery" />
+<Test name="testcursorLongToContentValues" />
+</TestCase>
+<TestCase name="DatabaseUtils_InsertHelperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClose" />
+<Test name="testConstructor" />
+<Test name="testGetColumnIndex" />
+<Test name="testInsert" />
+<Test name="testReplace" />
+</TestCase>
+<TestCase name="MatrixCursorTest">
+<Test name="testAddRow" />
+<Test name="testGetColumnNames" />
+<Test name="testGetters" />
+<Test name="testMatrixCursor" />
+<Test name="testNewRow" />
+</TestCase>
+<TestCase name="MatrixCursor_RowBuilderTest">
+<Test name="testAdd" />
+</TestCase>
+<TestCase name="MergeCursorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testContentObsererOperations" />
+<Test name="testCursorSwiching" />
+<Test name="testDeactivate" />
+<Test name="testGetValues" />
+<Test name="testOnMove" />
+<Test name="testRequery" />
+</TestCase>
+<TestCase name="ObservableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRegisterUnRegisterObserver" />
+<Test name="testUnregisterAll" />
+</TestCase>
+<TestCase name="SQLExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructors" />
+</TestCase>
+<TestCase name="StaleDataExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructors" />
+</TestCase>
+</TestSuite>
+<TestSuite name="sqlite">
+<TestSuite name="cts">
+<TestCase name="DatabaseStatementTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExecuteStatement" />
+<Test name="testSimpleQuery" />
+<Test name="testSimpleStringBinding" />
+<Test name="testStatementClearBindings" />
+<Test name="testStatementConstraint" />
+<Test name="testStatementLongBinding" />
+<Test name="testStatementMultiThreaded" />
+<Test name="testStatementMultipleBindings" />
+<Test name="testStatementStringBinding" />
+</TestCase>
+<TestCase name="SQLiteAbortExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteClosableTest">
+<Test name="testAcquireReference" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testReleaseReferenceFromContainer" />
+</TestCase>
+<TestCase name="SQLiteConstraintExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteCursorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClose" />
+<Test name="testConstructor" />
+<Test name="testGetColumnIndex" />
+<Test name="testOnMove" />
+<Test name="testRegisterDataSetObserver" />
+<Test name="testRequery" />
+<Test name="testRequery2" />
+<Test name="testSetSelectionArguments" />
+</TestCase>
+<TestCase name="SQLiteDatabaseCorruptExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteDatabaseTest">
+<Test name="testAccessMaximumSize" />
+<Test name="testAccessPageSize" />
+<Test name="testAccessVersion" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCompileStatement" />
+<Test name="testDelete" />
+<Test name="testDeleteDatabase" />
+<Test name="testDisableWriteAheadLoggingShouldThrowIfTransactionInProgress" />
+<Test name="testEnableAndDisableForeignKeys" />
+<Test name="testEnableThenDisableWriteAheadLogging" />
+<Test name="testEnableThenDisableWriteAheadLoggingUsingOpenFlag" />
+<Test name="testEnableWriteAheadLoggingFromContextUsingModeFlag" />
+<Test name="testEnableWriteAheadLoggingShouldThrowIfTransactionInProgress" />
+<Test name="testExceptionsFromEnableWriteAheadLogging" />
+<Test name="testExecSQL" />
+<Test name="testFindEditTable" />
+<Test name="testGetPath" />
+<Test name="testGroupConcat" />
+<Test name="testInsert" />
+<Test name="testIsOpen" />
+<Test name="testIsReadOnly" />
+<Test name="testNeedUpgrade" />
+<Test name="testOnAllReferencesReleased" />
+<Test name="testOpenDatabase" />
+<Test name="testQuery" />
+<Test name="testReaderGetsOldVersionOfDataWhenWriterIsInXact" />
+<Test name="testReleaseMemory" />
+<Test name="testReplace" />
+<Test name="testRollbackTransactionWithSQLiteTransactionListener" />
+<Test name="testSchemaChanges" />
+<Test name="testSchemaChangesDropTable" />
+<Test name="testSchemaChangesNewTable" />
+<Test name="testSetLocale" />
+<Test name="testSetLockingEnabled" />
+<Test name="testTransaction" />
+<Test name="testTransactionWithSQLiteTransactionListener" />
+<Test name="testUpdate" />
+<Test name="testYieldIfContendedWhenContended" />
+<Test name="testYieldIfContendedWhenNotContended" />
+</TestCase>
+<TestCase name="SQLiteDiskIOExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteDoneExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteFtsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFts3Porter" />
+<Test name="testFts3Simple" />
+<Test name="testFts4Simple" />
+</TestCase>
+<TestCase name="SQLiteFullExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteMisuseExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SQLiteOpenHelperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetDatabase" />
+</TestCase>
+<TestCase name="SQLiteProgramTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBind" />
+<Test name="testBindBlob" />
+<Test name="testBindNull" />
+</TestCase>
+<TestCase name="SQLiteQueryBuilderTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAppendColumns" />
+<Test name="testBuildQuery" />
+<Test name="testBuildQueryString" />
+<Test name="testCancelableQuery_WhenCanceledAfterQuery_ThrowsWhenExecuted" />
+<Test name="testCancelableQuery_WhenCanceledBeforeQuery_ThrowsImmediately" />
+<Test name="testCancelableQuery_WhenCanceledDueToContention_StopsWaitingAndThrows" />
+<Test name="testCancelableQuery_WhenCanceledDuringLongRunningQuery_CancelsQueryAndThrows" />
+<Test name="testCancelableQuery_WhenNotCanceled_ReturnsResultSet" />
+<Test name="testConstructor" />
+<Test name="testQuery" />
+<Test name="testSetCursorFactory" />
+<Test name="testSetDistinct" />
+<Test name="testSetProjectionMap" />
+<Test name="testUnionQuery" />
+</TestCase>
+<TestCase name="SQLiteQueryTest">
+<Test name="testMethods" />
+</TestCase>
+<TestCase name="SQLiteStatementTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExecute" />
+<Test name="testExecuteInsert" />
+<Test name="testGetBlobFailureNoParam" />
+<Test name="testGetBlobFailureParam" />
+<Test name="testSimpleQueryForBlobFileDescriptorSuccess00" />
+<Test name="testSimpleQueryForBlobFileDescriptorSuccessEmbeddedNul" />
+<Test name="testSimpleQueryForBlobFileDescriptorSuccessEmpty" />
+<Test name="testSimpleQueryForBlobFileDescriptorSuccessFF" />
+<Test name="testSimpleQueryForBlobFileDescriptorSuccessNormal" />
+<Test name="testSimpleQueryForBlobFileDescriptorSuccessNull" />
+<Test name="testSimpleQueryForBlobFileDescriptorSuccessParam" />
+<Test name="testSimpleQueryForLong" />
+<Test name="testSimpleQueryForString" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

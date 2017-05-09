@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.opengl" appPackageName="com.android.cts.opengl" name="CtsDeviceOpenGl" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="opengl">
+<TestSuite name="primitive">
+<TestCase name="GLPrimitiveBenchmark">
+<Test name="testContextSwitchOffscreen" timeout="100" />
+<Test name="testContextSwitchOnscreen" timeout="100" />
+<Test name="testFullPipelineOffscreen" expectation="failure" timeout="100" />
+<Test name="testFullPipelineOnscreen" timeout="100" />
+<Test name="testPixelOutputOffscreen" expectation="failure" timeout="100" />
+<Test name="testPixelOutputOnscreen" timeout="100" />
+<Test name="testShaderPerfOffscreen" timeout="100" />
+<Test name="testShaderPerfOnscreen" timeout="100" />
+</TestCase>
+</TestSuite>
+<TestSuite name="reference">
+<TestCase name="GLReferenceBenchmark">
+<Test name="testReferenceBenchmark" timeout="30" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

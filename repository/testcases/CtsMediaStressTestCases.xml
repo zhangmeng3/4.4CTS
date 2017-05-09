@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.mediastress" appPackageName="android.mediastress" name="CtsMediaStressTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="mediastress">
+<TestSuite name="cts">
+<TestCase name="H263QcifLongPlayerTest">
+<Test name="testPlay00" timeout="11" />
+</TestCase>
+<TestCase name="H263QcifShortPlayerTest">
+<Test name="testPlay00" />
+<Test name="testPlay01" />
+<Test name="testPlay02" />
+<Test name="testPlay03" />
+<Test name="testPlay04" />
+<Test name="testPlay05" />
+<Test name="testPlay06" />
+<Test name="testPlay07" />
+<Test name="testPlay08" />
+<Test name="testPlay09" />
+<Test name="testPlay10" />
+<Test name="testPlay11" />
+<Test name="testPlay12" />
+<Test name="testPlay13" />
+<Test name="testPlay14" />
+<Test name="testPlay15" />
+<Test name="testPlay16" />
+<Test name="testPlay17" />
+<Test name="testPlay18" />
+<Test name="testPlay19" />
+<Test name="testPlay20" />
+<Test name="testPlay21" />
+<Test name="testPlay22" />
+<Test name="testPlay23" />
+</TestCase>
+<TestCase name="H264R1080pAacLongPlayerTest">
+<Test name="testPlay00" />
+</TestCase>
+<TestCase name="H264R1080pAacRepeatedPlayerTest">
+<Test name="testPlay00" />
+</TestCase>
+<TestCase name="H264R1080pAacShortPlayerTest">
+<Test name="testPlay00" />
+<Test name="testPlay01" />
+<Test name="testPlay02" />
+</TestCase>
+<TestCase name="H264R480pAacLongPlayerTest">
+<Test name="testPlay00" />
+</TestCase>
+<TestCase name="H264R480pAacShortPlayerTest">
+<Test name="testPlay00" />
+<Test name="testPlay01" />
+<Test name="testPlay02" />
+<Test name="testPlay03" />
+<Test name="testPlay04" />
+<Test name="testPlay05" />
+<Test name="testPlay06" />
+<Test name="testPlay07" />
+<Test name="testPlay08" />
+<Test name="testPlay09" />
+<Test name="testPlay10" />
+<Test name="testPlay11" />
+</TestCase>
+<TestCase name="H264R480x360AacShortPlayerTest">
+<Test name="testPlay00" />
+<Test name="testPlay01" />
+<Test name="testPlay02" />
+<Test name="testPlay03" />
+<Test name="testPlay04" />
+<Test name="testPlay05" />
+<Test name="testPlay06" />
+<Test name="testPlay07" />
+<Test name="testPlay08" />
+<Test name="testPlay09" />
+<Test name="testPlay10" />
+<Test name="testPlay11" />
+</TestCase>
+<TestCase name="H264R720pAacLongPlayerTest">
+<Test name="testPlay00" />
+<Test name="testPlay01" />
+</TestCase>
+<TestCase name="H264R720pAacShortPlayerTest">
+<Test name="testPlay00" />
+<Test name="testPlay01" />
+<Test name="testPlay02" />
+<Test name="testPlay03" />
+<Test name="testPlay04" />
+<Test name="testPlay05" />
+<Test name="testPlay06" />
+<Test name="testPlay07" />
+<Test name="testPlay08" />
+<Test name="testPlay09" />
+<Test name="testPlay10" />
+<Test name="testPlay11" />
+<Test name="testPlay12" />
+</TestCase>
+<TestCase name="MediaRecorderStressTest">
+<Test name="testStressCamera" />
+<Test name="testStressCameraSwitchRecorder" />
+<Test name="testStressRecordVideoAndPlayback" />
+<Test name="testStressRecorder" />
+</TestCase>
+<TestCase name="NativeMediaTest">
+<Test name="test1080pPlay" />
+<Test name="test480pPlay" />
+<Test name="test720pPlay" />
+<Test name="testDefaultPlay" />
+</TestCase>
+<TestCase name="Vp8R480x360LongPlayerTest">
+<Test name="testPlay00" />
+</TestCase>
+<TestCase name="Vp8R480x360ShortPlayerTest">
+<Test name="testPlay00" />
+<Test name="testPlay01" />
+<Test name="testPlay02" />
+<Test name="testPlay03" />
+<Test name="testPlay04" />
+<Test name="testPlay05" />
+<Test name="testPlay06" />
+<Test name="testPlay07" />
+<Test name="testPlay08" />
+<Test name="testPlay09" />
+<Test name="testPlay10" />
+<Test name="testPlay11" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

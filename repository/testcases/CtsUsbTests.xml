@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="android.usb" name="CtsUsbTests" testType="hostSideOnly" jarPath="CtsUsbTests.jar" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="usb">
+<TestCase name="TestUsbTest">
+<Test name="testUsbSerial" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.webkit" appPackageName="android.webkit" name="CtsWebkitTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="webkit">
+<TestSuite name="cts">
+<TestCase name="CookieManagerTest">
+<Test name="testAcceptCookie" />
+<Test name="testClone" />
+<Test name="testCookieManager" />
+<Test name="testGetInstance" />
+<Test name="testRemoveCookies" />
+<Test name="testb3167208" />
+</TestCase>
+<TestCase name="CookieSyncManagerTest">
+<Test name="testCookieSyncManager" />
+</TestCase>
+<TestCase name="CookieTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDomain" />
+<Test name="testEmptyValue" />
+<Test name="testInvalidDomain" />
+<Test name="testPath" />
+<Test name="testSubDomain" />
+</TestCase>
+<TestCase name="DateSorterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstants" />
+<Test name="testConstructor" />
+<Test name="testGetBoundary" />
+<Test name="testGetIndex" />
+<Test name="testGetLabel" />
+</TestCase>
+<TestCase name="GeolocationTest">
+<Test name="testGeolocationPermissions" />
+<Test name="testSimpleGeolocationRequestAcceptAlways" />
+<Test name="testSimpleGeolocationRequestAcceptOnce" />
+<Test name="testSimpleGeolocationRequestReject" />
+</TestCase>
+<TestCase name="HttpAuthHandlerTest">
+<Test name="testCancel" />
+<Test name="testProceed" />
+<Test name="testUseHttpAuthUsernamePassword" />
+</TestCase>
+<TestCase name="MimeTypeMapTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetExtensionFromMimeType" />
+<Test name="testGetFileExtensionFromUrl" />
+<Test name="testGetMimeTypeFromExtension" />
+<Test name="testGetSingleton" />
+<Test name="testHasExtension" />
+<Test name="testHasMimeType" />
+</TestCase>
+<TestCase name="URLUtilTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testComposeSearchUrl" />
+<Test name="testDecode" />
+<Test name="testGuessFileName" />
+<Test name="testGuessUrl" />
+<Test name="testIsAboutUrl" />
+<Test name="testIsAssetUrl" />
+<Test name="testIsContentUrl" />
+<Test name="testIsCookielessProxyUrl" />
+<Test name="testIsDataUrl" />
+<Test name="testIsFileUrl" />
+<Test name="testIsHttpUrl" />
+<Test name="testIsHttpsUrl" />
+<Test name="testIsJavaScriptUrl" />
+<Test name="testIsNetworkUrl" />
+<Test name="testIsValidUrl" />
+<Test name="testStripAnchor" />
+</TestCase>
+<TestCase name="WebBackForwardListTest">
+<Test name="testClone" />
+<Test name="testGetCurrentItem" />
+</TestCase>
+<TestCase name="WebChromeClientTest">
+<Test name="testBlockWindowsAsync" />
+<Test name="testBlockWindowsSync" />
+<Test name="testOnJsAlert" />
+<Test name="testOnJsBeforeUnload" />
+<Test name="testOnJsConfirm" />
+<Test name="testOnJsPrompt" />
+<Test name="testOnProgressChanged" />
+<Test name="testOnReceivedIcon" />
+<Test name="testOnReceivedTitle" />
+<Test name="testWindows" />
+</TestCase>
+<TestCase name="WebHistoryItemTest">
+<Test name="testWebHistoryItem" />
+</TestCase>
+<TestCase name="WebSettingsTest">
+<Test name="testAccessAllowFileAccess" />
+<Test name="testAccessBuiltInZoomControls" />
+<Test name="testAccessCacheMode" />
+<Test name="testAccessCursiveFontFamily" />
+<Test name="testAccessDefaultFixedFontSize" />
+<Test name="testAccessDefaultFontSize" />
+<Test name="testAccessDefaultTextEncodingName" />
+<Test name="testAccessFantasyFontFamily" />
+<Test name="testAccessFixedFontFamily" />
+<Test name="testAccessJavaScriptCanOpenWindowsAutomatically" />
+<Test name="testAccessJavaScriptEnabled" />
+<Test name="testAccessLayoutAlgorithm" />
+<Test name="testAccessMinimumFontSize" />
+<Test name="testAccessMinimumLogicalFontSize" />
+<Test name="testAccessPluginsEnabled" />
+<Test name="testAccessPluginsPath" />
+<Test name="testAccessSansSerifFontFamily" />
+<Test name="testAccessSaveFormData" />
+<Test name="testAccessSerifFontFamily" />
+<Test name="testAccessStandardFontFamily" />
+<Test name="testAccessSupportMultipleWindows" />
+<Test name="testAccessSupportZoom" />
+<Test name="testAccessTextSize" />
+<Test name="testAccessUseDoubleTree" />
+<Test name="testAccessUseWideViewPort" />
+<Test name="testAccessUserAgentString" />
+<Test name="testAppCacheDisabled" />
+<Test name="testAppCacheEnabled" />
+<Test name="testBlockNetworkImage" />
+<Test name="testBlockNetworkLoads" />
+<Test name="testDatabaseDisabled" />
+<Test name="testIframesWhenAccessFromFileURLsDisabled" />
+<Test name="testIframesWhenAccessFromFileURLsEnabled" />
+<Test name="testLoadsImagesAutomatically" />
+<Test name="testLocalImageLoads" />
+<Test name="testSetNeedInitialFocus" />
+<Test name="testSetRenderPriority" />
+<Test name="testUserAgentString_default" />
+<Test name="testXHRWhenAccessFromFileURLsDisabled" />
+<Test name="testXHRWhenAccessFromFileURLsEnabled" />
+</TestCase>
+<TestCase name="WebViewClientTest">
+<Test name="testDoUpdateVisitedHistory" />
+<Test name="testLoadPage" />
+<Test name="testOnFormResubmission" />
+<Test name="testOnReceivedError" />
+<Test name="testOnReceivedHttpAuthRequest" />
+<Test name="testOnScaleChanged" />
+<Test name="testOnUnhandledKeyEvent" />
+<Test name="testShouldOverrideKeyEvent" />
+<Test name="testShouldOverrideUrlLoading" />
+<Test name="testShouldOverrideUrlLoadingDefault" />
+<Test name="testShouldOverrideUrlLoadingOnCreateWindow" />
+</TestCase>
+<TestCase name="WebViewStartupTest">
+<Test name="testCookieManagerBlockingUiThread" />
+</TestCase>
+<TestCase name="WebViewTest">
+<Test name="testAccessHttpAuthUsernamePassword" />
+<Test name="testAccessPluginList" />
+<Test name="testAddJavascriptInterface" />
+<Test name="testAddJavascriptInterfaceNullObject" />
+<Test name="testAndroidAssetAnchor" />
+<Test name="testAndroidAssetQueryParam" />
+<Test name="testAppCanInjectHeadersViaImmutableMap" />
+<Test name="testAppInjectedXRequestedWithHeaderIsNotOverwritten" />
+<Test name="testCapturePicture" />
+<Test name="testClearHistory" />
+<Test name="testClearSslPreferences" />
+<Test name="testConstructor" />
+<Test name="testCreatingWebViewCreatesCookieSyncManager" />
+<Test name="testDebugDump" />
+<Test name="testDestroy" />
+<Test name="testDocumentHasImages" />
+<Test name="testEvaluateJavascript" />
+<Test name="testFindAddress" />
+<Test name="testFindAll" />
+<Test name="testFindNext" />
+<Test name="testFlingScroll" />
+<Test name="testGetContentHeight" />
+<Test name="testGetFavicon" />
+<Test name="testGetHitTestResult" />
+<Test name="testGetOriginalUrl" />
+<Test name="testGetVisibleTitleHeight" />
+<Test name="testGetZoomControls" />
+<Test name="testGoBackAndForward" />
+<Test name="testInsecureSiteClearsCertificate" />
+<Test name="testInternals" />
+<Test name="testInvokeZoomPicker" />
+<Test name="testJavascriptInterfaceCustomPropertiesClearedOnReload" />
+<Test name="testLoadData" />
+<Test name="testLoadDataWithBaseUrl" />
+<Test name="testLoadUrl" />
+<Test name="testLoadUrlDoesNotStripParamsWhenLoadingContentUrls" />
+<Test name="testOnReceivedSslError" />
+<Test name="testOnReceivedSslErrorCancel" />
+<Test name="testOnReceivedSslErrorProceed" />
+<Test name="testPageScroll" />
+<Test name="testPauseResumeTimers" />
+<Test name="testPlatformNotifications" />
+<Test name="testPrinting" />
+<Test name="testRemoveJavascriptInterface" />
+<Test name="testRequestChildRectangleOnScreen" />
+<Test name="testRequestFocusNodeHref" />
+<Test name="testRequestImageRef" />
+<Test name="testSaveAndRestoreState" />
+<Test name="testScrollBarOverlay" />
+<Test name="testSecureSiteSetsCertificate" />
+<Test name="testSetDownloadListener" />
+<Test name="testSetInitialScale" />
+<Test name="testSetLayoutParams" />
+<Test name="testSetMapTrackballToArrowKeys" />
+<Test name="testSetNetworkAvailable" />
+<Test name="testSetPictureListener" />
+<Test name="testSetScrollBarStyle" />
+<Test name="testSetWebChromeClient" />
+<Test name="testSetWebViewClient" />
+<Test name="testSslErrorProceedResponseNotReusedForDifferentHost" />
+<Test name="testSslErrorProceedResponseReusedForSameHost" />
+<Test name="testStopLoading" />
+<Test name="testUseRemovedJavascriptInterface" />
+<Test name="testZoom" />
+</TestCase>
+<TestCase name="WebView_WebViewTransportTest">
+<Test name="testAccessWebView" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

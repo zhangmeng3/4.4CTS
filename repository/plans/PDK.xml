@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry uri="android.aadb"/>
+  <Entry uri="android.bluetooth"/>
+  <Entry uri="android.graphics"/>
+  <Entry uri="android.graphics2"/>
+  <Entry uri="android.hardware"/>
+  <Entry uri="android.media"/>
+  <Entry uri="android.nativemedia.sl"/>
+  <Entry uri="android.nativemedia.xa"/>
+  <Entry uri="android.net"/>
+  <Entry uri="android.opengl"/>
+  <Entry uri="android.openglperf"/>
+  <Entry uri="android.renderscript"/>
+  <Entry uri="android.telephony"/>
+  <Entry uri="com.android.cts.browserbench"/>
+  <Entry uri="com.android.cts.dram"/>
+  <Entry uri="com.android.cts.filesystemperf"/>
+  <Entry uri="com.android.cts.jank"/>
+  <Entry uri="com.android.cts.opengl"/>
+  <Entry uri="com.android.cts.simplecpu"/>
+  <Entry uri="com.android.cts.ui"/>
+  <Entry uri="com.android.cts.uihost"/>
+  <Entry uri="com.android.cts.videoperf"/>
+</TestPlan>

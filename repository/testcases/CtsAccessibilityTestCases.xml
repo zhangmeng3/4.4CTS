@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="android.view.cts.accessibility" appPackageName="android.accessibility" name="CtsAccessibilityTestCases" runner="android.test.InstrumentationCtsTestRunner" testType="com.android.cts.tradefed.testtype.AccessibilityTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="view">
+<TestSuite name="accessibility">
+<TestSuite name="cts">
+<TestCase name="AccessibilityEventTest">
+<Test name="testDescribeContents" />
+<Test name="testEventTypeToString" />
+<Test name="testMarshaling" />
+<Test name="testMarshaling2" />
+<Test name="testNoNewFieldsAddedWithoutUpdadingMarshallTests" />
+<Test name="testRecycle" />
+<Test name="testReuse" />
+</TestCase>
+<TestCase name="AccessibilityManagerTest">
+<Test name="testAddAndRemoveAccessibilityStateChangeListener" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetAccessibilityServiceList" />
+<Test name="testGetEnabledAccessibilityServiceList" />
+<Test name="testGetEnabledAccessibilityServiceListForType" />
+<Test name="testGetInstalledAccessibilityServicesList" />
+<Test name="testInterrupt" />
+<Test name="testIsTouchExplorationEnabled" />
+<Test name="testSendAccessibilityEvent" />
+</TestCase>
+<TestCase name="AccessibilityNodeInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDescribeContents" />
+<Test name="testMarshaling" />
+<Test name="testRecycle" />
+<Test name="testReuse" />
+</TestCase>
+<TestCase name="AccessibilityRecordTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNoNewFieldsAddedWithoutUpdadingMarshallTests" />
+<Test name="testObtain" />
+<Test name="testRecycle" />
+</TestCase>
+<TestCase name="AccessibilityServiceInfoTest">
+<Test name="testAccessibilityServiceInfoForEnabledService" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="android.nativemedia.sl" name="NativeMediaTest_SL" testType="native" version="1.0">
+<TestSuite name="android">
+<TestSuite name="nativemedia">
+<TestSuite name="sl">
+<TestCase name="SLObjectCreationTest">
+<Test name="testAudioPlayerFromAdtsAbqToPcmBqCreation" />
+<Test name="testAudioPlayerFromFdCreation" />
+<Test name="testAudioPlayerFromFdToPcmBqCreation" />
+<Test name="testAudioPlayerFromPcmBqCreation" />
+<Test name="testAudioPlayerFromTsAbqCreation" />
+<Test name="testAudioPlayerFromUriCreation" />
+<Test name="testAudioPlayerFromUriToPcmBqCreation" />
+<Test name="testAudioRecorderCreation" />
+<Test name="testEngineCreation" />
+<Test name="testOutputMixCreation" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

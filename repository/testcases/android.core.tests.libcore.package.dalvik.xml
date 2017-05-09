@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestPackage AndroidFramework="Android 1.0" appNameSpace="android.core.tests.libcore.package.dalvik" appPackageName="android.core.tests.libcore.package.dalvik" javaPackageFilter="dalvik" name="android.core.tests.libcore.package.dalvik" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="android.core.tests.runner" targetNameSpace="android.core.tests.runner" version="1.0">
+    <TestSuite name="dalvik">
+        <TestSuite name="system">
+            <TestCase name="DexClassLoaderTest">
+                <Test name="test_oneJar_init"/>
+                <Test name="test_oneJar_simpleUse"/>
+                <Test name="test_oneJar_constructor"/>
+                <Test name="test_oneJar_callStaticMethod"/>
+                <Test name="test_oneJar_getStaticVariable"/>
+                <Test name="test_oneJar_callInstanceMethod"/>
+                <Test name="test_oneJar_getInstanceVariable"/>
+                <Test name="test_oneDex_init"/>
+                <Test name="test_oneDex_simpleUse"/>
+                <Test name="test_oneDex_constructor"/>
+                <Test name="test_oneDex_callStaticMethod"/>
+                <Test name="test_oneDex_getStaticVariable"/>
+                <Test name="test_oneDex_callInstanceMethod"/>
+                <Test name="test_oneDex_getInstanceVariable"/>
+                <Test name="test_twoJar_init"/>
+                <Test name="test_twoJar_simpleUse"/>
+                <Test name="test_twoJar_constructor"/>
+                <Test name="test_twoJar_callStaticMethod"/>
+                <Test name="test_twoJar_getStaticVariable"/>
+                <Test name="test_twoJar_callInstanceMethod"/>
+                <Test name="test_twoJar_getInstanceVariable"/>
+                <Test name="test_twoJar_diff_constructor"/>
+                <Test name="test_twoJar_diff_callStaticMethod"/>
+                <Test name="test_twoJar_diff_getStaticVariable"/>
+                <Test name="test_twoJar_diff_callInstanceMethod"/>
+                <Test name="test_twoJar_diff_getInstanceVariable"/>
+                <Test name="test_twoDex_init"/>
+                <Test name="test_twoDex_simpleUse"/>
+                <Test name="test_twoDex_constructor"/>
+                <Test name="test_twoDex_callStaticMethod"/>
+                <Test name="test_twoDex_getStaticVariable"/>
+                <Test name="test_twoDex_callInstanceMethod"/>
+                <Test name="test_twoDex_getInstanceVariable"/>
+                <Test name="test_twoDex_diff_constructor"/>
+                <Test name="test_twoDex_diff_callStaticMethod"/>
+                <Test name="test_twoDex_diff_getStaticVariable"/>
+                <Test name="test_twoDex_diff_callInstanceMethod"/>
+                <Test name="test_twoDex_diff_getInstanceVariable"/>
+                <Test name="test_oneJar_directGetResourceAsStream"/>
+                <Test name="test_oneJar_getResourceAsStream"/>
+                <Test name="test_twoJar_directGetResourceAsStream"/>
+                <Test name="test_twoJar_getResourceAsStream"/>
+                <Test name="test_twoJar_diff_directGetResourceAsStream"/>
+                <Test name="test_twoJar_diff_getResourceAsStream"/>
+            </TestCase>
+            <TestSuite name="profiler">
+                <TestCase name="SamplingProfilerTest">
+                    <Test name="test_SamplingProfiler"/>
+                    <Test name="test_HprofData_null"/>
+                    <Test name="test_HprofData_empty"/>
+                    <Test name="test_HprofData_timeMillis"/>
+                    <Test name="test_HprofData_addThreadEvent_null"/>
+                    <Test name="test_HprofData_addThreadEvent"/>
+                    <Test name="test_HprofData_addStackTrace"/>
+                </TestCase>
+            </TestSuite>
+        </TestSuite>
+    </TestSuite>
+</TestPackage>

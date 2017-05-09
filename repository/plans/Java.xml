@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry uri="android.core.tests.libcore.package.com"/>
+  <Entry uri="android.core.tests.libcore.package.conscrypt"/>
+  <Entry uri="android.core.tests.libcore.package.dalvik"/>
+  <Entry uri="android.core.tests.libcore.package.libcore"/>
+  <Entry uri="android.core.tests.libcore.package.org"/>
+  <Entry uri="android.core.tests.libcore.package.sun"/>
+  <Entry uri="android.core.tests.libcore.package.tests"/>
+</TestPlan>

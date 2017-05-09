@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.openglperf" appPackageName="android.openglperf" name="CtsOpenGlPerfTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="com.replica.replicaisland" targetNameSpace="com.replica.replicaisland" version="1.0">
+<TestSuite name="android">
+<TestSuite name="openglperf">
+<TestSuite name="cts">
+<TestCase name="GlAppSwitchTest">
+<Test name="testGlActivitySwitchingFast" />
+<Test name="testGlActivitySwitchingSlow" />
+</TestCase>
+<TestCase name="GlTextureCoordTest">
+<Test name="testTextureCoord" />
+</TestCase>
+<TestCase name="GlVboPerfTest">
+<Test name="testVboVsNonVboPerfGeometry0" />
+<Test name="testVboVsNonVboPerfGeometry1" />
+<Test name="testVboWithVaryingIndexBufferNumbers" expectation="failure" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

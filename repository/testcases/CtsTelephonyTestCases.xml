@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.telephony" appPackageName="android.telephony" name="CtsTelephonyTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="telephony">
+<TestSuite name="cts">
+<TestCase name="CellLocationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCellLocation" />
+</TestCase>
+<TestCase name="NeighboringCellInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNeighboringCellInfo" />
+</TestCase>
+<TestCase name="PhoneNumberUtilsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCallMethods" />
+<Test name="testExtractMethods" />
+<Test name="testFormatMethods" />
+<Test name="testGetMethods" />
+<Test name="testJudgeMethods" />
+</TestCase>
+<TestCase name="PhoneStateListenerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testOnCallForwardingIndicatorChanged" />
+<Test name="testOnCallStateChanged" />
+<Test name="testOnCellLocationChanged" />
+<Test name="testOnDataActivity" />
+<Test name="testOnDataConnectionStateChanged" />
+<Test name="testOnMessageWaitingIndicatorChanged" />
+<Test name="testOnServiceStateChanged" />
+<Test name="testOnSignalStrengthChanged" />
+<Test name="testPhoneStateListener" />
+</TestCase>
+<TestCase name="ServiceStateTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testServiceState" />
+</TestCase>
+<TestCase name="SmsManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDivideMessage" />
+<Test name="testGetDefault" />
+<Test name="testSendMessages" />
+</TestCase>
+<TestCase name="SmsMessageTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCPHSVoiceMail" />
+<Test name="testCreateFromPdu" />
+<Test name="testEmailGateway" />
+<Test name="testGetSubmitPdu" />
+<Test name="testGetUserData" />
+</TestCase>
+<TestCase name="SmsMessage_MessageClassTest">
+<Test name="testMessageClass" />
+</TestCase>
+<TestCase name="SmsMessage_SubmitPduTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="SmsUsageMonitorShortCodeTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSmsUsageMonitor" />
+</TestCase>
+<TestCase name="TelephonyManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetDeviceId" />
+<Test name="testGetNetworkCountryIso" />
+<Test name="testGetSimCountryIso" />
+<Test name="testListen" />
+<Test name="testTelephonyManager" />
+</TestCase>
+</TestSuite>
+<TestSuite name="gsm">
+<TestSuite name="cts">
+<TestCase name="GsmCellLocationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGsmCellLocation" />
+</TestCase>
+<TestCase name="SmsManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDivideMessage" />
+<Test name="testGetDefault" />
+<Test name="testGetDefault" />
+<Test name="testSendMessages" />
+</TestCase>
+<TestCase name="SmsMessage_MessageClassTest">
+<Test name="testMessageClass" />
+</TestCase>
+<TestCase name="SmsMessage_SubmitPduTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testToString" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

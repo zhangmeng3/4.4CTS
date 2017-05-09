@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.browser" appPackageName="com.android.cts.browserbench" name="CtsDeviceBrowserBench" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="browser">
+<TestCase name="BrowserBenchTest">
+<Test name="testOctane" timeout="60" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

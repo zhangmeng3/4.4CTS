@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.permission2" appPackageName="android.permission2" name="CtsPermission2TestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="permission">
+<TestSuite name="cts">
+<TestCase name="PermissionMaxSdkVersionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMaxSdkInFuture" />
+<Test name="testMaxSdkInPast" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="permission2">
+<TestSuite name="cts">
+<TestCase name="NoCaptureAudioOutputPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreateAudioRecord" />
+</TestCase>
+<TestCase name="NoProcessOutgoingCallPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testProcessOutgoingCall" />
+</TestCase>
+<TestCase name="NoReceiveSmsPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testReceiveTextMessage" />
+</TestCase>
+<TestCase name="NoWriteSecureSettingsPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testWriteSecureSettings" />
+</TestCase>
+<TestCase name="ProtectedBroadcastsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSendProtectedBroadcasts" />
+</TestCase>
+<TestCase name="ReadSocialStreamPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testReadSocialStreamPermission_byContactId" />
+<Test name="testReadSocialStreamPermission_byLookUpKey" />
+<Test name="testReadSocialStreamPermission_byRawContactId" />
+<Test name="testReadSocialStreamPermission_byStreamItemId" />
+</TestCase>
+<TestCase name="WriteSocialStreamPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testWriteSocialStreamPermission_byContentDirectory" />
+<Test name="testWriteSocialStreamPermission_byContentUri" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

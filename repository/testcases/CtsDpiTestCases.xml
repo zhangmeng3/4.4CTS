@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.dpi" appPackageName="android.dpi" name="CtsDpiTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="dpi">
+<TestSuite name="cts">
+<TestCase name="AspectRatioTest">
+<Test name="testAspectRatio" />
+</TestCase>
+<TestCase name="ConfigurationScreenLayoutTest">
+<Test name="testScreenLayout" />
+</TestCase>
+<TestCase name="ConfigurationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testScreenConfiguration" />
+</TestCase>
+<TestCase name="DefaultManifestAttributesSdkTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAnyDensityDefault" />
+<Test name="testLargeScreenDefault" />
+<Test name="testNormalScreenDefault" />
+<Test name="testPackageHasExpectedSdkVersion" />
+<Test name="testResizableDefault" />
+<Test name="testSmallScreenDefault" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

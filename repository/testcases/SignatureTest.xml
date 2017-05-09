@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage AndroidFramework="Android 1.0" appNameSpace="android.tests.sigtest" appPackageName="android.tests.sigtest" jarPath="" name="SignatureTest" runner=".InstrumentationRunner" signatureCheck="true" targetBinaryName="" targetNameSpace="" version="1.0">
+  <TestSuite name="android">
+    <TestSuite name="tests">
+      <TestSuite name="sigtest">
+        <TestCase name="SignatureTest">
+          <Test name="testSignature"/>
+        </TestCase>
+      </TestSuite>
+    </TestSuite>
+  </TestSuite>
+</TestPackage>

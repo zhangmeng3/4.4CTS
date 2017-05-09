@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.videoperf" appPackageName="com.android.cts.videoperf" name="CtsDeviceVideoPerf" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="videoperf">
+<TestCase name="VideoEncoderDecoderTest">
+<Test name="testAvc0176x0144" />
+<Test name="testAvc0352x0288" />
+<Test name="testAvc0720x0480" />
+<Test name="testAvc1280x0720" />
+<Test name="testAvc1920x1072" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

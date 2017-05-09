@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.display" appPackageName="android.display" name="CtsDisplayTestCases" runner="android.test.InstrumentationCtsTestRunner" testType="com.android.cts.tradefed.testtype.DisplayTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="display">
+<TestSuite name="cts">
+<TestCase name="DisplayTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDefaultDisplay" />
+<Test name="testFlags" />
+<Test name="testGetCurrentSizeRange" />
+<Test name="testGetDisplayAttrs" />
+<Test name="testGetDisplays" />
+<Test name="testGetMetrics" />
+<Test name="testSecondaryDisplay" />
+</TestCase>
+<TestCase name="VirtualDisplayTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPrivatePresentationVirtualDisplay" />
+<Test name="testPrivateVirtualDisplay" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

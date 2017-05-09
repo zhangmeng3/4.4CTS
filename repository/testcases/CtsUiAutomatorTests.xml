@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="android.uiautomator" appPackageName="android.uiautomator" name="CtsUiAutomatorTests" targetBinaryName="CtsUiAutomatorApp" targetNameSpace="com.android.cts.uiautomator" testType="uiAutomator" jarPath="CtsUiAutomatorTests.jar" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="uiautomatortest">
+<TestCase name="CtsUiAutomatorTest">
+<Test name="testCollectionCount" />
+<Test name="testCollectionGetChildByDescription" />
+<Test name="testCollectionGetChildByInstance" />
+<Test name="testCollectionGetChildByText" />
+<Test name="testComplexSelectors" />
+<Test name="testDeviceSoftKeys" />
+<Test name="testDragToCoordinates" />
+<Test name="testDragToObject" />
+<Test name="testExceptionObjectNotFound" />
+<Test name="testGetProductName" />
+<Test name="testGetVisibleBounds" />
+<Test name="testListScrollAndSelect" />
+<Test name="testPinchIn" />
+<Test name="testPinchOut" />
+<Test name="testRotation" />
+<Test name="testSelectAfterContentChanged" />
+<Test name="testSelectByClassMatch" />
+<Test name="testSelectByClassType" />
+<Test name="testSelectByContentDescription" />
+<Test name="testSelectByDescriptionMatch" />
+<Test name="testSelectByIndex" />
+<Test name="testSelectByInstance" />
+<Test name="testSelectByText" />
+<Test name="testSelectByTextMatch" />
+<Test name="testSelectorChecked" />
+<Test name="testSelectorClickable" />
+<Test name="testSelectorDescriptionContains" />
+<Test name="testSelectorDescriptionStarts" />
+<Test name="testSelectorEnabled" />
+<Test name="testSelectorFocusable" />
+<Test name="testSelectorLongClickable" />
+<Test name="testSelectorLongClickableProperty" />
+<Test name="testSelectorResourceId" />
+<Test name="testSelectorResourceIdMatches" />
+<Test name="testSwipes" />
+<Test name="testTakeScreenShots" />
+<Test name="testTextEraseAndInput" />
+<Test name="testUiWatcher" />
+<Test name="testVerifyMenuClicks" />
+<Test name="testWaitForIdleTimeout" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

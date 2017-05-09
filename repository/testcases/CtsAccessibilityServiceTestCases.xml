@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.accessibilityservice" appPackageName="android.accessibilityservice" name="CtsAccessibilityServiceTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="accessibilityservice">
+<TestSuite name="cts">
+<TestCase name="AccessibilityEndToEndTest">
+<Test name="testTypeNotificationStateChangedAccessibilityEvent" />
+<Test name="testTypeViewClickedAccessibilityEvent" />
+<Test name="testTypeViewFocusedAccessibilityEvent" />
+<Test name="testTypeViewLongClickedAccessibilityEvent" />
+<Test name="testTypeViewSelectedAccessibilityEvent" />
+<Test name="testTypeViewTextChangedAccessibilityEvent" />
+<Test name="testTypeWindowStateChangedAccessibilityEvent" />
+</TestCase>
+<TestCase name="AccessibilityFocusAndInputFocusSyncTest">
+<Test name="testActionAccessibilityFocus" />
+<Test name="testActionClearAccessibilityFocus" />
+<Test name="testFindAccessibilityFocus" />
+<Test name="testInitialStateNoAccessibilityFocus" />
+<Test name="testOnlyOneNodeHasAccessibilityFocus" />
+</TestCase>
+<TestCase name="AccessibilityServiceInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDescribeContents" />
+<Test name="testFeedbackTypeToString" />
+<Test name="testFlagToString" />
+<Test name="testMarshalling" />
+</TestCase>
+<TestCase name="AccessibilitySettingsTest">
+<Test name="testAccessibilitySettingsIntentHandled" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="AccessibilityTextTraversalTest">
+<Test name="testActionNextAndPreviousAtGranularityCharacterOverContentDescription" />
+<Test name="testActionNextAndPreviousAtGranularityCharacterOverText" />
+<Test name="testActionNextAndPreviousAtGranularityCharacterOverTextExtend" />
+<Test name="testActionNextAndPreviousAtGranularityLineOverText" />
+<Test name="testActionNextAndPreviousAtGranularityLineOverTextExtend" />
+<Test name="testActionNextAndPreviousAtGranularityPageOverText" />
+<Test name="testActionNextAndPreviousAtGranularityPageOverTextExtend" />
+<Test name="testActionNextAndPreviousAtGranularityParagraphOverText" />
+<Test name="testActionNextAndPreviousAtGranularityParagraphOverTextExtend" />
+<Test name="testActionNextAndPreviousAtGranularityWordOverContentDescription" />
+<Test name="testActionNextAndPreviousAtGranularityWordOverEditTextWithContentDescription" />
+<Test name="testActionNextAndPreviousAtGranularityWordOverText" />
+<Test name="testActionNextAndPreviousAtGranularityWordOverTextExtend" />
+<Test name="testSelectionPositionForNonEditableView" />
+<Test name="testSetSelectionInContentDescription" />
+<Test name="testTextEditingActions" />
+</TestCase>
+<TestCase name="AccessibilityViewTreeReportingTest">
+<Test name="testDescendantsOfNotImportantViewReportedInOrder1" />
+<Test name="testDescendantsOfNotImportantViewReportedInOrder2" />
+<Test name="testDescendantsOfNotImportantViewReportedInOrder3" />
+</TestCase>
+<TestCase name="AccessibilityWindowQueryTest">
+<Test name="testFindByContentDescription" />
+<Test name="testFindByText" />
+<Test name="testGetEventSource" />
+<Test name="testObjectContract" />
+<Test name="testPerformActionClearFocus" />
+<Test name="testPerformActionClearSelection" />
+<Test name="testPerformActionClick" />
+<Test name="testPerformActionFocus" />
+<Test name="testPerformActionLongClick" />
+<Test name="testPerformActionSelect" />
+<Test name="testPerformGlobalActionBack" />
+<Test name="testPerformGlobalActionHome" />
+<Test name="testPerformGlobalActionNotifications" />
+<Test name="testPerformGlobalActionQuickSettings" />
+<Test name="testPerformGlobalActionRecents" />
+<Test name="testTraverseWindow" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

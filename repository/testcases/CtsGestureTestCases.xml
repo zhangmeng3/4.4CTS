@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.gesture" appPackageName="android.gesture" name="CtsGestureTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="gesture">
+<TestSuite name="cts">
+<TestCase name="GestureLibraryTest">
+<Test name="testGetGestureEntries" />
+<Test name="testGetGestures" />
+<Test name="testIsReadOnly" />
+<Test name="testRecognize" />
+<Test name="testRemoveEntry" />
+<Test name="testRemoveGesture" />
+</TestCase>
+<TestCase name="GesturePointTest">
+<Test name="testGesturePointConstructor" />
+</TestCase>
+<TestCase name="GestureStoreTest">
+<Test name="testGetGestureEntries" />
+<Test name="testGetGestures" />
+<Test name="testHasChanged_add" />
+<Test name="testHasChanged_removeEntry" />
+<Test name="testHasChanged_removeGesture" />
+<Test name="testRecognize" />
+<Test name="testRemoveEntry" />
+<Test name="testRemoveGesture" />
+<Test name="testSaveLoadOutputStream" />
+</TestCase>
+<TestCase name="GestureStrokeTest">
+<Test name="testBoundingBox_line" />
+<Test name="testComputeOrientedBoundingBox" />
+<Test name="testGetPath_empty" />
+<Test name="testGetPath_line" />
+<Test name="testGetPath_singlePoint" />
+<Test name="testToPath_boundedLine" />
+<Test name="testToPath_line" />
+</TestCase>
+<TestCase name="GestureTest">
+<Test name="testGetBoundingBox" />
+<Test name="testGetStrokes" />
+<Test name="testGetStrokesCount" />
+<Test name="testReadWriteToParcel" />
+<Test name="testToPath" />
+<Test name="testToPathPath" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

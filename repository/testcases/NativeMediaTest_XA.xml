@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="android.nativemedia.xa" name="NativeMediaTest_XA" testType="native" version="1.0">
+<TestSuite name="android">
+<TestSuite name="nativemedia">
+<TestSuite name="xa">
+<TestCase name="XAObjectCreationTest">
+<Test name="testEngineCreation" />
+<Test name="testOutputMixCreation" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="zzz.android.monkey" name="CtsMonkeyTestCases" testType="hostSideOnly" jarPath="CtsMonkeyTestCases.jar" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="monkey">
+<TestCase name="CategoryTest">
+<Test name="testDefaultCategories" />
+<Test name="testMultipleCategories" />
+<Test name="testSingleCategory" />
+</TestCase>
+<TestCase name="MonkeyTest">
+<Test name="testIsMonkey" />
+<Test name="testNotMonkey" />
+</TestCase>
+<TestCase name="PackageTest">
+<Test name="testMultiplePackages" />
+<Test name="testSinglePackage" />
+</TestCase>
+<TestCase name="SeedTest">
+<Test name="testSeed" />
+</TestCase>
+<TestCase name="VerbosityTest">
+<Test name="testVerbosity" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

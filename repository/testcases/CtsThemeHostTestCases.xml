@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="android.host.theme" name="CtsThemeHostTestCases" testType="hostSideOnly" jarPath="CtsThemeHostTestCases.jar" version="1.0">
+<TestSuite name="android">
+<TestSuite name="theme">
+<TestSuite name="cts">
+<TestCase name="ThemeHostTest">
+<Test name="testHoloThemes" timeout="60" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

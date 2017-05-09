@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.dram" appPackageName="com.android.cts.dram" name="CtsDeviceDram" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="dram">
+<TestCase name="BandwidthTest">
+<Test name="testMemcpyK004" />
+<Test name="testMemcpyK008" />
+<Test name="testMemcpyK016" />
+<Test name="testMemcpyK032" />
+<Test name="testMemcpyK064" />
+<Test name="testMemcpyK128" />
+<Test name="testMemcpyK256" />
+<Test name="testMemcpyK512" />
+<Test name="testMemcpyM001" />
+<Test name="testMemcpyM002" />
+<Test name="testMemcpyM004" />
+<Test name="testMemcpyM008" />
+<Test name="testMemcpyM016" />
+<Test name="testMemsetK004" />
+<Test name="testMemsetK008" />
+<Test name="testMemsetK016" />
+<Test name="testMemsetK032" />
+<Test name="testMemsetK064" />
+<Test name="testMemsetK128" />
+<Test name="testMemsetK256" />
+<Test name="testMemsetK512" />
+<Test name="testMemsetM001" />
+<Test name="testMemsetM002" />
+<Test name="testMemsetM004" />
+<Test name="testMemsetM008" />
+<Test name="testMemsetM016" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

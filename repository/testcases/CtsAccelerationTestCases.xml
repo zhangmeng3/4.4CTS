@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.acceleration" appPackageName="android.acceleration" name="CtsAccelerationTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsAccelerationTestStubs" targetNameSpace="com.android.cts.acceleration.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="acceleration">
+<TestSuite name="cts">
+<TestCase name="HardwareAccelerationTest">
+<Test name="testIsHardwareAccelerated" />
+<Test name="testNotAttachedView" />
+</TestCase>
+<TestCase name="SoftwareAccelerationTest">
+<Test name="testIsHardwareAccelerated" />
+<Test name="testNotAttachedView" />
+</TestCase>
+<TestCase name="WindowFlagHardwareAccelerationTest">
+<Test name="testIsHardwareAccelerated" />
+<Test name="testNotAttachedView" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

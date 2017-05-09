@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.drm" appPackageName="android.drm" name="CtsDrmTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="drm">
+<TestSuite name="cts">
+<TestCase name="DRMTest">
+<Test name="testAcquireRights" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCanHandle" />
+<Test name="testCheckRightsStatus" />
+<Test name="testConvertData" />
+<Test name="testGetConstraints" />
+<Test name="testGetOriginalMimeType" />
+<Test name="testIsDrmDirectoryExist" />
+<Test name="testRegisterAndDeregister" />
+<Test name="testRemoveAllRights" />
+<Test name="testRemoveRights" />
+</TestCase>
+<TestCase name="DrmEventTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetAttribute" />
+<Test name="testGetMessage" />
+<Test name="testGetUniqueId" />
+<Test name="testInvalidErrorEventTypes" />
+<Test name="testInvalidInfoEventTypes" />
+<Test name="testValidErrorEventTypes" />
+<Test name="testValidInfoEventTypes" />
+</TestCase>
+<TestCase name="DrmInfoRequestTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetInfoType" />
+<Test name="testGetMimeType" />
+<Test name="testInvalidInfoTypes" />
+<Test name="testInvalidMimeTypes" />
+<Test name="testPutAndGetKeys" />
+<Test name="testValidInfoTypes" />
+</TestCase>
+<TestCase name="DrmInfoStatusTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testInvalidStatusCodes" />
+<Test name="testValidStatusCodes" />
+</TestCase>
+<TestCase name="DrmInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetData" />
+<Test name="testGetInfoType" />
+<Test name="testGetMimeType" />
+<Test name="testInvalidData" />
+<Test name="testInvalidInfoTypes" />
+<Test name="testInvalidMimeTypes" />
+<Test name="testPutAndGetKeys" />
+<Test name="testValidInfoTypes" />
+</TestCase>
+<TestCase name="DrmSupportInfoTest">
+<Test name="testAddInvalidFileSuffixes" />
+<Test name="testAddInvalidMimeTypes" />
+<Test name="testAddValidFileSuffixes" />
+<Test name="testAddValidMimeTypes" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testEquals" />
+<Test name="testSetAndGetDescription" />
+<Test name="testSetInvalidDescriptions" />
+</TestCase>
+<TestCase name="NativeCodeTest">
+<Test name="testInstallDrmEngine" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

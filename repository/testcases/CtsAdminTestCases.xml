@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.admin" appPackageName="android.admin" name="CtsAdminTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsDeviceAdmin" targetNameSpace="android.deviceadmin.cts" version="1.0">
+<TestSuite name="android">
+<TestSuite name="admin">
+<TestSuite name="cts">
+<TestCase name="DeviceAdminActivationTest">
+<Test name="testActivateBrokenReceiver2Fails" />
+<Test name="testActivateBrokenReceiver3Fails" />
+<Test name="testActivateBrokenReceiver4Fails" />
+<Test name="testActivateBrokenReceiver5Fails" />
+<Test name="testActivateBrokenReceiverFails" />
+<Test name="testActivateGoodReceiverDisplaysActivationUi" />
+</TestCase>
+<TestCase name="DeviceAdminInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDeviceAdminInfo" />
+<Test name="testDeviceAdminInfo2" />
+</TestCase>
+<TestCase name="DeviceAdminReceiverTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testOnReceive" />
+</TestCase>
+<TestCase name="DevicePolicyManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetActiveAdmins" />
+<Test name="testGetMaximumFailedPasswordsForWipe" />
+<Test name="testPasswordQuality_alphabetic" />
+<Test name="testPasswordQuality_alphanumeric" />
+<Test name="testPasswordQuality_numeric" />
+<Test name="testPasswordQuality_something" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

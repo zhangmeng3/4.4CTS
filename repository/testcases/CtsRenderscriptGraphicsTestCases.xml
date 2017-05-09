@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.renderscriptgraphics" appPackageName="android.rsg" name="CtsRenderscriptGraphicsTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="renderscriptgraphics">
+<TestSuite name="cts">
+<TestCase name="BaseObjTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBaseObj" />
+</TestCase>
+<TestCase name="ContextCreationTest">
+<Test name="testCreationWithDelay" />
+<Test name="testCreationWithoutDelay" />
+<Test name="testMultiviewCreationWithoutDelay" />
+</TestCase>
+<TestCase name="FileA3DTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreateFromAsset" />
+<Test name="testCreateFromFile" />
+<Test name="testCreateFromResource" />
+<Test name="testFileA3DEntryType" />
+<Test name="testGetIndexEntry" />
+<Test name="testGetIndexEntryCount" />
+<Test name="testIndexEntryGetEntryType" />
+<Test name="testIndexEntryGetMesh" />
+<Test name="testIndexEntryGetName" />
+<Test name="testIndexEntryGetObject" />
+</TestCase>
+<TestCase name="FontTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreate" />
+<Test name="testCreateFromAsset" />
+<Test name="testCreateFromFile" />
+<Test name="testCreateFromResource" />
+<Test name="testFontStyle" />
+</TestCase>
+<TestCase name="MeshTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMeshAllocationBuilder" />
+<Test name="testMeshBuilder" />
+<Test name="testMeshPrimitive" />
+<Test name="testMeshTriangleMeshBuilder" />
+</TestCase>
+<TestCase name="ProgramFragmentFixedFunctionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBuilderEnvMode" />
+<Test name="testBuilderFormat" />
+<Test name="testProgramFragmentFixedFunctionBuilder" />
+</TestCase>
+<TestCase name="ProgramFragmentTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testProgramFragmentBuilder" />
+<Test name="testProgramFragmentCreation" />
+<Test name="testProgramTextureType" />
+</TestCase>
+<TestCase name="ProgramRasterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPrebuiltProgramRaster" />
+<Test name="testProgramRasterBuilder" />
+<Test name="testProgramRasterCullMode" />
+</TestCase>
+<TestCase name="ProgramStoreTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPrebuiltProgramStore" />
+<Test name="testProgramStoreBlendDstFunc" />
+<Test name="testProgramStoreBlendSrcFunc" />
+<Test name="testProgramStoreBuilder" />
+<Test name="testProgramStoreDepthFunc" />
+</TestCase>
+<TestCase name="ProgramVertexFixedFunctionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstants" />
+<Test name="testProgramVertexFixedFunctionBuilder" />
+</TestCase>
+<TestCase name="ProgramVertexTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testProgramVertexBuilder" />
+<Test name="testProgramVertexCreation" />
+</TestCase>
+<TestCase name="RSSurfaceViewTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreateRenderScriptGL" />
+<Test name="testCreation" />
+<Test name="testDestroyRenderScriptGL" />
+<Test name="testGetSetRenderScriptGL" />
+<Test name="testPauseResume" />
+</TestCase>
+<TestCase name="SurfaceConfigTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCopyConstructor" />
+<Test name="testSetAlpha" />
+<Test name="testSetColor" />
+<Test name="testSetDepth" />
+<Test name="testSetSamples" />
+<Test name="testSimpleCreate" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.ui" appPackageName="com.android.cts.ui" name="CtsDeviceUi" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="ui">
+<TestCase name="ScrollingTest">
+<Test name="testFullScrolling" timeout="30" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

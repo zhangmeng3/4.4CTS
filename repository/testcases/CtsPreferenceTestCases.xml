@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.preference" appPackageName="android.preference" name="CtsPreferenceTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="preference">
+<TestSuite name="cts">
+<TestCase name="PreferenceActivityTest">
+<Test name="testAddPreferencesFromIntent" />
+<Test name="testAddPreferencesFromResource" />
+<Test name="testGetPreferenceManager" />
+<Test name="testGetPreferenceScreen" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

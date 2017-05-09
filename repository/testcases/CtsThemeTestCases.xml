@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.theme" appPackageName="android.theme" name="CtsThemeTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="theme">
+<TestSuite name="cts">
+<TestCase name="DeviceDefaultTest">
+<Test name="testGetActionBar_DeviceDefault" />
+<Test name="testGetActionBar_DeviceDefault_Dialog" />
+<Test name="testGetActionBar_DeviceDefault_DialogWhenLarge" />
+<Test name="testGetActionBar_DeviceDefault_DialogWhenLarge_NoActionBar" />
+<Test name="testGetActionBar_DeviceDefault_Dialog_NoActionBar" />
+<Test name="testGetActionBar_DeviceDefault_Dialog_NoActionBar_MinWidth" />
+<Test name="testGetActionBar_DeviceDefault_InputMethod" />
+<Test name="testGetActionBar_DeviceDefault_Light" />
+<Test name="testGetActionBar_DeviceDefault_Light_DarkActionBar" />
+<Test name="testGetActionBar_DeviceDefault_Light_Dialog" />
+<Test name="testGetActionBar_DeviceDefault_Light_DialogWhenLarge" />
+<Test name="testGetActionBar_DeviceDefault_Light_DialogWhenLarge_NoActionBar" />
+<Test name="testGetActionBar_DeviceDefault_Light_Dialog_MinWidth" />
+<Test name="testGetActionBar_DeviceDefault_Light_Dialog_NoActionBar" />
+<Test name="testGetActionBar_DeviceDefault_Light_Dialog_NoActionBar_MinWidth" />
+<Test name="testGetActionBar_DeviceDefault_Light_NoActionBar" />
+<Test name="testGetActionBar_DeviceDefault_Light_NoActionBar_Fullscreen" />
+<Test name="testGetActionBar_DeviceDefault_MinWidth" />
+<Test name="testGetActionBar_DeviceDefault_Panel" />
+<Test name="testGetActionBar_DeviceDefault_Wallpaper" />
+<Test name="testGetActionBar_DeviceDefault_Wallpaper_NoTitleBar" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="android.host.sample" name="CtsSampleHostTestCases" testType="hostSideOnly" jarPath="CtsSampleHostTestCases.jar" version="1.0">
+<TestSuite name="android">
+<TestSuite name="sample">
+<TestSuite name="cts">
+<TestCase name="SampleHostResultTest">
+<Test name="testTransferTime" />
+</TestCase>
+<TestCase name="SampleHostTest">
+<Test name="testLogcat" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

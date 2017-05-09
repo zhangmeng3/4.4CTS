@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.opengl" appPackageName="android.opengl" name="CtsOpenGLTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="opengl">
+<TestSuite name="cts">
+<TestCase name="AttachShaderTest">
+<Test name="test_glAttachShaders_emptyfragshader_emptyvertexshader" />
+<Test name="test_glAttachShaders_invalidshader_attach_valid_handle" />
+<Test name="test_glAttachShaders_programobject_attach_fragshaderobject" />
+<Test name="test_glAttachShaders_successfulcompile_attach_frag" />
+<Test name="test_glAttachShaders_successfulcompile_attach_vert" />
+<Test name="test_glAttachedShaders_noshader" />
+<Test name="test_glAttachedShaders_validshader" />
+</TestCase>
+<TestCase name="ColorBufferTest">
+<Test name="test_RGBA_0000" />
+<Test name="test_RGBA_0011" />
+<Test name="test_RGBA_0101" />
+<Test name="test_RGBA_1001" />
+<Test name="test_RGBA_1101" />
+<Test name="test_RGBA_1111" />
+<Test name="test_RGBA_rand_val_one" />
+</TestCase>
+<TestCase name="NativeAttachShaderTest">
+<Test name="test_glAttachShaders_emptyfragshader_emptyvertexshader" />
+<Test name="test_glAttachShaders_invalidshader_attach_valid_handle" />
+<Test name="test_glAttachShaders_programobject_attach_fragshaderobject" />
+<Test name="test_glAttachShaders_successfulcompile_attach_frag" />
+<Test name="test_glAttachShaders_successfulcompile_attach_vert" />
+<Test name="test_glAttachedShaders_attach_same_shader" />
+<Test name="test_glAttachedShaders_invalidshader" />
+<Test name="test_glAttachedShaders_noshader" />
+<Test name="test_glAttachedShaders_validshader" />
+</TestCase>
+<TestCase name="NativeColorBufferTest">
+<Test name="test_RGBA_0000" />
+<Test name="test_RGBA_0011" />
+<Test name="test_RGBA_0101" />
+<Test name="test_RGBA_1001" />
+<Test name="test_RGBA_1101" />
+<Test name="test_RGBA_1111" />
+<Test name="test_RGBA_rand_val_one" />
+</TestCase>
+<TestCase name="ProgramTest">
+<Test name="test_glAttachShader_program" />
+</TestCase>
+<TestCase name="WrapperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetIntegerv1" />
+<Test name="testGetIntegerv2" />
+<Test name="testThreadCleanup" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

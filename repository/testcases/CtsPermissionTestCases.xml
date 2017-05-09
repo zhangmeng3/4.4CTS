@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.permission" appPackageName="android.permission" name="CtsPermissionTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="permission">
+<TestSuite name="cts">
+<TestCase name="AccountManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetAccounts" />
+<Test name="testGetAccountsByType" />
+<Test name="testGetAccountsByTypeAndFeatures" />
+</TestCase>
+<TestCase name="AppWidgetManagerPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBindAppWidget" />
+</TestCase>
+<TestCase name="AudioPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="CameraPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCamera" />
+</TestCase>
+<TestCase name="ConnectivityManagerPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetNetworkInfo" />
+<Test name="testGetNetworkPreference" />
+<Test name="testRequestRouteToHost" />
+<Test name="testSetNetworkPreference" />
+<Test name="testStartUsingNetworkPreference" />
+</TestCase>
+<TestCase name="ContactsProviderTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testInsertContacts" />
+<Test name="testInsertProfile" />
+<Test name="testQueryContacts" />
+<Test name="testQueryProfile" />
+<Test name="testUpdateProfile" />
+</TestCase>
+<TestCase name="DebuggableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNoDebuggable" />
+</TestCase>
+<TestCase name="DevicePowerPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGoToSleep" />
+</TestCase>
+<TestCase name="FileSystemPermissionTest">
+<Test name="testAllBlockDevicesAreSecure" />
+<Test name="testAllCharacterDevicesAreSecure" />
+<Test name="testAllFilesInSysAreNotWritable" />
+<Test name="testAllOtherDirectoriesNotWritable" />
+<Test name="testAndroidRootDirectoryNotWritable" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testApplicationParentDirectoryNotWritable" />
+<Test name="testBcm2079xSane" />
+<Test name="testBcm2079xi2cSane" />
+<Test name="testCreateDirectoryHasSanePermissions" />
+<Test name="testCreateFileHasSanePermissions" />
+<Test name="testDataDirectoryNotWritable" />
+<Test name="testDataMediaSane" />
+<Test name="testDevDirectoryNotWritable" />
+<Test name="testDevMemSane" />
+<Test name="testDevPortSane" />
+<Test name="testDevQtaguidSane" />
+<Test name="testDevRandomWorldReadableAndWritable" />
+<Test name="testDevUrandomWorldReadableAndWritable" />
+<Test name="testDevkmemSane" />
+<Test name="testDownloadCacheDirectoryNotWritable" />
+<Test name="testMntSecureSane" />
+<Test name="testMntShellSane" />
+<Test name="testOtherApplicationDirectoriesAreNotWritable" />
+<Test name="testOtherRandomDirectoriesNotWritable" />
+<Test name="testPn544Sane" />
+<Test name="testProcDirectoryNotWritable" />
+<Test name="testProcQtaguidCtrlSane" />
+<Test name="testProcQtaguidStatsSane" />
+<Test name="testReadingSysFilesDoesntFail" />
+<Test name="testRootDirectoryNotWritable" />
+<Test name="testRootMountedRO" />
+<Test name="testRootMountedRO_init" />
+<Test name="testRunAsHasCorrectCapabilities" />
+<Test name="testSystemMountedRO" />
+<Test name="testSystemMountedRO_init" />
+<Test name="testTtyO3Sane" />
+</TestCase>
+<TestCase name="NoActivityRelatedPermissionTest">
+<Test name="testGetTask" />
+</TestCase>
+<TestCase name="NoAudioPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRouting" />
+<Test name="testSetMicrophoneMute" />
+</TestCase>
+<TestCase name="NoBroadcastPackageRemovedPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSendBroadcast" />
+<Test name="testSendOrRemoveStickyBroadcast" />
+</TestCase>
+<TestCase name="NoCaptureVideoPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreatePrivateVirtualDisplay" />
+<Test name="testCreatePublicVirtualDisplay" />
+<Test name="testCreateSecureVirtualDisplay" />
+</TestCase>
+<TestCase name="NoKeyPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDisableKeyguard" />
+<Test name="testExitKeyguardSecurely" />
+<Test name="testReenableKeyguard" />
+</TestCase>
+<TestCase name="NoLocationPermissionTest">
+<Test name="testAddProximityAlert" />
+<Test name="testAddTestProvider" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClearTestProviderEnabled" />
+<Test name="testClearTestProviderLocation" />
+<Test name="testClearTestProviderStatus" />
+<Test name="testGetLastKnownLocationGps" />
+<Test name="testGetLastKnownLocationNetwork" />
+<Test name="testGetProviderGps" />
+<Test name="testGetProviderNetwork" />
+<Test name="testIsProviderEnabledGps" />
+<Test name="testIsProviderEnabledNetwork" />
+<Test name="testListenCellLocation" />
+<Test name="testListenCellLocation2" />
+<Test name="testRemoveTestProvider" />
+<Test name="testRequestLocationUpdatesGps" />
+<Test name="testRequestLocationUpdatesNetwork" />
+<Test name="testSetTestProviderEnabled" />
+<Test name="testSetTestProviderLocation" />
+<Test name="testSetTestProviderStatus" />
+</TestCase>
+<TestCase name="NoNetworkStatePermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetActiveNetworkInfo" />
+<Test name="testGetAllNetworkInfo" />
+<Test name="testGetNetworkInfo" />
+<Test name="testGetNetworkPreference" />
+<Test name="testRequestRouteToHost" />
+<Test name="testSecurityExceptionFromDns" />
+<Test name="testSetNetworkPreference" />
+<Test name="testStartUsingNetworkFeature" />
+<Test name="testStopUsingNetworkFeature" />
+</TestCase>
+<TestCase name="NoReadLogsPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLogFilePermissions" />
+<Test name="testLogcat" />
+</TestCase>
+<TestCase name="NoSdCardWritePermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testWriteExternalStorage" />
+</TestCase>
+<TestCase name="NoSystemFunctionPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRestartPackage" />
+<Test name="testSendSms" />
+<Test name="testSetTimeZone" />
+<Test name="testSetWallpaper" />
+<Test name="testVibrator" />
+</TestCase>
+<TestCase name="NoWakeLockPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMediaPlayerWakeLock" />
+<Test name="testPowerManagerWakeLockAcquire" />
+<Test name="testPowerManagerWakeLockAcquire2" />
+<Test name="testWifiLockAcquire" />
+</TestCase>
+<TestCase name="NoWifiStatePermissionTest">
+<Test name="testAddNetwork" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDisableNetwork" />
+<Test name="testDisconnect" />
+<Test name="testEnableNetwork" />
+<Test name="testGetConfiguredNetworks" />
+<Test name="testGetConnectionInfo" />
+<Test name="testGetDhcpInfo" />
+<Test name="testGetScanResults" />
+<Test name="testGetWifiState" />
+<Test name="testPingSupplicant" />
+<Test name="testReassociate" />
+<Test name="testReconnect" />
+<Test name="testRemoveNetwork" />
+<Test name="testSaveConfiguration" />
+<Test name="testSetWifiEnabled" />
+<Test name="testStartScan" />
+<Test name="testUpdateNetwork" />
+</TestCase>
+<TestCase name="PackageManagerRequiringPermissionsTest">
+<Test name="testAddPreferredActivity" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClearPackagePreferredActivities" />
+<Test name="testExtendVerificationTimeout" />
+<Test name="testSetApplicationEnabledSetting" />
+<Test name="testVerifyPendingInstall" />
+</TestCase>
+<TestCase name="ProviderPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testReadBookmarks" />
+<Test name="testReadBrowserHistory" />
+<Test name="testReadCallLog" />
+<Test name="testReadContacts" />
+<Test name="testWriteBookmarks" />
+<Test name="testWriteBrowserHistory" />
+<Test name="testWriteCallLog" />
+<Test name="testWriteContacts" />
+<Test name="testWriteSettings" />
+</TestCase>
+<TestCase name="RebootPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBroadcastReboot" />
+</TestCase>
+<TestCase name="TelephonyManagerPermissionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetDeviceId" />
+<Test name="testGetLine1Number" />
+<Test name="testGetSimSerialNumber" />
+<Test name="testGetSubscriberId" />
+<Test name="testVoiceMailNumber" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,4000 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestPackage AndroidFramework="Android 1.0" appNameSpace="android.core.vm-tests-tf" appPackageName="android.core.vm-tests-tf" jarPath="android.core.vm-tests-tf.jar" javaPackageFilter="" name="android.core.vm-tests-tf" runner="android.test.InstrumentationCoreTestRunner" version="1.0" vmHostTest="true">
+    <TestSuite name="dot">
+        <TestSuite name="junit">
+            <TestSuite name="format">
+                <TestSuite name="f1">
+                    <TestCase name="JUnit_Test_f1">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                    </TestCase>
+                </TestSuite>
+            </TestSuite>
+            <TestSuite name="verify">
+                <TestSuite name="a1">
+                    <TestCase name="JUnit_Test_a1">
+                        <Test name="testVFE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="b3">
+                    <TestCase name="JUnit_Test_b3">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="b17">
+                    <TestCase name="JUnit_Test_b17">
+                        <Test name="testVFE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="a5">
+                    <TestCase name="JUnit_Test_a5">
+                        <Test name="testVFE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="b2">
+                    <TestCase name="JUnit_Test_b2">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="a3">
+                    <TestCase name="JUnit_Test_a3">
+                        <Test name="testVFE1"/>
+                    </TestCase>
+                </TestSuite>
+            </TestSuite>
+            <TestSuite name="opcodes">
+                <TestSuite name="opc_const">
+                    <TestCase name="JUnit_Test_opc_const">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aput">
+                    <TestCase name="JUnit_Test_aput">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iget_short">
+                    <TestCase name="JUnit_Test_iget_short">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_float">
+                    <TestCase name="JUnit_Test_add_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="int_to_byte">
+                    <TestCase name="JUnit_Test_int_to_byte">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_object_16">
+                    <TestCase name="JUnit_Test_move_object_16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iput_wide">
+                    <TestCase name="JUnit_Test_iput_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testN4"/>
+                        <Test name="testE5"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="ushr_long_2addr">
+                    <TestCase name="JUnit_Test_ushr_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_double_2addr">
+                    <TestCase name="JUnit_Test_mul_double_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_wide">
+                    <TestCase name="JUnit_Test_move_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="xor_long">
+                    <TestCase name="JUnit_Test_xor_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move">
+                    <TestCase name="JUnit_Test_move">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iget_byte">
+                    <TestCase name="JUnit_Test_iget_byte">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sparse_switch">
+                    <TestCase name="JUnit_Test_sparse_switch">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rsub_int">
+                    <TestCase name="JUnit_Test_rsub_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testB10"/>
+                        <Test name="testB11"/>
+                        <Test name="testB12"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="double_to_int">
+                    <TestCase name="JUnit_Test_double_to_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_long_2addr">
+                    <TestCase name="JUnit_Test_rem_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_int">
+                    <TestCase name="JUnit_Test_add_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="int_to_long">
+                    <TestCase name="JUnit_Test_int_to_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_from16">
+                    <TestCase name="JUnit_Test_move_from16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aget_short">
+                    <TestCase name="JUnit_Test_aget_short">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="xor_int_lit16">
+                    <TestCase name="JUnit_Test_xor_int_lit16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_lt">
+                    <TestCase name="JUnit_Test_if_lt">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="neg_long">
+                    <TestCase name="JUnit_Test_neg_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iput_boolean">
+                    <TestCase name="JUnit_Test_iput_boolean">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="packed_switch">
+                    <TestCase name="JUnit_Test_packed_switch">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_int_2addr">
+                    <TestCase name="JUnit_Test_rem_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_float_2addr">
+                    <TestCase name="JUnit_Test_mul_float_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="filled_new_array_range">
+                    <TestCase name="JUnit_Test_filled_new_array_range">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="or_long">
+                    <TestCase name="JUnit_Test_or_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iget_object">
+                    <TestCase name="JUnit_Test_iget_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testVFE17"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_gtz">
+                    <TestCase name="JUnit_Test_if_gtz">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iget_boolean">
+                    <TestCase name="JUnit_Test_iget_boolean">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="xor_int">
+                    <TestCase name="JUnit_Test_xor_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_double">
+                    <TestCase name="JUnit_Test_div_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_float">
+                    <TestCase name="JUnit_Test_div_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aput_char">
+                    <TestCase name="JUnit_Test_aput_char">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="double_to_float">
+                    <TestCase name="JUnit_Test_double_to_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_double">
+                    <TestCase name="JUnit_Test_mul_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shl_long">
+                    <TestCase name="JUnit_Test_shl_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="not_int">
+                    <TestCase name="JUnit_Test_not_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aget">
+                    <TestCase name="JUnit_Test_aget">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="instance_of">
+                    <TestCase name="JUnit_Test_instance_of">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sget">
+                    <TestCase name="JUnit_Test_sget">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iget_char">
+                    <TestCase name="JUnit_Test_iget_char">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_static">
+                    <TestCase name="JUnit_Test_invoke_static">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testE7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sput_short">
+                    <TestCase name="JUnit_Test_sput_short">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="int_to_double">
+                    <TestCase name="JUnit_Test_int_to_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_result">
+                    <TestCase name="JUnit_Test_move_result">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_le">
+                    <TestCase name="JUnit_Test_if_le">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_wide_from16">
+                    <TestCase name="JUnit_Test_move_wide_from16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shr_int_lit8">
+                    <TestCase name="JUnit_Test_shr_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_double_2addr">
+                    <TestCase name="JUnit_Test_rem_double_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_int_lit16">
+                    <TestCase name="JUnit_Test_add_int_lit16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aget_object">
+                    <TestCase name="JUnit_Test_aget_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iput_byte">
+                    <TestCase name="JUnit_Test_iput_byte">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_int_lit16">
+                    <TestCase name="JUnit_Test_mul_int_lit16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_float_2addr">
+                    <TestCase name="JUnit_Test_div_float_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_interface">
+                    <TestCase name="JUnit_Test_invoke_interface">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testE5"/>
+                        <Test name="testE6"/>
+                        <Test name="testE4"/>
+                        <Test name="testE4_2"/>
+                        <Test name="testVFE21"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_high16">
+                    <TestCase name="JUnit_Test_const_high16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shr_int_2addr">
+                    <TestCase name="JUnit_Test_shr_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_result_object">
+                    <TestCase name="JUnit_Test_move_result_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_nez">
+                    <TestCase name="JUnit_Test_if_nez">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="filled_new_array">
+                    <TestCase name="JUnit_Test_filled_new_array">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="cmpg_float">
+                    <TestCase name="JUnit_Test_cmpg_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="xor_int_2addr">
+                    <TestCase name="JUnit_Test_xor_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iput_char">
+                    <TestCase name="JUnit_Test_iput_char">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="and_int">
+                    <TestCase name="JUnit_Test_and_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="and_long">
+                    <TestCase name="JUnit_Test_and_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="int_to_char">
+                    <TestCase name="JUnit_Test_int_to_char">
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="neg_double">
+                    <TestCase name="JUnit_Test_neg_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_int_2addr">
+                    <TestCase name="JUnit_Test_sub_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_int_lit8">
+                    <TestCase name="JUnit_Test_mul_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_lez">
+                    <TestCase name="JUnit_Test_if_lez">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="float_to_long">
+                    <TestCase name="JUnit_Test_float_to_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_super_range">
+                    <TestCase name="JUnit_Test_invoke_super_range">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sput_byte">
+                    <TestCase name="JUnit_Test_sput_byte">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_int_2addr">
+                    <TestCase name="JUnit_Test_div_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="long_to_double">
+                    <TestCase name="JUnit_Test_long_to_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_double_2addr">
+                    <TestCase name="JUnit_Test_sub_double_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testB10"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_double">
+                    <TestCase name="JUnit_Test_sub_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testB10"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aput_wide">
+                    <TestCase name="JUnit_Test_aput_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                        <Test name="testN3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_object">
+                    <TestCase name="JUnit_Test_move_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="not_long">
+                    <TestCase name="JUnit_Test_not_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="array_length">
+                    <TestCase name="JUnit_Test_array_length">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testNPE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_super">
+                    <TestCase name="JUnit_Test_invoke_super">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_class">
+                    <TestCase name="JUnit_Test_const_class">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_int_lit16">
+                    <TestCase name="JUnit_Test_div_int_lit16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_wide_32">
+                    <TestCase name="JUnit_Test_const_wide_32">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="monitor_exit">
+                    <TestCase name="JUnit_Test_monitor_exit">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testE1"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_int_2addr">
+                    <TestCase name="JUnit_Test_add_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="xor_long_2addr">
+                    <TestCase name="JUnit_Test_xor_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sput_boolean">
+                    <TestCase name="JUnit_Test_sput_boolean">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iput_object">
+                    <TestCase name="JUnit_Test_iput_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_float">
+                    <TestCase name="JUnit_Test_mul_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_virtual_range">
+                    <TestCase name="JUnit_Test_invoke_virtual_range">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE4"/>
+                        <Test name="testN7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_double_2addr">
+                    <TestCase name="JUnit_Test_div_double_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="long_to_float">
+                    <TestCase name="JUnit_Test_long_to_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="and_long_2addr">
+                    <TestCase name="JUnit_Test_and_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="return_object">
+                    <TestCase name="JUnit_Test_return_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN7"/>
+                        <Test name="testN8"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aget_byte">
+                    <TestCase name="JUnit_Test_aget_byte">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="cmpl_double">
+                    <TestCase name="JUnit_Test_cmpl_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_exception">
+                    <TestCase name="JUnit_Test_move_exception">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_wide_16">
+                    <TestCase name="JUnit_Test_const_wide_16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_float">
+                    <TestCase name="JUnit_Test_sub_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testB10"/>
+                        <Test name="testB11"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iget">
+                    <TestCase name="JUnit_Test_iget">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="or_int_lit8">
+                    <TestCase name="JUnit_Test_or_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shl_long_2addr">
+                    <TestCase name="JUnit_Test_shl_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shl_int_2addr">
+                    <TestCase name="JUnit_Test_shl_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_wide_high16">
+                    <TestCase name="JUnit_Test_const_wide_high16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="ushr_int_lit8">
+                    <TestCase name="JUnit_Test_ushr_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_object_from16">
+                    <TestCase name="JUnit_Test_move_object_from16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aget_wide">
+                    <TestCase name="JUnit_Test_aget_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                        <Test name="testN3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_gez">
+                    <TestCase name="JUnit_Test_if_gez">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_float">
+                    <TestCase name="JUnit_Test_rem_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iput_short">
+                    <TestCase name="JUnit_Test_iput_short">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="or_long_2addr">
+                    <TestCase name="JUnit_Test_or_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_double_2addr">
+                    <TestCase name="JUnit_Test_add_double_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iget_wide">
+                    <TestCase name="JUnit_Test_iget_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="xor_int_lit8">
+                    <TestCase name="JUnit_Test_xor_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="or_int_2addr">
+                    <TestCase name="JUnit_Test_or_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="double_to_long">
+                    <TestCase name="JUnit_Test_double_to_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shl_int_lit8">
+                    <TestCase name="JUnit_Test_shl_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sput_char">
+                    <TestCase name="JUnit_Test_sput_char">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="new_array">
+                    <TestCase name="JUnit_Test_new_array">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="int_to_float">
+                    <TestCase name="JUnit_Test_int_to_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="and_int_lit16">
+                    <TestCase name="JUnit_Test_and_int_lit16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="goto_16">
+                    <TestCase name="JUnit_Test_goto_16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="ushr_int">
+                    <TestCase name="JUnit_Test_ushr_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aget_boolean">
+                    <TestCase name="JUnit_Test_aget_boolean">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="opc_goto">
+                    <TestCase name="JUnit_Test_opc_goto">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="cmpg_double">
+                    <TestCase name="JUnit_Test_cmpg_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="and_int_lit8">
+                    <TestCase name="JUnit_Test_and_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_double">
+                    <TestCase name="JUnit_Test_rem_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_long_2addr">
+                    <TestCase name="JUnit_Test_div_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sput_object">
+                    <TestCase name="JUnit_Test_sput_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_string">
+                    <TestCase name="JUnit_Test_const_string">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_int_lit8">
+                    <TestCase name="JUnit_Test_add_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_string_jumbo">
+                    <TestCase name="JUnit_Test_const_string_jumbo">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_float_2addr">
+                    <TestCase name="JUnit_Test_sub_float_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testB10"/>
+                        <Test name="testB11"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="ushr_int_2addr">
+                    <TestCase name="JUnit_Test_ushr_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_eq">
+                    <TestCase name="JUnit_Test_if_eq">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aput_short">
+                    <TestCase name="JUnit_Test_aput_short">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="monitor_enter">
+                    <TestCase name="JUnit_Test_monitor_enter">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_long">
+                    <TestCase name="JUnit_Test_mul_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shr_long_2addr">
+                    <TestCase name="JUnit_Test_shr_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shl_int">
+                    <TestCase name="JUnit_Test_shl_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_int_lit16">
+                    <TestCase name="JUnit_Test_rem_int_lit16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="neg_float">
+                    <TestCase name="JUnit_Test_neg_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="float_to_int">
+                    <TestCase name="JUnit_Test_float_to_int">
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sget_char">
+                    <TestCase name="JUnit_Test_sget_char">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_int">
+                    <TestCase name="JUnit_Test_div_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="fill_array_data">
+                    <TestCase name="JUnit_Test_fill_array_data">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_4">
+                    <TestCase name="JUnit_Test_const_4">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="nop">
+                    <TestCase name="JUnit_Test_nop">
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_int_lit8">
+                    <TestCase name="JUnit_Test_rem_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_long_2addr">
+                    <TestCase name="JUnit_Test_mul_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_float_2addr">
+                    <TestCase name="JUnit_Test_add_float_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_long">
+                    <TestCase name="JUnit_Test_div_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_long">
+                    <TestCase name="JUnit_Test_rem_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="or_int">
+                    <TestCase name="JUnit_Test_or_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sget_byte">
+                    <TestCase name="JUnit_Test_sget_byte">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_direct">
+                    <TestCase name="JUnit_Test_invoke_direct">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN2"/>
+                        <Test name="testE3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testE5"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testVFE21"/>
+                        <Test name="testN7"/>
+                        <Test name="testVFE20"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sget_short">
+                    <TestCase name="JUnit_Test_sget_short">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_interface_range">
+                    <TestCase name="JUnit_Test_invoke_interface_range">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testE5"/>
+                        <Test name="testE6"/>
+                        <Test name="testE4"/>
+                        <Test name="testVFE21"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="int_to_short">
+                    <TestCase name="JUnit_Test_int_to_short">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                        <Test name="testN7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="check_cast">
+                    <TestCase name="JUnit_Test_check_cast">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="and_int_2addr">
+                    <TestCase name="JUnit_Test_and_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="ushr_long">
+                    <TestCase name="JUnit_Test_ushr_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="long_to_int">
+                    <TestCase name="JUnit_Test_long_to_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="cmpl_float">
+                    <TestCase name="JUnit_Test_cmpl_float">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_16">
+                    <TestCase name="JUnit_Test_const_16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shr_int">
+                    <TestCase name="JUnit_Test_shr_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_long">
+                    <TestCase name="JUnit_Test_sub_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="opc_throw">
+                    <TestCase name="JUnit_Test_opc_throw">
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="goto_32">
+                    <TestCase name="JUnit_Test_goto_32">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="const_wide">
+                    <TestCase name="JUnit_Test_const_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_ltz">
+                    <TestCase name="JUnit_Test_if_ltz">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="neg_int">
+                    <TestCase name="JUnit_Test_neg_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_float_2addr">
+                    <TestCase name="JUnit_Test_rem_float_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_double">
+                    <TestCase name="JUnit_Test_add_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sget_object">
+                    <TestCase name="JUnit_Test_sget_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rem_int">
+                    <TestCase name="JUnit_Test_rem_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_16">
+                    <TestCase name="JUnit_Test_move_16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="new_instance">
+                    <TestCase name="JUnit_Test_new_instance">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testE5"/>
+                        <Test name="testE4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_eqz">
+                    <TestCase name="JUnit_Test_if_eqz">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_virtual">
+                    <TestCase name="JUnit_Test_invoke_virtual">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aput_object">
+                    <TestCase name="JUnit_Test_aput_object">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                        <Test name="testN3"/>
+                        <Test name="testN4"/>
+                        <Test name="testE4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aput_boolean">
+                    <TestCase name="JUnit_Test_aput_boolean">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                        <Test name="testVFE10"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_ne">
+                    <TestCase name="JUnit_Test_if_ne">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sput_wide">
+                    <TestCase name="JUnit_Test_sput_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_long">
+                    <TestCase name="JUnit_Test_add_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sget_wide">
+                    <TestCase name="JUnit_Test_sget_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_ge">
+                    <TestCase name="JUnit_Test_if_ge">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_int">
+                    <TestCase name="JUnit_Test_mul_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_int">
+                    <TestCase name="JUnit_Test_sub_int">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="or_int_lit16">
+                    <TestCase name="JUnit_Test_or_int_lit16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aput_byte">
+                    <TestCase name="JUnit_Test_aput_byte">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sub_long_2addr">
+                    <TestCase name="JUnit_Test_sub_long_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_static_range">
+                    <TestCase name="JUnit_Test_invoke_static_range">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testE7"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="add_long_2addr">
+                    <TestCase name="JUnit_Test_add_long_2addr">
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="if_gt">
+                    <TestCase name="JUnit_Test_if_gt">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="div_int_lit8">
+                    <TestCase name="JUnit_Test_div_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                        <Test name="testN6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sget_boolean">
+                    <TestCase name="JUnit_Test_sget_boolean">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="invoke_direct_range">
+                    <TestCase name="JUnit_Test_invoke_direct_range">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN2"/>
+                        <Test name="testE3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testE5"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testVFE21"/>
+                        <Test name="testN7"/>
+                        <Test name="testVFE20"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="return_wide">
+                    <TestCase name="JUnit_Test_return_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="return_void">
+                    <TestCase name="JUnit_Test_return_void">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_result_wide">
+                    <TestCase name="JUnit_Test_move_result_wide">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testN1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="aget_char">
+                    <TestCase name="JUnit_Test_aget_char">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE1"/>
+                        <Test name="testE2"/>
+                        <Test name="testE3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="opc_return">
+                    <TestCase name="JUnit_Test_opc_return">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testN1"/>
+                        <Test name="testE1"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="sput">
+                    <TestCase name="JUnit_Test_sput">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testN4"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                        <Test name="testVFE19"/>
+                        <Test name="testE6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="iput">
+                    <TestCase name="JUnit_Test_iput">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE11"/>
+                        <Test name="testVFE12"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testVFE7"/>
+                        <Test name="testVFE8"/>
+                        <Test name="testVFE9"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testE2"/>
+                        <Test name="testN3"/>
+                        <Test name="testVFE10"/>
+                        <Test name="testVFE13"/>
+                        <Test name="testVFE14"/>
+                        <Test name="testVFE15"/>
+                        <Test name="testVFE16"/>
+                        <Test name="testVFE30"/>
+                        <Test name="testN4"/>
+                        <Test name="testE5"/>
+                        <Test name="testVFE17"/>
+                        <Test name="testVFE18"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="float_to_double">
+                    <TestCase name="JUnit_Test_float_to_double">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="rsub_int_lit8">
+                    <TestCase name="JUnit_Test_rsub_int_lit8">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                        <Test name="testB7"/>
+                        <Test name="testB8"/>
+                        <Test name="testB9"/>
+                        <Test name="testB10"/>
+                        <Test name="testB11"/>
+                        <Test name="testB12"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="move_wide_16">
+                    <TestCase name="JUnit_Test_move_wide_16">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="shr_long">
+                    <TestCase name="JUnit_Test_shr_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testVFE6"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testN4"/>
+                        <Test name="testN5"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="mul_int_2addr">
+                    <TestCase name="JUnit_Test_mul_int_2addr">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testN4"/>
+                    </TestCase>
+                </TestSuite>
+                <TestSuite name="cmp_long">
+                    <TestCase name="JUnit_Test_cmp_long">
+                        <Test name="testVFE1"/>
+                        <Test name="testVFE2"/>
+                        <Test name="testVFE3"/>
+                        <Test name="testVFE4"/>
+                        <Test name="testVFE5"/>
+                        <Test name="testN1"/>
+                        <Test name="testN2"/>
+                        <Test name="testN3"/>
+                        <Test name="testB1"/>
+                        <Test name="testB2"/>
+                        <Test name="testB3"/>
+                        <Test name="testB4"/>
+                        <Test name="testB5"/>
+                        <Test name="testB6"/>
+                    </TestCase>
+                </TestSuite>
+            </TestSuite>
+        </TestSuite>
+    </TestSuite>
+</TestPackage>

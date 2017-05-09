@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.net" appPackageName="android.net" name="CtsNetTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="net">
+<TestSuite name="cts">
+<TestCase name="ConnectivityManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetActiveNetworkInfo" />
+<Test name="testGetAllNetworkInfo" />
+<Test name="testGetNetworkInfo" />
+<Test name="testIsNetworkSupported" />
+<Test name="testIsNetworkTypeValid" />
+<Test name="testRequestRouteToHost" />
+<Test name="testSetNetworkPreference" />
+<Test name="testStartUsingNetworkFeature" />
+<Test name="testStartUsingNetworkFeature_enableHipri" />
+<Test name="testTest" />
+</TestCase>
+<TestCase name="CredentialsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCredentials" />
+</TestCase>
+<TestCase name="DhcpInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="DnsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDnsWorks" />
+</TestCase>
+<TestCase name="LocalServerSocketTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLocalServerSocket" />
+</TestCase>
+<TestCase name="LocalSocketAddressTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testNewLocalSocketAddressWithDefaultNamespace" />
+</TestCase>
+<TestCase name="LocalSocketAddress_NamespaceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="LocalSocketTest">
+<Test name="testAccessors" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLocalConnections" />
+</TestCase>
+<TestCase name="MailToTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testParseMailToURI" />
+</TestCase>
+<TestCase name="NetworkInfoTest">
+<Test name="testAccessNetworkInfoProperties" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="NetworkInfo_DetailedStateTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="NetworkInfo_StateTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="ProxyTest">
+<Test name="testAccessProperties" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SSLCertificateSocketFactoryTest">
+<Test name="testAccessProperties" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCreateSocket" />
+<Test name="test_createSocket_bind" />
+<Test name="test_createSocket_simple" />
+<Test name="test_createSocket_wrapping" />
+</TestCase>
+<TestCase name="TrafficStatsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testThreadStatsTag" />
+<Test name="testTrafficStatsForLocalhost" />
+<Test name="testValidMobileStats" />
+<Test name="testValidTotalStats" />
+</TestCase>
+<TestCase name="UriTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBuildUpon" />
+<Test name="testCompareTo" />
+<Test name="testEncodeAndDecode" />
+<Test name="testEqualsAndHashCode" />
+<Test name="testFromFile" />
+<Test name="testHierarchicalUris" />
+<Test name="testNormalizeScheme" />
+<Test name="testOpaqueUri" />
+<Test name="testParcelling" />
+<Test name="testPathOperations" />
+<Test name="testQueryParameters" />
+<Test name="testStringUri" />
+</TestCase>
+<TestCase name="Uri_BuilderTest">
+<Test name="testBuilderOperations" />
+</TestCase>
+<TestCase name="UrlQuerySanitizerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testUrlQuerySanitizer" />
+</TestCase>
+<TestCase name="UrlQuerySanitizer_IllegalCharacterValueSanitizerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSanitize" />
+</TestCase>
+<TestCase name="UrlQuerySanitizer_ParameterValuePairTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="VpnServiceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testEstablish" />
+<Test name="testPrepare" />
+<Test name="testProtect_DatagramSocket" />
+<Test name="testProtect_Socket" />
+<Test name="testProtect_int" />
+<Test name="testTunDevice" />
+</TestCase>
+</TestSuite>
+<TestSuite name="http">
+<TestSuite name="cts">
+<TestCase name="ApacheHttpClientTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testExecute_withMobile" />
+<Test name="testExecute_withWifi" />
+</TestCase>
+<TestCase name="SslCertificateTest">
+<Test name="testConstructor" />
+<Test name="testSslCertificate" />
+<Test name="testState" />
+</TestCase>
+<TestCase name="SslCertificate_DNameTest">
+<Test name="testDName" />
+</TestCase>
+<TestCase name="SslErrorTest">
+<Test name="testAddError" />
+<Test name="testAddErrorIgnoresInvalidValues" />
+<Test name="testConstructorIgnoresInvalidValues" />
+<Test name="testGetPrimaryError" />
+<Test name="testGetPrimaryErrorWithEmptySet" />
+<Test name="testGetUrl" />
+<Test name="testGetUrlWithDeprecatedConstructor" />
+<Test name="testHasError" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="ipv6">
+<TestSuite name="cts">
+<TestCase name="PingTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLoopbackPing" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="rtp">
+<TestSuite name="cts">
+<TestCase name="AudioCodecTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstants" />
+<Test name="testGetCodec" />
+<Test name="testGetCodecs" />
+</TestCase>
+<TestCase name="AudioGroupTest">
+<Test name="testAdd" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClear" />
+<Test name="testDoubleClear" />
+<Test name="testRemove" />
+<Test name="testSetMode" />
+<Test name="testTraffic" />
+</TestCase>
+<TestCase name="AudioStreamTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDoubleRelease" />
+<Test name="testSetCodec" />
+<Test name="testSetDtmfType" />
+<Test name="testV4Stream" />
+<Test name="testV6Stream" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="wifi">
+<TestSuite name="cts">
+<TestCase name="ConcurrencyTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConcurrency" />
+</TestCase>
+<TestCase name="NsdManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="ScanResultTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testScanResultProperties" />
+<Test name="testScanResultTimeStamp" />
+</TestCase>
+<TestCase name="SupplicantStateTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIsValidState" />
+</TestCase>
+<TestCase name="WifiConfigurationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testWifiConfiguration" />
+</TestCase>
+<TestCase name="WifiEnterpriseConfigTest">
+<Test name="testAddEapNetwork" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSettersAndGetters" />
+</TestCase>
+<TestCase name="WifiInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testWifiInfoProperties" />
+</TestCase>
+<TestCase name="WifiManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSignal" />
+<Test name="testWifiManagerActions" />
+<Test name="testWifiManagerNetWork" />
+<Test name="testWifiManagerProperties" />
+<Test name="testWifiWatchdog" />
+</TestCase>
+<TestCase name="WifiManager_WifiLockTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testWifiLock" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

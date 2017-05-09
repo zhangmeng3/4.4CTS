@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="com.android.cts.jank" name="CtsHostJank" testType="hostSideOnly" jarPath="CtsHostJank.jar" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="jank">
+<TestSuite name="opengl">
+<TestCase name="CtsHostJankOpenGl">
+<Test name="testContextSwitch" />
+<Test name="testFullPipeline" />
+<Test name="testPixelOutput" />
+<Test name="testShaderPerf" />
+</TestCase>
+</TestSuite>
+<TestSuite name="ui">
+<TestCase name="CtsHostJankUi">
+<Test name="testScrolling" />
+</TestCase>
+</TestSuite>
+<TestCase name="CtsHostJankTest">
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

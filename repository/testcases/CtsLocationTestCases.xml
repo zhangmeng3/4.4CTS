@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.location" appPackageName="android.location" name="CtsLocationTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="location">
+<TestSuite name="cts">
+<TestCase name="AddressTest">
+<Test name="testAccessAdminArea" />
+<Test name="testAccessCountryCode" />
+<Test name="testAccessCountryName" />
+<Test name="testAccessExtras" />
+<Test name="testAccessFeatureName" />
+<Test name="testAccessLatitude" />
+<Test name="testAccessLocality" />
+<Test name="testAccessLongitude" />
+<Test name="testAccessPhone" />
+<Test name="testAccessPostalCode" />
+<Test name="testAccessSubAdminArea" />
+<Test name="testAccessThoroughfare" />
+<Test name="testAccessUrl" />
+<Test name="testAddressLine" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetLocale" />
+<Test name="testToString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="CriteriaTest">
+<Test name="testAccessAccuracy" />
+<Test name="testAccessAltitudeRequired" />
+<Test name="testAccessBearingRequired" />
+<Test name="testAccessCostAllowed" />
+<Test name="testAccessPowerRequirement" />
+<Test name="testAccessSpeedRequired" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="GeocoderTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetFromLocation" />
+<Test name="testGetFromLocationName" />
+</TestCase>
+<TestCase name="GpsSatelliteTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetAzimuth" />
+<Test name="testGetElevation" />
+<Test name="testGetPrn" />
+<Test name="testGetSnr" />
+<Test name="testHasAlmanac" />
+<Test name="testHasEphemeris" />
+<Test name="testUsedInFix" />
+</TestCase>
+<TestCase name="GpsStatusTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetSatellites" />
+<Test name="testGetTimeToFirstFix" />
+</TestCase>
+<TestCase name="LocationManagerTest">
+<Test name="testAddProximityAlert" />
+<Test name="testEnterProximity" />
+<Test name="testEnterProximity_noexpire" />
+<Test name="testExitProximity" />
+<Test name="testGetGpsStatus" />
+<Test name="testGetLastKnownLocation" />
+<Test name="testGetProvider" />
+<Test name="testGetProviders" />
+<Test name="testGetProvidersWithCriteria" />
+<Test name="testGpsStatusListener" />
+<Test name="testInitiallyWithinProximity" />
+<Test name="testIsProviderEnabled" />
+<Test name="testLocationUpdatesWithLocationListener" />
+<Test name="testLocationUpdatesWithLocationListenerAndLooper" />
+<Test name="testLocationUpdatesWithPendingIntent" />
+<Test name="testModeAndProviderApisConsistent" />
+<Test name="testRemoveTestProvider" />
+<Test name="testReplaceRealProvidersWithMocks" />
+<Test name="testSendExtraCommand" />
+<Test name="testSetTestProviderStatus" />
+</TestCase>
+<TestCase name="LocationProviderTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetName" />
+<Test name="testMeetsCriteria" />
+</TestCase>
+<TestCase name="LocationTest">
+<Test name="testAccessAccuracy" />
+<Test name="testAccessAltitude" />
+<Test name="testAccessBearing" />
+<Test name="testAccessExtras" />
+<Test name="testAccessLatitude" />
+<Test name="testAccessLongitude" />
+<Test name="testAccessProvider" />
+<Test name="testAccessSpeed" />
+<Test name="testAccessTime" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBearingTo" />
+<Test name="testConstructor" />
+<Test name="testConvert_CoordinateToRepresentation" />
+<Test name="testConvert_RepresentationToCoordinate" />
+<Test name="testDescribeContents" />
+<Test name="testDistanceBetween" />
+<Test name="testDistanceTo" />
+<Test name="testDump" />
+<Test name="testSet" />
+<Test name="testToString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

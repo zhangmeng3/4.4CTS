@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.app.cts" appPackageName="android.app" name="CtsAppTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="app">
+<TestSuite name="backup">
+<TestSuite name="cts">
+<TestCase name="BackupAgentHelperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBackupAgentHelper" />
+</TestCase>
+<TestCase name="BackupAgentTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBackupAgent" />
+</TestCase>
+<TestCase name="BackupManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBackupManager" />
+</TestCase>
+<TestCase name="FileBackupHelperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="SharedPreferencesBackupHelperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="cts">
+<TestCase name="ActionBarTest">
+<Test name="testAddTab" />
+</TestCase>
+<TestCase name="ActivityGroupTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testTabBasic" />
+<Test name="testTabDialog" />
+<Test name="testTabScreen" />
+</TestCase>
+<TestCase name="ActivityManagerMemoryClassTest">
+<Test name="testGetMemoryClass" />
+</TestCase>
+<TestCase name="ActivityManagerMemoryInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDescribeContents" />
+<Test name="testReadFromParcel" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="ActivityManagerProcessErrorStateInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testReadFromParcel" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="ActivityManagerRecentTaskInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testReadFromParcel" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="ActivityManagerRunningTaskInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testReadFromParcel" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="ActivityManagerTest">
+<Test name="testGetDeviceConfigurationInfo" />
+<Test name="testGetMemoryInfo" />
+<Test name="testGetProcessInErrorState" />
+<Test name="testGetRecentTasks" />
+<Test name="testGetRunningAppProcesses" />
+<Test name="testGetRunningServices" />
+<Test name="testGetRunningTasks" />
+<Test name="testIsRunningInTestHarness" />
+<Test name="testIsUserAMonkey" />
+<Test name="testRestartPackage" />
+</TestCase>
+<TestCase name="ActivityManager_RunningAppProcessInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRunningAppProcessInfo" />
+</TestCase>
+<TestCase name="ActivityManager_RunningServiceInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testReadFromParcel" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="AlarmManagerTest">
+<Test name="testAlarmTriggersImmediatelyIfSetTimeIsNegative" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCancel" />
+<Test name="testSetInexactRepeating" />
+<Test name="testSetRepeating" />
+<Test name="testSetTypes" />
+</TestCase>
+<TestCase name="AlertDialogTest">
+<Test name="testAlertDialog" />
+<Test name="testAlertDialogCancelable" />
+<Test name="testAlertDialogDeprecatedAPI" />
+<Test name="testAlertDialogDeprecatedAPIWithMessage" />
+<Test name="testAlertDialogNotCancelable" />
+<Test name="testAlertDialogTheme" />
+<Test name="testCallback" />
+<Test name="testCustomAlertDialog" />
+<Test name="testCustomAlertDialogView" />
+</TestCase>
+<TestCase name="AlertDialog_BuilderTest">
+<Test name="testConstructor" />
+<Test name="testCreate" />
+<Test name="testDisableCancelable" />
+<Test name="testSetAdapter" />
+<Test name="testSetCancelable" />
+<Test name="testSetCursor" />
+<Test name="testSetIconWithParamDrawable" />
+<Test name="testSetIconWithParamInt" />
+<Test name="testSetInverseBackgroundForced" />
+<Test name="testSetItemsWithParamCharSequence" />
+<Test name="testSetItemsWithParamInt" />
+<Test name="testSetMultiChoiceItemsWithParamCharSequence" />
+<Test name="testSetMultiChoiceItemsWithParamCursor" />
+<Test name="testSetMultiChoiceItemsWithParamInt" />
+<Test name="testSetNegativeButtonWithParamCharSequence" />
+<Test name="testSetNegativeButtonWithParamInt" />
+<Test name="testSetNeutralButtonWithParamCharSequence" />
+<Test name="testSetNeutralButtonWithParamInt" />
+<Test name="testSetOnCancelListener" />
+<Test name="testSetOnItemSelectedListener" />
+<Test name="testSetOnKeyListener" />
+<Test name="testSetPositiveButtonWithParamCharSequence" />
+<Test name="testSetPositiveButtonWithParamInt" />
+<Test name="testSetSingleChoiceItems" />
+<Test name="testSetSingleChoiceItemsWithParamCharSequence" />
+<Test name="testSetSingleChoiceItemsWithParamCursor" />
+<Test name="testSetSingleChoiceItemsWithParamInt" />
+<Test name="testSetView" />
+<Test name="testSetViewCustom" />
+<Test name="testShow" />
+</TestCase>
+<TestCase name="AliasActivityTest">
+<Test name="testAliasActivity" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="ApplicationTest">
+<Test name="testApplication" />
+</TestCase>
+<TestCase name="CTSActivityTestCaseBase">
+</TestCase>
+<TestCase name="DialogTest">
+<Test name="testAccessOwnerActivity" />
+<Test name="testCancel_listener" />
+<Test name="testCancel_noListener" />
+<Test name="testConstructor" />
+<Test name="testConstructor_protectedCancellable" />
+<Test name="testConstructor_protectedNotCancellable" />
+<Test name="testContextMenu" />
+<Test name="testDispatchKeyEvent" />
+<Test name="testGetCurrentFocus" />
+<Test name="testGetLayoutInflater" />
+<Test name="testOnContentChanged" />
+<Test name="testOnKeyDownKeyUp" />
+<Test name="testOnKeyMultiple" />
+<Test name="testOnSaveInstanceState" />
+<Test name="testOnSearchRequested" />
+<Test name="testOnStartCreateStop" />
+<Test name="testOnWindowAttributesChanged" />
+<Test name="testOnWindowFocusChanged" />
+<Test name="testRequestWindowFeature" />
+<Test name="testSetCancelMessage" />
+<Test name="testSetCancelable_true" />
+<Test name="testSetCancellable_false" />
+<Test name="testSetContentView" />
+<Test name="testSetDismissMessage" />
+<Test name="testSetFeatureDrawable" />
+<Test name="testSetFeatureDrawableAlpha" />
+<Test name="testSetFeatureDrawableResource" />
+<Test name="testSetFeatureDrawableUri" />
+<Test name="testSetOnDismissListener_listener" />
+<Test name="testSetOnDismissListener_noListener" />
+<Test name="testSetTitle" />
+<Test name="testShow" />
+<Test name="testTakeKeyEvents" />
+<Test name="testTouchEvent" />
+<Test name="testTrackballEvent" />
+</TestCase>
+<TestCase name="DownloadManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDownloadManager" />
+<Test name="testDownloadManagerDestination" />
+<Test name="testDownloadManagerDestinationExtension" />
+<Test name="testMinimumDownload" />
+</TestCase>
+<TestCase name="ExpandableListActivityTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCallback" />
+<Test name="testSelect" />
+<Test name="testView" />
+</TestCase>
+<TestCase name="FragmentTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testInstantiateFragment" />
+<Test name="testInstantiateNonFragment" />
+</TestCase>
+<TestCase name="InstrumentationTest">
+<Test name="testAllocCounting" />
+<Test name="testCallActivityOnCreate" />
+<Test name="testCallActivityOnNewIntent" />
+<Test name="testCallActivityOnPause" />
+<Test name="testCallActivityOnPostCreate" />
+<Test name="testCallActivityOnRestart" />
+<Test name="testCallActivityOnRestoreInstanceState" />
+<Test name="testCallActivityOnResume" />
+<Test name="testCallActivityOnSaveInstanceState" />
+<Test name="testCallActivityOnStart" />
+<Test name="testCallActivityOnStop" />
+<Test name="testCallActivityOnUserLeaving" />
+<Test name="testCallApplicationOnCreate" />
+<Test name="testConstructor" />
+<Test name="testContext" />
+<Test name="testGetComponentName" />
+<Test name="testInvokeContextMenuAction" />
+<Test name="testInvokeMenuActionSync" />
+<Test name="testMisc" />
+<Test name="testMonitor" />
+<Test name="testNewActivity" />
+<Test name="testNewApplication" />
+<Test name="testPerformanceSnapshot" />
+<Test name="testProfiling" />
+<Test name="testRunOnMainSync" />
+<Test name="testSendCharacterSync" />
+<Test name="testSendKeyDownUpSync" />
+<Test name="testSendKeySync" />
+<Test name="testSendPointerSync" />
+<Test name="testSendStringSync" />
+<Test name="testSendTrackballEventSync" />
+<Test name="testWaitForIdle" />
+</TestCase>
+<TestCase name="Instrumentation_ActivityMonitorTest">
+<Test name="testActivityMonitor" />
+</TestCase>
+<TestCase name="Instrumentation_ActivityResultTest">
+<Test name="testActivityResultOp" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="IntentServiceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testIntentServiceLifeCycle" />
+<Test name="testIntents" />
+</TestCase>
+<TestCase name="KeyguardManagerKeyguardLockTest">
+<Test name="testDisableKeyguard" />
+<Test name="testReenableKeyguard" />
+</TestCase>
+<TestCase name="KeyguardManagerTest">
+<Test name="testExitKeyguardSecurely" />
+<Test name="testInKeyguardRestrictedInputMode" />
+<Test name="testNewKeyguardLock" />
+</TestCase>
+<TestCase name="LaunchTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClearTopInCreate" />
+<Test name="testClearTopWhilResumed" />
+<Test name="testColdActivity" />
+<Test name="testColdScreen" />
+<Test name="testForwardResult" />
+<Test name="testLocalActivity" />
+<Test name="testLocalScreen" />
+</TestCase>
+<TestCase name="LauncherActivityTest">
+<Test name="testLaunchActivity" />
+</TestCase>
+<TestCase name="LauncherActivity_IconResizerTest">
+<Test name="testIconResizer" />
+</TestCase>
+<TestCase name="LauncherActivity_ListItemTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="LifecycleTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBasic" />
+<Test name="testDialog" />
+<Test name="testScreen" />
+<Test name="testTabBasic" />
+<Test name="testTabDialog" />
+<Test name="testTabScreen" />
+</TestCase>
+<TestCase name="LocalActivityManagerTest">
+<Test name="testConstructor" />
+<Test name="testDispatchCreate" />
+<Test name="testDispatchDestroy" />
+<Test name="testDispatchPauseFalse" />
+<Test name="testDispatchPauseTrue" />
+<Test name="testDispatchResume" />
+<Test name="testDispatchStop" />
+<Test name="testRemoveAllActivities" />
+<Test name="testSaveInstanceState" />
+<Test name="testStartActivity" />
+</TestCase>
+<TestCase name="NotificationManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCancel" />
+<Test name="testCancelAll" />
+<Test name="testNotify" />
+</TestCase>
+<TestCase name="NotificationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testSetLatestEventInfo" />
+<Test name="testToString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="PendingIntentTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCancel" />
+<Test name="testDescribeContents" />
+<Test name="testEquals" />
+<Test name="testGetActivity" />
+<Test name="testGetBroadcast" />
+<Test name="testGetService" />
+<Test name="testGetTargetPackage" />
+<Test name="testReadAndWritePendingIntentOrNullToParcel" />
+<Test name="testSend" />
+<Test name="testSendWithParamContextIntIntent" />
+<Test name="testSendWithParamContextIntIntentOnFinishedHandler" />
+<Test name="testSendWithParamInt" />
+<Test name="testSendWithParamIntOnFinishedHandler" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="PendingIntent_CanceledExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="ProgressDialogTest">
+<Test name="testAccessMax" />
+<Test name="testAccessProgress" />
+<Test name="testAccessSecondaryProgress" />
+<Test name="testIncrementProgressBy" />
+<Test name="testIncrementSecondaryProgressBy" />
+<Test name="testOnStartCreateStop" />
+<Test name="testProgressDialog1" />
+<Test name="testProgressDialog2" />
+<Test name="testSetIndeterminate" />
+<Test name="testSetIndeterminateDrawable" />
+<Test name="testSetMessage" />
+<Test name="testSetProgressDrawable" />
+<Test name="testSetProgressStyle" />
+<Test name="testShow1" />
+<Test name="testShow2" />
+<Test name="testShow3" />
+<Test name="testShow4" />
+</TestCase>
+<TestCase name="SearchManagerTest">
+<Test name="testSetOnCancelListener" />
+<Test name="testSetOnDismissListener" />
+<Test name="testStopSearch" />
+</TestCase>
+<TestCase name="ServiceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLocalBindAction" />
+<Test name="testLocalBindActionPermissions" />
+<Test name="testLocalBindAutoAction" />
+<Test name="testLocalBindAutoActionPermissionGranted" />
+<Test name="testLocalBindAutoClass" />
+<Test name="testLocalBindAutoClassPermissionGranted" />
+<Test name="testLocalBindClass" />
+<Test name="testLocalBindClassPermissions" />
+<Test name="testLocalStartAction" />
+<Test name="testLocalStartActionPermissions" />
+<Test name="testLocalStartClass" />
+<Test name="testLocalStartClassPermissions" />
+<Test name="testLocalUnbindTwice" />
+</TestCase>
+<TestCase name="SystemFeaturesTest">
+<Test name="testBluetoothFeature" />
+<Test name="testCameraFeatures" />
+<Test name="testFeatureNamespaces" />
+<Test name="testLiveWallpaperFeature" />
+<Test name="testLocationFeatures" />
+<Test name="testNfcFeatures" />
+<Test name="testScreenFeatures" />
+<Test name="testSensorFeatures" />
+<Test name="testSipFeatures" />
+<Test name="testTelephonyFeatures" />
+<Test name="testTouchScreenFeatures" />
+<Test name="testUsbAccessory" />
+<Test name="testWifiFeature" />
+</TestCase>
+<TestCase name="TabActivityTest">
+<Test name="testChildTitleCallback" />
+<Test name="testTabActivity" />
+</TestCase>
+<TestCase name="TimePickerDialogTest">
+<Test name="testOnClick" />
+<Test name="testOnRestoreInstanceState" />
+<Test name="testOnTimeChanged" />
+<Test name="testSaveInstanceState" />
+<Test name="testUpdateTime" />
+</TestCase>
+<TestCase name="WallpaperManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSuggestDesiredDimensions" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

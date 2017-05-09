@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.jni" appPackageName="android.jni" name="CtsJniTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="jni">
+<TestSuite name="cts">
+<TestCase name="JniCTest">
+<Test name="testEverything" />
+</TestCase>
+<TestCase name="JniCppTest">
+<Test name="testEverything" />
+</TestCase>
+<TestCase name="JniInstanceTest">
+<Test name="test_nop" />
+<Test name="test_returnBoolean" />
+<Test name="test_returnByte" />
+<Test name="test_returnChar" />
+<Test name="test_returnDouble" />
+<Test name="test_returnFloat" />
+<Test name="test_returnInt" />
+<Test name="test_returnLong" />
+<Test name="test_returnNull" />
+<Test name="test_returnShort" />
+<Test name="test_returnShortArray" />
+<Test name="test_returnString" />
+<Test name="test_returnStringArray" />
+<Test name="test_returnThis" />
+<Test name="test_takeBoolean" />
+<Test name="test_takeByte" />
+<Test name="test_takeChar" />
+<Test name="test_takeCoolHandLuke" />
+<Test name="test_takeDouble" />
+<Test name="test_takeFloat" />
+<Test name="test_takeInt" />
+<Test name="test_takeIntLong" />
+<Test name="test_takeLong" />
+<Test name="test_takeLongInt" />
+<Test name="test_takeNull" />
+<Test name="test_takeOneOfEach" />
+<Test name="test_takeShort" />
+<Test name="test_takeString" />
+<Test name="test_takeThis" />
+</TestCase>
+<TestCase name="JniStaticTest">
+<Test name="test_nop" />
+<Test name="test_returnBoolean" />
+<Test name="test_returnByte" />
+<Test name="test_returnChar" />
+<Test name="test_returnDouble" />
+<Test name="test_returnFloat" />
+<Test name="test_returnInstance" />
+<Test name="test_returnInt" />
+<Test name="test_returnLong" />
+<Test name="test_returnNull" />
+<Test name="test_returnShort" />
+<Test name="test_returnShortArray" />
+<Test name="test_returnString" />
+<Test name="test_returnStringArray" />
+<Test name="test_returnThisClass" />
+<Test name="test_takeBoolean" />
+<Test name="test_takeByte" />
+<Test name="test_takeChar" />
+<Test name="test_takeCoolHandLuke" />
+<Test name="test_takeDouble" />
+<Test name="test_takeFloat" />
+<Test name="test_takeInt" />
+<Test name="test_takeIntLong" />
+<Test name="test_takeLong" />
+<Test name="test_takeLongInt" />
+<Test name="test_takeNull" />
+<Test name="test_takeOneOfEach" />
+<Test name="test_takeShort" />
+<Test name="test_takeString" />
+<Test name="test_takeThisClass" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

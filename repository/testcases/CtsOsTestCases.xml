@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.os" appPackageName="android.os" name="CtsOsTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="os">
+<TestSuite name="cts">
+<TestCase name="AbiTest">
+<Test name="testNo64" />
+</TestCase>
+<TestCase name="AsyncTaskTest">
+<Test name="testAsyncTask" />
+<Test name="testAsyncTaskWithTimeout" />
+<Test name="testCancel" />
+<Test name="testCancelTooLate" />
+<Test name="testCancelWithInterrupt" />
+</TestCase>
+<TestCase name="BadParcelableExceptionTest">
+<Test name="testBadParcelableException" />
+</TestCase>
+<TestCase name="BinderTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClearCallingIdentity" />
+<Test name="testFlushPendingCommands" />
+<Test name="testInterfaceRelatedMethods" />
+<Test name="testJoinThreadPool" />
+<Test name="testSimpleMethods" />
+<Test name="testTransact" />
+</TestCase>
+<TestCase name="BuildTest">
+<Test name="testBuildConstants" />
+<Test name="testCpuAbi" />
+<Test name="testIsSecureUserBuild" />
+</TestCase>
+<TestCase name="BuildVersionTest">
+<Test name="testBuildFingerprint" />
+<Test name="testIncremental" />
+<Test name="testReleaseVersion" />
+</TestCase>
+<TestCase name="BundleTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBundle" />
+<Test name="testClear" />
+<Test name="testClone" />
+<Test name="testContainsKey" />
+<Test name="testDescribeContents" />
+<Test name="testEmptyStream" />
+<Test name="testGet" />
+<Test name="testGetBoolean1" />
+<Test name="testGetBoolean2" />
+<Test name="testGetBooleanArray" />
+<Test name="testGetBundle" />
+<Test name="testGetByte1" />
+<Test name="testGetByte2" />
+<Test name="testGetByteArray" />
+<Test name="testGetChar1" />
+<Test name="testGetChar2" />
+<Test name="testGetCharArray" />
+<Test name="testGetCharSequence" />
+<Test name="testGetCharSequenceArray" />
+<Test name="testGetCharSequenceArrayList" />
+<Test name="testGetDouble1" />
+<Test name="testGetDouble2" />
+<Test name="testGetDoubleArray" />
+<Test name="testGetFloat1" />
+<Test name="testGetFloat2" />
+<Test name="testGetFloatArray" />
+<Test name="testGetInt1" />
+<Test name="testGetInt2" />
+<Test name="testGetIntArray" />
+<Test name="testGetIntegerArrayList" />
+<Test name="testGetLong1" />
+<Test name="testGetLong2" />
+<Test name="testGetLongArray" />
+<Test name="testGetParcelable" />
+<Test name="testGetParcelableArray" />
+<Test name="testGetParcelableArrayList" />
+<Test name="testGetSerializable" />
+<Test name="testGetShort1" />
+<Test name="testGetShort2" />
+<Test name="testGetShortArray" />
+<Test name="testGetSparseParcelableArray" />
+<Test name="testGetString" />
+<Test name="testGetStringArray" />
+<Test name="testGetStringArrayList" />
+<Test name="testHasFileDescriptors" />
+<Test name="testKeySet" />
+<Test name="testPutAll" />
+<Test name="testSetClassLoader" />
+<Test name="testSize" />
+<Test name="testToString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="ConditionVariableTest">
+<Test name="testConditionVariable" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="CountDownTimerTest">
+<Test name="testCountDownTimer" />
+<Test name="testCountDownTimerCancel" />
+</TestCase>
+<TestCase name="DeadObjectExceptionTest">
+<Test name="testDeadObjectException" />
+</TestCase>
+<TestCase name="DebugTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDumpService" />
+<Test name="testGetAndReset" />
+<Test name="testPrintLoadedClasses" />
+<Test name="testStartMethodTracing" />
+<Test name="testStartNativeTracing" />
+<Test name="testThreadCpuTimeNanos" />
+<Test name="testWaitingForDebugger" />
+</TestCase>
+<TestCase name="Debug_InstructionCountTest">
+<Test name="testDebugInstructionCount" />
+</TestCase>
+<TestCase name="EnvironmentTest">
+<Test name="testEnvironment" />
+<Test name="testNoTmpDir" />
+</TestCase>
+<TestCase name="FileAccessPermissionTest">
+<Test name="testAccessAppDataDir" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testApksAlwaysReadable" />
+<Test name="testSystemDirAccess" />
+</TestCase>
+<TestCase name="FileObserverTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testFileObserver" />
+</TestCase>
+<TestCase name="HandlerTest">
+<Test name="testConstructor" />
+<Test name="testDispatchMessage1" />
+<Test name="testDispatchMessage2" />
+<Test name="testDump" />
+<Test name="testGetLooper" />
+<Test name="testHasMessagesWithInt" />
+<Test name="testHasMessagesWithObject" />
+<Test name="testObtainMessage" />
+<Test name="testObtainMessageWithInt" />
+<Test name="testObtainMessageWithIntObject" />
+<Test name="testObtainMessageWithMutiInt" />
+<Test name="testObtainMessageWithMutiIntObject" />
+<Test name="testPost" />
+<Test name="testPostAtFrontOfQueue" />
+<Test name="testPostAtTime1" />
+<Test name="testPostAtTime2" />
+<Test name="testPostDelayed" />
+<Test name="testRemoveCallbacks" />
+<Test name="testRemoveCallbacksAndMessages" />
+<Test name="testRemoveCallbacksWithObject" />
+<Test name="testRemoveMessages" />
+<Test name="testRemoveMessagesWithObject" />
+<Test name="testSendEmptyMessage" />
+<Test name="testSendEmptyMessageAtTime" />
+<Test name="testSendEmptyMessageDelayed" />
+<Test name="testSendMessage" />
+<Test name="testSendMessageAtFrontOfQueue" />
+<Test name="testSendMessageAtTime" />
+<Test name="testSendMessageDelayed" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="HandlerThreadTest">
+<Test name="testConstructor" />
+<Test name="testGetThreadId" />
+</TestCase>
+<TestCase name="LooperTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDump" />
+<Test name="testGetMainLooper" />
+<Test name="testLoop" />
+<Test name="testMyLooper" />
+<Test name="testMyQueue" />
+<Test name="testPrepare" />
+<Test name="testPrepareMainLooper" />
+<Test name="testQuit" />
+<Test name="testSetMessageLogging" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="MemoryFileTest">
+<Test name="testAllowPurging" />
+<Test name="testClose" />
+<Test name="testConstructor" />
+<Test name="testGetOutputStream" />
+<Test name="testLength" expectation="failure" />
+<Test name="testReadBytes" />
+<Test name="testWriteBytes" />
+</TestCase>
+<TestCase name="MessageQueueTest">
+<Test name="testAddIdleHandler" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAtFrontOfQueue" />
+<Test name="testMessageOrder" />
+<Test name="testReleaseSyncBarrierThrowsIfTokenNotValid" />
+<Test name="testRemoveIdleHandler" />
+<Test name="testSyncBarriers" />
+</TestCase>
+<TestCase name="MessageTest">
+<Test name="testAccessMessageProperties" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAsynchronous" />
+<Test name="testConstructor" />
+<Test name="testCopyFrom" />
+<Test name="testObtain" />
+<Test name="testObtain2" />
+<Test name="testObtain3" />
+<Test name="testObtain4" />
+<Test name="testObtain5" />
+<Test name="testObtain6" />
+<Test name="testObtain7" />
+<Test name="testObtain8" />
+<Test name="testPeekData" />
+<Test name="testRecycle" />
+<Test name="testSendToTarget" />
+<Test name="testToString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="MessengerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructorAndEquals" />
+<Test name="testDescribeContents" />
+<Test name="testGetBinder" />
+<Test name="testHashCode" />
+<Test name="testSend" />
+<Test name="testWriteMessengerOrNullToParcel" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="NoExecutePermissionTest">
+<Test name="testNoExecutePermission" />
+</TestCase>
+<TestCase name="ParcelFileDescriptorProcessTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFileCrash" />
+<Test name="testFileDetach" />
+<Test name="testFileError" />
+<Test name="testFileLeak" />
+<Test name="testFileNormal" />
+<Test name="testPipeWriterCrash" />
+<Test name="testPipeWriterError" />
+<Test name="testPullPipeNormal" />
+<Test name="testPushPipeNormal" />
+<Test name="testSocketCrash" />
+<Test name="testSocketDeathAfterClose" />
+<Test name="testSocketDeathBeforeClose" />
+<Test name="testSocketErrorAfterClose" />
+<Test name="testSocketGiantError" />
+<Test name="testSocketMultipleCheck" />
+</TestCase>
+<TestCase name="ParcelFileDescriptorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClose" />
+<Test name="testConstructorAndOpen" />
+<Test name="testDescribeContents" />
+<Test name="testFileDetach" />
+<Test name="testFileError" />
+<Test name="testFileNormal" />
+<Test name="testFromData" />
+<Test name="testFromDataSkip" />
+<Test name="testFromSocket" />
+<Test name="testGetFileDescriptor" />
+<Test name="testGetStatSize" />
+<Test name="testPipeError" />
+<Test name="testPipeNormal" />
+<Test name="testSocketErrorAfterClose" />
+<Test name="testSocketMultipleCheck" />
+<Test name="testToString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="ParcelFileDescriptor_AutoCloseInputStreamTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAutoCloseInputStream" />
+</TestCase>
+<TestCase name="ParcelFileDescriptor_AutoCloseOutputStreamTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAutoCloseOutputStream" />
+</TestCase>
+<TestCase name="ParcelFormatExceptionTest">
+<Test name="testParcelFormatException" />
+</TestCase>
+<TestCase name="ParcelTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAppendFrom" />
+<Test name="testCreateBinderArray" />
+<Test name="testCreateBinderArrayList" />
+<Test name="testCreateBooleanArray" />
+<Test name="testCreateByteArray" />
+<Test name="testCreateCharArray" />
+<Test name="testCreateDoubleArray" />
+<Test name="testCreateFloatArray" />
+<Test name="testCreateIntArray" />
+<Test name="testCreateLongArray" />
+<Test name="testCreateStringArray" />
+<Test name="testCreateStringArrayList" />
+<Test name="testCreateTypedArray" />
+<Test name="testCreateTypedArrayList" />
+<Test name="testDataAvail" />
+<Test name="testDataCapacity" />
+<Test name="testDataPosition" />
+<Test name="testDataSize" />
+<Test name="testEnforceInterface" />
+<Test name="testHasFileDescriptor" />
+<Test name="testMarshall" />
+<Test name="testObtain" />
+<Test name="testReadArrayList" />
+<Test name="testReadBooleanArray" />
+<Test name="testReadBundle" />
+<Test name="testReadBundle2" />
+<Test name="testReadByte" />
+<Test name="testReadByteArray" />
+<Test name="testReadCharArray" />
+<Test name="testReadDouble" />
+<Test name="testReadDoubleArray" />
+<Test name="testReadException" />
+<Test name="testReadException2" />
+<Test name="testReadFloat" />
+<Test name="testReadFloatArray" />
+<Test name="testReadHashMap" />
+<Test name="testReadInt" />
+<Test name="testReadIntArray" />
+<Test name="testReadList" />
+<Test name="testReadLong" />
+<Test name="testReadLongArray" />
+<Test name="testReadParcelable" />
+<Test name="testReadParcelableArray" />
+<Test name="testReadSerializable" />
+<Test name="testReadString" />
+<Test name="testReadStringArray" />
+<Test name="testReadStringList" />
+<Test name="testReadTypedArray" />
+<Test name="testReadTypedArray2" />
+<Test name="testReadTypedList" />
+<Test name="testReadValue" />
+<Test name="testSetDataCapacity" />
+<Test name="testSetDataPosition" />
+<Test name="testSetDataSize" />
+<Test name="testWriteArray" />
+<Test name="testWriteBinderArray" />
+<Test name="testWriteBinderList" />
+<Test name="testWriteByteArray" />
+<Test name="testWriteFileDescriptor" />
+<Test name="testWriteMap" />
+<Test name="testWriteNoException" />
+<Test name="testWriteSparseArray" />
+<Test name="testWriteSparseBooleanArray" />
+<Test name="testWriteStrongBinder" />
+<Test name="testWriteStrongInterface" />
+</TestCase>
+<TestCase name="PatternMatcherTest">
+<Test name="testConstructor" />
+<Test name="testDescribeContents" />
+<Test name="testGetPath" />
+<Test name="testGetType" />
+<Test name="testMatch" />
+<Test name="testToString" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="PowerManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPowerManager" />
+</TestCase>
+<TestCase name="PowerManager_WakeLockTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPowerManagerWakeLock" />
+</TestCase>
+<TestCase name="ProcessTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testKillProcess" />
+<Test name="testMiscMethods" />
+<Test name="testSendSignal" />
+</TestCase>
+<TestCase name="RecoverySystemTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testVerify" />
+</TestCase>
+<TestCase name="RemoteCallbackListTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testKill" />
+<Test name="testRemoteCallbackList" />
+</TestCase>
+<TestCase name="RemoteExceptionTest">
+<Test name="testRemoteException" />
+</TestCase>
+<TestCase name="ResultReceiverTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testResultReceiver" />
+</TestCase>
+<TestCase name="SecurityFeaturesTest">
+<Test name="testNoNewPrivs" />
+<Test name="testPrCapbsetEmpty" />
+</TestCase>
+<TestCase name="StatFsTest">
+<Test name="testStatFs" />
+</TestCase>
+<TestCase name="SystemClockTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCurrentThreadTimeMillis" />
+<Test name="testElapsedRealtime" />
+<Test name="testSetCurrentTimeMillis" />
+<Test name="testSleep" />
+<Test name="testUptimeMillis" />
+</TestCase>
+<TestCase name="TokenWatcherTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCleanUp" />
+<Test name="testTokenWatcher" />
+</TestCase>
+<TestCase name="UsbDebuggingTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testUsbDebugging" />
+</TestCase>
+<TestCase name="VibratorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testVibrateMultiThread" />
+<Test name="testVibratePattern" />
+<Test name="testVibratorCancel" />
+</TestCase>
+<TestCase name="WorkSourceTest">
+<Test name="testAddRawOrdered" />
+<Test name="testAddRawRevOrdered" />
+<Test name="testAddRawUnordered" />
+<Test name="testAddWsOrdered" />
+<Test name="testAddWsRevOrdered" />
+<Test name="testAddWsUnordered" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCombineMultiEnd" />
+<Test name="testCombineMultiFront" />
+<Test name="testCombineMultiFull" />
+<Test name="testCombineMultiMiddle" />
+<Test name="testCombineMultiSame" />
+<Test name="testCombineMultiSomeSame" />
+<Test name="testCombineMultiSomeSameUidsNames" />
+<Test name="testConstructEmpty" />
+<Test name="testConstructSingle" />
+<Test name="testRemoveMultiAll" />
+<Test name="testRemoveMultiEnd" />
+<Test name="testRemoveMultiFront" />
+<Test name="testRemoveMultiFull" />
+<Test name="testRemoveMultiMiddle" />
+<Test name="testRemoveNone" />
+<Test name="testStripNamesComplex" />
+<Test name="testStripNamesFull" />
+<Test name="testStripNamesSimple" />
+</TestCase>
+</TestSuite>
+<TestSuite name="storage">
+<TestSuite name="cts">
+<TestCase name="StorageManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAttemptMountNonObb" />
+<Test name="testAttemptMountObbWrongPackage" />
+<Test name="testMountAndUnmountObbNormal" />
+<Test name="testMountAndUnmountTwoObbs" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

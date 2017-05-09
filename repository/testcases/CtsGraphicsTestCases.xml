@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.graphics" appPackageName="android.graphics" name="CtsGraphicsTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="graphics">
+<TestSuite name="cts">
+<TestCase name="AvoidXfermodeTest">
+<Test name="testAvoidXfermode" />
+</TestCase>
+<TestCase name="AvoidXfermode_ModeTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="BitmapFactoryTest">
+<Test name="testConstructor" />
+<Test name="testDecodeByteArray1" />
+<Test name="testDecodeByteArray2" />
+<Test name="testDecodeFile1" />
+<Test name="testDecodeFile2" />
+<Test name="testDecodeFileDescriptor1" />
+<Test name="testDecodeFileDescriptor2" />
+<Test name="testDecodeFileDescriptor3" />
+<Test name="testDecodeInPurgeableAllocationCount" />
+<Test name="testDecodePremultipliedData" />
+<Test name="testDecodePremultipliedDefault" />
+<Test name="testDecodeResource1" />
+<Test name="testDecodeResource2" />
+<Test name="testDecodeResourceStream" />
+<Test name="testDecodeReuseBasic" />
+<Test name="testDecodeReuseDoubleScaling" />
+<Test name="testDecodeReuseEquivalentScaling" />
+<Test name="testDecodeReuseFailure" />
+<Test name="testDecodeReuseFormats" />
+<Test name="testDecodeReuseScaling" />
+<Test name="testDecodeScaling" />
+<Test name="testDecodeStream1" />
+<Test name="testDecodeStream2" />
+<Test name="testDecodeStream3" />
+<Test name="testDecodeStream4" />
+</TestCase>
+<TestCase name="BitmapFactory_OptionsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testOptions" />
+<Test name="testRequestCancelDecode" />
+</TestCase>
+<TestCase name="BitmapRegionDecoderTest">
+<Test name="testDecodeRegionByteArray" />
+<Test name="testDecodeRegionInputStream" />
+<Test name="testDecodeRegionInputStreamInBitmap" />
+<Test name="testDecodeRegionStringAndFileDescriptor" />
+<Test name="testNewInstanceByteArray" />
+<Test name="testNewInstanceInputStream" />
+<Test name="testNewInstanceStringAndFileDescriptor" />
+<Test name="testRecycle" />
+</TestCase>
+<TestCase name="BitmapShaderTest">
+<Test name="testBitmapShader" />
+</TestCase>
+<TestCase name="BitmapTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCompress" />
+<Test name="testCopy" />
+<Test name="testCopyPixelsToBuffer" />
+<Test name="testCreateBitmap1" />
+<Test name="testCreateBitmap2" />
+<Test name="testCreateBitmap3" />
+<Test name="testCreateBitmap4" />
+<Test name="testCreateBitmap6" />
+<Test name="testCreateScaledBitmap" />
+<Test name="testDescribeContents" />
+<Test name="testEraseColor" />
+<Test name="testExtractAlpha1" />
+<Test name="testExtractAlpha2" />
+<Test name="testGetAllocationByteCount" />
+<Test name="testGetConfig" />
+<Test name="testGetHeight" />
+<Test name="testGetNinePatchChunk" />
+<Test name="testGetPixel" />
+<Test name="testGetRowBytes" />
+<Test name="testGetScaledHeight1" />
+<Test name="testGetScaledHeight2" />
+<Test name="testGetScaledHeight3" />
+<Test name="testGetScaledWidth1" />
+<Test name="testGetScaledWidth2" />
+<Test name="testGetScaledWidth3" />
+<Test name="testGetWidth" />
+<Test name="testHasAlpha" />
+<Test name="testIsMutable" />
+<Test name="testIsRecycled" />
+<Test name="testPremultipliedCanvas" />
+<Test name="testReconfigure" />
+<Test name="testSetConfig" />
+<Test name="testSetHeight" />
+<Test name="testSetPixel" />
+<Test name="testSetPixels" />
+<Test name="testSetPremultipliedData" />
+<Test name="testSetPremultipliedFromBuffer" />
+<Test name="testSetPremultipliedSimple" />
+<Test name="testSetPremultipliedToBuffer" />
+<Test name="testSetWidth" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="Bitmap_CompressFormatTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="Bitmap_ConfigTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="BlurMaskFilterTest">
+<Test name="testBlurMaskFilter" />
+</TestCase>
+<TestCase name="BlurMaskFilter_BlurTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="CameraTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testApplyToCanvas" />
+<Test name="testCamera" />
+<Test name="testDotWithNormal" />
+<Test name="testRestore" />
+<Test name="testRotateX" />
+<Test name="testRotateY" />
+<Test name="testRotateZ" />
+<Test name="testTranslate" />
+</TestCase>
+<TestCase name="CanvasTest">
+<Test name="testCanvas1" />
+<Test name="testCanvas2" />
+<Test name="testClipPath1" />
+<Test name="testClipPath2" />
+<Test name="testClipRect1" />
+<Test name="testClipRect2" />
+<Test name="testClipRect3" />
+<Test name="testClipRect4" />
+<Test name="testClipRect5" />
+<Test name="testClipRect6" />
+<Test name="testClipRect7" />
+<Test name="testClipRegion1" />
+<Test name="testClipRegion2" />
+<Test name="testConcat" />
+<Test name="testDensity" />
+<Test name="testDrawARGB" />
+<Test name="testDrawArc" />
+<Test name="testDrawBitmap1" />
+<Test name="testDrawBitmap2" />
+<Test name="testDrawBitmap3" />
+<Test name="testDrawBitmap4" />
+<Test name="testDrawBitmap5" />
+<Test name="testDrawBitmap6" />
+<Test name="testDrawBitmapMesh" />
+<Test name="testDrawCircle" />
+<Test name="testDrawColor1" />
+<Test name="testDrawColor2" />
+<Test name="testDrawLine" />
+<Test name="testDrawLines1" />
+<Test name="testDrawLines2" />
+<Test name="testDrawOval" />
+<Test name="testDrawPaint" />
+<Test name="testDrawPath" />
+<Test name="testDrawPicture1" />
+<Test name="testDrawPicture2" />
+<Test name="testDrawPicture3" />
+<Test name="testDrawPoint" />
+<Test name="testDrawPoints1" />
+<Test name="testDrawPoints2" />
+<Test name="testDrawPosText1" />
+<Test name="testDrawPosText2" />
+<Test name="testDrawRGB" />
+<Test name="testDrawRect1" />
+<Test name="testDrawRect2" />
+<Test name="testDrawRect3" />
+<Test name="testDrawRoundRect" />
+<Test name="testDrawText1" />
+<Test name="testDrawText2" />
+<Test name="testDrawText3" />
+<Test name="testDrawText4" />
+<Test name="testDrawTextOnPath1" />
+<Test name="testDrawTextOnPath2" />
+<Test name="testDrawVertices" />
+<Test name="testGetClipBounds1" />
+<Test name="testGetClipBounds2" />
+<Test name="testGetDrawFilter" />
+<Test name="testGetMatrix1" />
+<Test name="testGetMatrix2" />
+<Test name="testGetSaveCount" />
+<Test name="testIsOpaque" />
+<Test name="testQuickReject1" />
+<Test name="testQuickReject2" />
+<Test name="testQuickReject3" />
+<Test name="testRestore" />
+<Test name="testRestoreToCount" />
+<Test name="testRotate1" />
+<Test name="testRotate2" />
+<Test name="testSave1" />
+<Test name="testSave2" />
+<Test name="testSaveLayer1" />
+<Test name="testSaveLayer2" />
+<Test name="testSaveLayerAlpha1" />
+<Test name="testSaveLayerAlpha2" />
+<Test name="testScale1" />
+<Test name="testScale2" />
+<Test name="testSetBitmap" />
+<Test name="testSkew" />
+<Test name="testTranslate" />
+</TestCase>
+<TestCase name="Canvas_EdgeTypeTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="Canvas_VertexModeTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="ColorMatrixColorFilterTest">
+<Test name="testColorMatrixColorFilter" />
+</TestCase>
+<TestCase name="ColorMatrixTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testColorMatrix" />
+<Test name="testPostConcat" />
+<Test name="testPreConcat" />
+<Test name="testReset" />
+<Test name="testSet1" />
+<Test name="testSet2" />
+<Test name="testSetConcat" />
+<Test name="testSetRGB2YUV" />
+<Test name="testSetRotate" />
+<Test name="testSetSaturation" />
+<Test name="testSetScale" />
+<Test name="testSetYUV2RGB" />
+</TestCase>
+<TestCase name="ColorTest">
+<Test name="testAlpha" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testArgb" />
+<Test name="testBlue" />
+<Test name="testGreen" />
+<Test name="testHSVToColor1" />
+<Test name="testHSVToColor2" />
+<Test name="testParseColor" />
+<Test name="testRGBToHSV" />
+<Test name="testRed" />
+<Test name="testRgb" />
+</TestCase>
+<TestCase name="ComposePathEffectTest">
+<Test name="testComposePathEffect" />
+</TestCase>
+<TestCase name="ComposeShaderTest">
+<Test name="testPorterDuff" />
+<Test name="testXfermode" />
+</TestCase>
+<TestCase name="CornerPathEffectTest">
+<Test name="testCornerPathEffect" />
+</TestCase>
+<TestCase name="DashPathEffectTest">
+<Test name="testDashPathEffect" />
+</TestCase>
+<TestCase name="DiscretePathEffectTest">
+<Test name="testDiscretePathEffect" />
+</TestCase>
+<TestCase name="DrawFilterTest">
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="EmbossMaskFilterTest">
+<Test name="testEmbossMaskFilter" />
+</TestCase>
+<TestCase name="InterpolatorTest">
+<Test name="testConstructor" />
+<Test name="testReset1" />
+<Test name="testReset2" />
+<Test name="testSetKeyFrame" />
+<Test name="testSetRepeatMirror" />
+<Test name="testTimeToValues1" />
+<Test name="testTimeToValues2" />
+</TestCase>
+<TestCase name="Interpolator_ResultTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="LayerRasterizerTest">
+<Test name="testAddLayer1" />
+<Test name="testAddLayer2" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="LightingColorFilterTest">
+<Test name="testLightingColorFilter" />
+</TestCase>
+<TestCase name="LinearGradientTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLinearGradient" />
+</TestCase>
+<TestCase name="MaskFilterTest">
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="MatrixTest">
+<Test name="testAccessValues" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstractor" />
+<Test name="testEquals" />
+<Test name="testInvert" />
+<Test name="testIsIdentity" />
+<Test name="testMapPoints" />
+<Test name="testMapPoints2" />
+<Test name="testMapPoints3" />
+<Test name="testMapRadius" />
+<Test name="testMapRect" />
+<Test name="testMapRect2" />
+<Test name="testMapVectors" />
+<Test name="testMapVectors2" />
+<Test name="testMapVectors3" />
+<Test name="testPostConcat" />
+<Test name="testPostRotate" />
+<Test name="testPostRotate2" />
+<Test name="testPostScale" />
+<Test name="testPostScale2" />
+<Test name="testPostSkew" />
+<Test name="testPostSkew2" />
+<Test name="testPostTranslate" />
+<Test name="testPreConcat" />
+<Test name="testPreRotate" />
+<Test name="testPreRotate2" />
+<Test name="testPreScale" />
+<Test name="testPreScale2" />
+<Test name="testPreSkew" />
+<Test name="testPreSkew2" />
+<Test name="testPreTranslate" />
+<Test name="testRectStaysRect" />
+<Test name="testReset" />
+<Test name="testSet" />
+<Test name="testSetConcat" />
+<Test name="testSetPolyToPoly" />
+<Test name="testSetRectToRect" />
+<Test name="testSetRotate" />
+<Test name="testSetRotate2" />
+<Test name="testSetScale" />
+<Test name="testSetScale2" />
+<Test name="testSetSinCos" />
+<Test name="testSetSinCos2" />
+<Test name="testSetSkew" />
+<Test name="testSetSkew2" />
+<Test name="testSetTranslate" />
+<Test name="testToShortString" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="Matrix_ScaleToFitTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValueOf2" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="MovieTest">
+<Test name="testDecodeByteArray" />
+<Test name="testDecodeFile" />
+<Test name="testDecodeStream" />
+<Test name="testDraw1" />
+<Test name="testDraw2" />
+<Test name="testGetMovieProperties" />
+<Test name="testSetTime" />
+</TestCase>
+<TestCase name="NinePatchTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetDensity" />
+<Test name="testGetHeight" />
+<Test name="testGetTransparentRegion" />
+<Test name="testGetWidth" />
+<Test name="testHasAlpha" />
+<Test name="testIsNinePatchChunk" />
+</TestCase>
+<TestCase name="PaintFlagsDrawFilterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPaintFlagsDrawFilter" />
+</TestCase>
+<TestCase name="PaintTest">
+<Test name="testAccessAlpha" />
+<Test name="testAccessColor" />
+<Test name="testAccessColorFilter" />
+<Test name="testAccessFlags" />
+<Test name="testAccessMaskFilter" />
+<Test name="testAccessPathEffect" />
+<Test name="testAccessRasterizer" />
+<Test name="testAccessShader" />
+<Test name="testAccessStrokeCap" />
+<Test name="testAccessStrokeJoin" />
+<Test name="testAccessStrokeMiter" />
+<Test name="testAccessStrokeWidth" />
+<Test name="testAccessStyle" />
+<Test name="testAccessTextAlign" />
+<Test name="testAccessTextLocale" />
+<Test name="testAccessTextScaleX" />
+<Test name="testAccessTextSize" />
+<Test name="testAccessTextSkewX" />
+<Test name="testAccessTypeface" />
+<Test name="testAccessXfermode" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testAscent" />
+<Test name="testBreakText" />
+<Test name="testClearShadowLayer" />
+<Test name="testConstructor" />
+<Test name="testDescent" />
+<Test name="testGetFillPath" />
+<Test name="testGetFontMetrics1" />
+<Test name="testGetFontMetrics2" />
+<Test name="testGetFontMetricsInt1" />
+<Test name="testGetFontMetricsInt2" />
+<Test name="testGetFontSpacing" />
+<Test name="testGetTextPath1" />
+<Test name="testGetTextPath2" />
+<Test name="testGetTextWidths" />
+<Test name="testMeasureText" />
+<Test name="testMeasureTextWithLongText" />
+<Test name="testReset" />
+<Test name="testSet" />
+<Test name="testSetARGB" />
+<Test name="testSetAntiAlias" />
+<Test name="testSetDither" />
+<Test name="testSetFakeBoldText" />
+<Test name="testSetFilterBitmap" />
+<Test name="testSetLinearText" />
+<Test name="testSetShadowLayer" />
+<Test name="testSetStrikeThruText" />
+<Test name="testSetSubpixelText" />
+<Test name="testSetUnderlineText" />
+</TestCase>
+<TestCase name="Paint_AlignTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="Paint_CapTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="Paint_FontMetricsIntTest">
+<Test name="testConstructor" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="Paint_JoinTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="Paint_StyleTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="PathDashPathEffectTest">
+<Test name="testPathDashPathEffect" />
+</TestCase>
+<TestCase name="PathDashPathEffect_StyleTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="PathEffectTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="PathMeasureTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testGetLength" />
+<Test name="testGetMatrix" />
+<Test name="testGetPosTan" />
+<Test name="testGetSegment" />
+<Test name="testIsClosed" />
+<Test name="testNextContour" />
+<Test name="testSetPath" />
+</TestCase>
+<TestCase name="PathTest">
+<Test name="testAccessFillType" />
+<Test name="testAddArc" />
+<Test name="testAddCircle" />
+<Test name="testAddOval" />
+<Test name="testAddPath1" />
+<Test name="testAddPath2" />
+<Test name="testAddPath3" />
+<Test name="testAddRect1" />
+<Test name="testAddRect2" />
+<Test name="testAddRoundRect1" />
+<Test name="testAddRoundRect2" />
+<Test name="testArcTo1" />
+<Test name="testArcTo2" />
+<Test name="testClose" />
+<Test name="testComputeBounds1" />
+<Test name="testComputeBounds2" />
+<Test name="testConstructor" />
+<Test name="testCubicTo" />
+<Test name="testIncReserve" />
+<Test name="testIsEmpty" />
+<Test name="testIsInverseFillType" />
+<Test name="testIsRect" />
+<Test name="testLineTo" />
+<Test name="testMoveTo" />
+<Test name="testOffset1" />
+<Test name="testOffset2" />
+<Test name="testQuadTo" />
+<Test name="testRCubicTo" />
+<Test name="testRLineTo" />
+<Test name="testRMoveTo" />
+<Test name="testRQuadTo" />
+<Test name="testReset" />
+<Test name="testRewind" />
+<Test name="testSet" />
+<Test name="testSetLastPoint" />
+<Test name="testToggleInverseFillType" />
+<Test name="testTransform1" />
+<Test name="testTransform2" />
+</TestCase>
+<TestCase name="Path_DirectionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="Path_FillTypeTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="PictureTest">
+<Test name="testPicture" />
+</TestCase>
+<TestCase name="PixelFormatTest">
+<Test name="testConstructor" />
+<Test name="testFormatHasAlpha" />
+<Test name="testGetPixelFormatInfo" />
+</TestCase>
+<TestCase name="PixelXorXfermodeTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPixelXorXfermode" />
+</TestCase>
+<TestCase name="PointFTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testEquals" />
+<Test name="testLength1" />
+<Test name="testLength2" />
+<Test name="testNegate" />
+<Test name="testOffset" />
+<Test name="testSet1" />
+<Test name="testSet2" />
+</TestCase>
+<TestCase name="PointTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testEquals1" />
+<Test name="testEquals2" />
+<Test name="testHashCode" />
+<Test name="testNegate" />
+<Test name="testOffset" />
+<Test name="testSet" />
+<Test name="testToString" />
+</TestCase>
+<TestCase name="PorterDuffColorFilterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPorterDuffColorFilter" />
+</TestCase>
+<TestCase name="PorterDuffXfermodeTest">
+<Test name="testPorterDuffXfermode" />
+</TestCase>
+<TestCase name="RasterizerTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testFinalize" />
+</TestCase>
+<TestCase name="RectFTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCenterX" />
+<Test name="testCenterY" />
+<Test name="testConstructor" />
+<Test name="testContains1" />
+<Test name="testContains2" />
+<Test name="testContains3" />
+<Test name="testHeight" />
+<Test name="testInset" />
+<Test name="testIntersect1" />
+<Test name="testIntersect2" />
+<Test name="testIntersects1" />
+<Test name="testIntersects2" />
+<Test name="testIsEmpty" />
+<Test name="testOffset" />
+<Test name="testOffsetTo" />
+<Test name="testRound" />
+<Test name="testRoundOut" />
+<Test name="testSet1" />
+<Test name="testSet2" />
+<Test name="testSet3" />
+<Test name="testSetEmpty" />
+<Test name="testSetIntersect" />
+<Test name="testSort" />
+<Test name="testToString" />
+<Test name="testUnion1" />
+<Test name="testUnion2" />
+<Test name="testUnion3" />
+<Test name="testWidth" />
+<Test name="testWriteReadParcel" />
+</TestCase>
+<TestCase name="RectTest">
+<Test name="testAccessParcel" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCenterX" />
+<Test name="testCenterY" />
+<Test name="testConstructor" />
+<Test name="testContains1" />
+<Test name="testContains2" />
+<Test name="testContains3" />
+<Test name="testDescribeContents" />
+<Test name="testEquals" />
+<Test name="testExactCenterX" />
+<Test name="testExactCenterY" />
+<Test name="testFlattenToString" />
+<Test name="testHeight" />
+<Test name="testInset" />
+<Test name="testIntersect1" />
+<Test name="testIntersect2" />
+<Test name="testIntersects1" />
+<Test name="testIntersects2" />
+<Test name="testIsEmpty" />
+<Test name="testOffset" />
+<Test name="testOffsetTo" />
+<Test name="testSet1" />
+<Test name="testSet2" />
+<Test name="testSetEmpty" />
+<Test name="testSetIntersect" />
+<Test name="testSort" />
+<Test name="testToString" />
+<Test name="testUnion1" />
+<Test name="testUnion2" />
+<Test name="testUnion3" />
+<Test name="testWidth" />
+</TestCase>
+<TestCase name="RegionIteratorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testNext" />
+</TestCase>
+<TestCase name="RegionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testContains" />
+<Test name="testDescribeContents" />
+<Test name="testEmpty" />
+<Test name="testGetBoundaryPath1" />
+<Test name="testGetBoundaryPath2" />
+<Test name="testGetBounds" />
+<Test name="testIsComplex" />
+<Test name="testIsRect" />
+<Test name="testOp1" />
+<Test name="testOp2" />
+<Test name="testOp3" />
+<Test name="testOp4" />
+<Test name="testOp5" />
+<Test name="testQuickContains1" />
+<Test name="testQuickContains2" />
+<Test name="testQuickReject1" />
+<Test name="testQuickReject2" />
+<Test name="testQuickReject3" />
+<Test name="testSet1" />
+<Test name="testSet2" />
+<Test name="testSet3" />
+<Test name="testSetPath" />
+<Test name="testTranslate1" />
+<Test name="testTranslate2" />
+<Test name="testUnion" />
+<Test name="testWriteToParcel" />
+</TestCase>
+<TestCase name="Region_OpTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="ShaderTest">
+<Test name="testAccessLocalMatrix" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="Shader_TileModeTest">
+<Test name="testValueOf" />
+<Test name="testValues" />
+</TestCase>
+<TestCase name="SumPathEffectTest">
+<Test name="testSumPathEffect" />
+</TestCase>
+<TestCase name="SweepGradientTest">
+<Test name="test2Colors" />
+<Test name="testColorArray" />
+<Test name="testMultiColor" />
+</TestCase>
+<TestCase name="TypefaceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstants" />
+<Test name="testCreate" />
+<Test name="testCreateFromAsset" />
+<Test name="testCreateFromFile1" />
+<Test name="testCreateFromFile2" />
+<Test name="testDefaultFromStyle" />
+<Test name="testIsBold" />
+</TestCase>
+<TestCase name="YuvImageTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCompressYuvToJpeg" />
+<Test name="testGetHeight" />
+<Test name="testGetYuvData" />
+<Test name="testGetYuvFormat" />
+<Test name="testYuvImage" />
+</TestCase>
+</TestSuite>
+<TestSuite name="drawable">
+<TestSuite name="cts">
+<TestCase name="AnimationDrawableTest">
+<Test name="testAccessOneShot" />
+<Test name="testConstructor" />
+<Test name="testGetDuration" />
+<Test name="testGetFrame" />
+<Test name="testGetNumberOfFrames" />
+<Test name="testInflate" />
+<Test name="testInflateWithNullParameters" />
+<Test name="testMutate" />
+<Test name="testRun" />
+<Test name="testSetVisible" />
+<Test name="testStart" />
+<Test name="testUnscheduleSelf" />
+</TestCase>
+<TestCase name="BitmapDrawableTest">
+<Test name="testAccessGravity" />
+<Test name="testAccessTileMode" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicSize" />
+<Test name="testGetOpacity" />
+<Test name="testInflate" />
+<Test name="testMutate" />
+<Test name="testOnBoundsChange" />
+<Test name="testSetAlpha" />
+<Test name="testSetAntiAlias" />
+<Test name="testSetColorFilter" />
+<Test name="testSetDither" />
+<Test name="testSetFilterBitmap" />
+<Test name="testSetTargetDensity" />
+</TestCase>
+<TestCase name="ClipDrawableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClipDrawable" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testGetOpacity" />
+<Test name="testGetPadding" />
+<Test name="testInflate" />
+<Test name="testInvalidateDrawable" />
+<Test name="testIsStateful" />
+<Test name="testOnBoundsChange" />
+<Test name="testOnLevelChange" />
+<Test name="testOnStateChange" />
+<Test name="testScheduleDrawable" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetVisible" />
+<Test name="testUnscheduleDrawable" />
+</TestCase>
+<TestCase name="ColorDrawableTest">
+<Test name="testAccessAlpha" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructors" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetOpacity" />
+<Test name="testInflate" />
+<Test name="testSetColorFilter" />
+</TestCase>
+<TestCase name="DrawableContainerStateTest">
+<Test name="testAccessConstantPadding" />
+<Test name="testAccessConstantSize" />
+<Test name="testAddChild" />
+<Test name="testCanConstantState" />
+<Test name="testConstantHeightsAndWidths" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetOpacity" />
+<Test name="testGrowArray" />
+<Test name="testIsStateFul" />
+</TestCase>
+<TestCase name="DrawableContainerTest">
+<Test name="testAccessConstantState" />
+<Test name="testAccessCurrentDrawable" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testGetMinimumHeight" />
+<Test name="testGetMinimumWidth" />
+<Test name="testGetOpacity" />
+<Test name="testGetPadding" />
+<Test name="testInvalidateDrawable" />
+<Test name="testIsStateful" />
+<Test name="testMutate" />
+<Test name="testOnBoundsChange" />
+<Test name="testOnLevelChange" />
+<Test name="testOnStateChange" />
+<Test name="testScheduleDrawable" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetDither" />
+<Test name="testSetVisible" />
+<Test name="testUnscheduleDrawable" />
+</TestCase>
+<TestCase name="DrawableTest">
+<Test name="testAccessBounds" />
+<Test name="testAccessChangingConfigurations" />
+<Test name="testAccessLevel" />
+<Test name="testAccessState" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testClearColorFilter" />
+<Test name="testCopyBounds" />
+<Test name="testCreateFromPath" />
+<Test name="testCreateFromResourceStream1" />
+<Test name="testCreateFromResourceStream2" />
+<Test name="testCreateFromStream" />
+<Test name="testCreateFromXml" />
+<Test name="testCreateFromXmlInner" />
+<Test name="testGetConstantState" />
+<Test name="testGetCurrent" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testGetMinimumHeight" />
+<Test name="testGetMinimumWidth" />
+<Test name="testGetPadding" />
+<Test name="testGetTransparentRegion" />
+<Test name="testInflate" />
+<Test name="testInvalidateSelf" />
+<Test name="testIsStateful" />
+<Test name="testMutate" />
+<Test name="testOnBoundsChange" />
+<Test name="testOnLevelChange" />
+<Test name="testOnStateChange" />
+<Test name="testResolveOpacity" />
+<Test name="testScheduleSelf" />
+<Test name="testSetCallback" />
+<Test name="testSetColorFilter" />
+<Test name="testSetDither" />
+<Test name="testSetFilterBitmap" />
+<Test name="testUnscheduleSelf" />
+<Test name="testVisible" />
+</TestCase>
+<TestCase name="Drawable_ConstantStateTest">
+<Test name="testGetChangingConfigurations" />
+<Test name="testNewDrawable" />
+</TestCase>
+<TestCase name="GradientDrawableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testInflate" />
+<Test name="testMethods" />
+<Test name="testMutate" />
+<Test name="testSetAlpha" />
+<Test name="testSetColor" />
+<Test name="testSetColorFilter" />
+<Test name="testSetCornerRadii" />
+<Test name="testSetCornerRadius" />
+<Test name="testSetDither" />
+<Test name="testSetGradientCenter" />
+<Test name="testSetGradientRadius" />
+<Test name="testSetGradientType" />
+<Test name="testSetShape" />
+<Test name="testSetSize" />
+<Test name="testSetStroke" />
+<Test name="testSetStroke1" />
+<Test name="testSetUseLevel" />
+</TestCase>
+<TestCase name="InsetDrawableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testGetOpacity" />
+<Test name="testGetPadding" />
+<Test name="testInflate" />
+<Test name="testInvalidateDrawable" />
+<Test name="testIsStateful" />
+<Test name="testOnBoundsChange" />
+<Test name="testOnStateChange" />
+<Test name="testScheduleDrawable" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetVisible" />
+<Test name="testUnscheduleDrawable" />
+</TestCase>
+<TestCase name="LayerDrawableTest">
+<Test name="testAccessDrawable" />
+<Test name="testAccessId" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testFindDrawableByLayerId" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testGetNumberOfLayers" />
+<Test name="testGetOpacity" />
+<Test name="testGetPadding" />
+<Test name="testInflate" />
+<Test name="testInvalidateDrawable" />
+<Test name="testIsStateful" />
+<Test name="testMutate" />
+<Test name="testOnBoundsChange" />
+<Test name="testOnLevelChange" />
+<Test name="testOnStateChange" />
+<Test name="testScheduleDrawable" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetDither" />
+<Test name="testSetLayerInset" />
+<Test name="testSetVisible" />
+<Test name="testUnscheduleDrawable" />
+</TestCase>
+<TestCase name="LevelListDrawableTest">
+<Test name="testAddLevel" />
+<Test name="testInflate" />
+<Test name="testInflateWithNullParameters" />
+<Test name="testLevelListDrawable" />
+<Test name="testMutate" />
+<Test name="testOnLevelChange" />
+</TestCase>
+<TestCase name="NinePatchDrawableTest">
+<Test name="testConstructors" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testGetMinimumHeight" />
+<Test name="testGetMinimumWidth" />
+<Test name="testGetOpacity" />
+<Test name="testGetPadding" />
+<Test name="testGetPaint" />
+<Test name="testGetTransparentRegion" />
+<Test name="testInflate" />
+<Test name="testMutate" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetDither" />
+</TestCase>
+<TestCase name="PaintDrawableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testInflateTag" />
+<Test name="testSetCornerRadii" />
+<Test name="testSetCornerRadius" />
+</TestCase>
+<TestCase name="PictureDrawableTest">
+<Test name="testAccessPicture" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetIntrinsicSize" />
+<Test name="testGetOpacity" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetDither" />
+<Test name="testSetFilterBitmap" />
+</TestCase>
+<TestCase name="RotateDrawableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicWidthAndHeight" />
+<Test name="testGetOpacity" />
+<Test name="testGetPadding" />
+<Test name="testInvalidateDrawable" />
+<Test name="testIsStateful" />
+<Test name="testMethods" />
+<Test name="testMutate" />
+<Test name="testScheduleDrawable" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetVisible" />
+<Test name="testUnscheduleDrawable" />
+</TestCase>
+<TestCase name="ScaleDrawableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetIntrinsicHeight" />
+<Test name="testGetIntrinsicWidth" />
+<Test name="testGetOpacity" />
+<Test name="testGetPadding" />
+<Test name="testInflate" />
+<Test name="testInvalidateDrawable" />
+<Test name="testIsStateful" />
+<Test name="testMutate" />
+<Test name="testOnBoundsChange" />
+<Test name="testOnLevelChange" />
+<Test name="testOnStateChange" />
+<Test name="testScheduleDrawable" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetVisible" />
+<Test name="testUnscheduleDrawable" />
+</TestCase>
+<TestCase name="ShapeDrawableTest">
+<Test name="testAccessIntrinsicHeight" />
+<Test name="testAccessIntrinsicWidth" />
+<Test name="testAccessPadding" />
+<Test name="testAccessShaderFactory" />
+<Test name="testAccessShape" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructors" />
+<Test name="testDraw" />
+<Test name="testGetChangingConfigurations" />
+<Test name="testGetConstantState" />
+<Test name="testGetOpacity" />
+<Test name="testGetPaint" />
+<Test name="testInflate" />
+<Test name="testMutate" />
+<Test name="testOnBoundsChange" />
+<Test name="testOnDraw" />
+<Test name="testSetAlpha" />
+<Test name="testSetColorFilter" />
+<Test name="testSetDither" />
+</TestCase>
+<TestCase name="ShapeDrawable_ShaderFactoryTest">
+<Test name="testResize" />
+</TestCase>
+<TestCase name="StateListDrawableTest">
+<Test name="testAddState" />
+<Test name="testInflate" />
+<Test name="testInflateWithNullParameters" />
+<Test name="testIsStateful" />
+<Test name="testMutate" />
+<Test name="testOnStateChange" />
+<Test name="testOnStateChangeWithNullStateSet" />
+<Test name="testOnStateChangeWithWildCardAtFirst" />
+<Test name="testStateListDrawable" />
+</TestCase>
+<TestCase name="TransitionDrawableTest">
+<Test name="testAccessCrossFadeEnabled" />
+<Test name="testConstructor" />
+<Test name="testDrawWithNUllCanvas" />
+<Test name="testResetTransition" />
+<Test name="testReverseTransition" />
+<Test name="testStartTransition" />
+</TestCase>
+</TestSuite>
+<TestSuite name="shapes">
+<TestSuite name="cts">
+<TestCase name="ArcShapeTest">
+<Test name="testConstructor" />
+<Test name="testDraw" />
+</TestCase>
+<TestCase name="OvalShapeTest">
+<Test name="testConstructor" />
+<Test name="testDraw" />
+</TestCase>
+<TestCase name="PathShapeTest">
+<Test name="testClone" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+</TestCase>
+<TestCase name="RectShapeTest">
+<Test name="testClone" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+<Test name="testRect" />
+</TestCase>
+<TestCase name="RoundRectShapeTest">
+<Test name="testClone" />
+<Test name="testConstructor" />
+<Test name="testDraw" />
+</TestCase>
+<TestCase name="ShapeTest">
+<Test name="testClone" />
+<Test name="testDraw" />
+<Test name="testHasAlpha" />
+<Test name="testOnResize" />
+<Test name="testSize" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+<TestSuite name="opengl">
+<TestSuite name="cts">
+<TestCase name="CompressedTextureTest">
+<Test name="testTextureETC1" />
+<Test name="testTexturePVRTC" />
+<Test name="testTextureS3TC" />
+<Test name="testTextureUncompressed" />
+</TestCase>
+<TestCase name="EglConfigTest">
+<Test name="testEglConfigs" />
+</TestCase>
+<TestCase name="EglContextTest">
+<Test name="testCreateAndReleaseContext" />
+</TestCase>
+<TestCase name="GLSurfaceViewTest">
+<Test name="testPauseResumeWithDelay" />
+<Test name="testPauseResumeWithoutDelay" />
+</TestCase>
+<TestCase name="OpenGlEsVersionTest">
+<Test name="testOpenGlEsVersion" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

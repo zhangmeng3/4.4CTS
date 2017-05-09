@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.bluetooth" appPackageName="android.bluetooth" name="CtsBluetoothTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="bluetooth">
+<TestSuite name="cts">
+<TestCase name="BasicAdapterTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="test_checkBluetoothAddress" />
+<Test name="test_enableDisable" />
+<Test name="test_getAddress" />
+<Test name="test_getBondedDevices" />
+<Test name="test_getDefaultAdapter" />
+<Test name="test_getName" />
+<Test name="test_getRemoteDevice" />
+<Test name="test_listenUsingRfcommWithServiceRecord" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

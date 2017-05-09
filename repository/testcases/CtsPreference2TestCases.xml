@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.preference2" appPackageName="android.preference2" name="CtsPreference2TestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="preference2">
+<TestSuite name="cts">
+<TestCase name="CheckBoxPreferenceTest">
+<Test name="testGetSummary" />
+<Test name="testNotNull" />
+</TestCase>
+<TestCase name="CustomCheckBoxPreferenceTest">
+<Test name="testNotNull" />
+</TestCase>
+<TestCase name="CustomDialogPreferenceTest">
+<Test name="testNotNull" />
+</TestCase>
+<TestCase name="CustomEditTextPreferenceTest">
+<Test name="testNotNull" />
+</TestCase>
+<TestCase name="CustomSwitchPreferenceTest">
+<Test name="testNotNull" />
+</TestCase>
+<TestCase name="DialogPreferenceTest">
+<Test name="testGetDialogIcon" />
+<Test name="testGetDialogMessage" />
+<Test name="testGetDialogTitle" />
+<Test name="testGetNegativeButtonText" />
+<Test name="testGetPositiveButtonText" />
+<Test name="testGetTitle" />
+</TestCase>
+<TestCase name="EditTextPreferenceTest">
+<Test name="testGetEditText" />
+</TestCase>
+<TestCase name="FragmentPreferencesTest">
+<Test name="testFindPreference" />
+<Test name="testGetPreferenceManager" />
+<Test name="testGetPreferenceScreen" />
+<Test name="testSetPreferenceScreen" />
+</TestCase>
+<TestCase name="ListPreferenceTest">
+<Test name="testGetEntries" />
+<Test name="testGetEntryValues" />
+<Test name="testIsEnabled" />
+</TestCase>
+<TestCase name="PreferenceCategoryTest">
+<Test name="testPreferenceCategory" />
+</TestCase>
+<TestCase name="PreferenceFragmentTest">
+<Test name="testGetPreferenceManager" />
+<Test name="testGetPreferenceScreen" />
+</TestCase>
+<TestCase name="PreferenceGroupTest">
+<Test name="testAddPreference" />
+<Test name="testFindPreference" />
+<Test name="testIsOnSameScreenAsChildren" />
+<Test name="testOnPrepareAddPreference" />
+<Test name="testPreferenceCount" />
+<Test name="testRemoveAll" />
+<Test name="testRemovePreference" />
+<Test name="testSetOrderingAsAdded" />
+</TestCase>
+<TestCase name="PreferenceTest">
+<Test name="testGetContext" />
+<Test name="testGetIcon" />
+<Test name="testGetKey" />
+<Test name="testGetOrder" />
+<Test name="testGetPreferenceManager" />
+<Test name="testGetSharedPreferences" />
+<Test name="testGetSummary" />
+<Test name="testGetTitle" />
+<Test name="testHasKey" />
+<Test name="testIsEnabled" />
+<Test name="testIsPersistent" />
+<Test name="testIsSelectable" />
+<Test name="testNotNull" />
+<Test name="testPersistBoolean" />
+<Test name="testPersistFloat" />
+<Test name="testPersistInt" />
+<Test name="testPersistLong" />
+<Test name="testPersistString" />
+<Test name="testSetEnabled" />
+<Test name="testSetKey" />
+<Test name="testSetOrder" />
+<Test name="testSetShouldDisableView" />
+<Test name="testSetSummary" />
+<Test name="testSetTitle" />
+<Test name="testSetTitle_CharSequence" />
+<Test name="testShouldCommit" />
+<Test name="testShouldPersist" />
+<Test name="testgetShouldDisableView" />
+</TestCase>
+<TestCase name="PreferenceWithHeadersTest">
+<Test name="testHasHeaders" />
+<Test name="testOnIsHidingHeaders" />
+</TestCase>
+<TestCase name="SwitchPreferenceTest">
+<Test name="testGetSummary" />
+<Test name="testGetSummaryOn" />
+<Test name="testGetTitle" />
+<Test name="testSetSwitchTextOff_One" />
+<Test name="testSetSwitchTextOff_Two" />
+<Test name="testSetSwitchTextOn_One" />
+<Test name="testSetSwitchTextOn_Two" />
+<Test name="testSummaryOff" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

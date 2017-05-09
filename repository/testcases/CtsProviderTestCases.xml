@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.provider" appPackageName="android.provider" name="CtsProviderTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="provider">
+<TestSuite name="cts">
+<TestCase name="BrowserTest">
+<Test name="testAccessHistory" />
+<Test name="testAccessSearches" />
+<Test name="testBookmarksTable" />
+<Test name="testGetAllBookmarks" />
+<Test name="testGetAllVisitedUrls" />
+<Test name="testRequestAllIcons" />
+<Test name="testSaveBookmark" />
+<Test name="testSearchesTable" />
+<Test name="testSendString" />
+<Test name="testUpdateVisitedHistory" />
+</TestCase>
+<TestCase name="CalendarTest">
+<Test name="testAttendees" />
+<Test name="testBadRequests" />
+<Test name="testBulkUpdate" />
+<Test name="testCalendarColors" />
+<Test name="testCalendarCreationAndDeletion" />
+<Test name="testCalendarEntityQuery" />
+<Test name="testCalendarIsPrimary" />
+<Test name="testCalendarUpdateAsApp" />
+<Test name="testColorWriteRequirements" />
+<Test name="testConversionToRecurring" />
+<Test name="testDefaultProjections" />
+<Test name="testEventColors" />
+<Test name="testEventCreationAndDeletion" />
+<Test name="testEventUpdateAsApp" />
+<Test name="testEventsEntityQuery" />
+<Test name="testEventsIsOrganizer" />
+<Test name="testEventsUid2445" />
+<Test name="testExtendedProperties" />
+<Test name="testForwardRecurrenceExceptions" />
+<Test name="testFullRecurrenceUpdate" />
+<Test name="testInstanceSearch" />
+<Test name="testMultiRuleRecurrence" />
+<Test name="testNonAdapterRecurrenceExceptions" />
+<Test name="testOutOfOrderRecurrenceExceptions" />
+<Test name="testRecurrence" />
+<Test name="testReminders" />
+<Test name="testRemindersAlarm" />
+<Test name="testSingleRecurrenceExceptions" />
+<Test name="testSyncOnlyInsertEnforcement" />
+<Test name="testSyncState" />
+<Test name="testWhenByDayQuery" />
+</TestCase>
+<TestCase name="ContactsContractIntentsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetContentContactDir" />
+<Test name="testPickContactDir" />
+<Test name="testViewContactDir" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_EmailTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_EventTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_ImTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetProtocolLabel" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_OrganizationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_PhoneTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_RelationTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_SipAddressTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_CommonDataKinds_StructuredPostalTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetTypeLabel" />
+</TestCase>
+<TestCase name="ContactsContract_ContactsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testContactDelete_hasDeleteLog" />
+<Test name="testContactDelete_marksRawContactsForDeletion" />
+<Test name="testContactDelete_removesContactRecord" />
+<Test name="testContactUpdate_updatesContactUpdatedTimestamp" />
+<Test name="testContentUri" />
+<Test name="testInsert_isUnsupported" />
+<Test name="testLookupUri" />
+<Test name="testMarkAsContacted" />
+</TestCase>
+<TestCase name="ContactsContract_DataTest">
+<Test name="testContactablesFilterByEmailPrefix_returnsCorrectDataRows" />
+<Test name="testContactablesFilterByFirstName_returnsCorrectDataRows" />
+<Test name="testContactablesFilterByLastName_returnsCorrectDataRows" />
+<Test name="testContactablesFilterByPhonePrefix_returnsCorrectDataRows" />
+<Test name="testContactablesFilter_doesNotExist_returnsCorrectDataRows" />
+<Test name="testContactablesUri" />
+<Test name="testDataDelete_updatesContactLastUpdatedTimestamp" />
+<Test name="testDataInsert_updatesContactLastUpdatedTimestamp" />
+<Test name="testDataUpdate_updatesContactLastUpdatedTimestamp" />
+<Test name="testGetLookupUriByDisplayName" />
+<Test name="testGetLookupUriBySourceId" />
+</TestCase>
+<TestCase name="ContactsContract_DataUsageTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMultiIdDataUsageFeedback_incrementsCorrectDataItems" />
+<Test name="testSingleDataUsageFeedback_incrementsCorrectDataItems" />
+</TestCase>
+<TestCase name="ContactsContract_DeletedContacts">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testDelete_isUnsupported" />
+<Test name="testInsert_isUnsupported" />
+<Test name="testQueryAll" />
+<Test name="testQueryByContactId" />
+<Test name="testQuerySinceTimestamp" />
+<Test name="testQuery_returnsProperColumns" />
+</TestCase>
+<TestCase name="ContactsContract_DumpFileProviderTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testOpenFileDescriptor_throwsErrorWithIllegalFileName" />
+<Test name="testOpenFileDescriptor_worksWithValidFileName" />
+<Test name="testQuery_throwsErrorWithIllegalFileName" />
+<Test name="testQuery_worksWithValidFileName" />
+</TestCase>
+<TestCase name="ContactsContract_GroupMembershipTest">
+<Test name="testAddGroupMembershipWithGroupRowId" />
+<Test name="testAddGroupMembershipWithGroupSourceId" />
+<Test name="testAddGroupMembershipWithUnknownGroupSourceId" />
+</TestCase>
+<TestCase name="ContactsContract_PhotoTest">
+<Test name="testAddEmptyPhoto" />
+<Test name="testAddPhoto" />
+</TestCase>
+<TestCase name="ContactsContract_RawContactsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetLookupUriByDisplayName" />
+<Test name="testGetLookupUriBySourceId" />
+<Test name="testRawContactCreate_updatesContactUpdatedTimestamp" />
+<Test name="testRawContactDelete_hasDeleteLogForContact" />
+<Test name="testRawContactDelete_removesRecord" />
+<Test name="testRawContactDelete_setsDeleteFlag" />
+<Test name="testRawContactPsuedoDelete_hasDeleteLogForContact" />
+<Test name="testRawContactUpdate_updatesContactUpdatedTimestamp" />
+</TestCase>
+<TestCase name="ContactsContract_StatusUpdatesTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetPresenceIconresourceId" />
+<Test name="testGetPresencePrecedence" />
+<Test name="testInsertStatus" />
+</TestCase>
+<TestCase name="ContactsContract_StreamItemPhotosTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testContentDirectoryUri" />
+<Test name="testContentPhotoUri" />
+</TestCase>
+<TestCase name="ContactsContract_StreamItemsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testContentDirectoryUri" />
+<Test name="testContentUri" />
+</TestCase>
+<TestCase name="ContactsProvider2_AccountRemovalTest">
+<Test name="testAccountRemovalWithMergedContact_deletesContacts" />
+<Test name="testAccountRemovalWithMergedContact_doesNotDeleteContactAndTimestampUpdated" />
+<Test name="testAccountRemovalWithMergedContact_hasDeleteLogsForContacts" />
+<Test name="testAccountRemoval_deletesContacts" />
+<Test name="testAccountRemoval_hasDeleteLogsForContacts" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="ContactsTest">
+<Test name="testCallsTable" />
+<Test name="testContactMethodsTable" />
+<Test name="testExtensionsTable" />
+<Test name="testGroupMembershipTable" />
+<Test name="testGroupsTable" />
+<Test name="testOrganizationsTable" />
+<Test name="testPeopleTable" />
+<Test name="testPhonesTable" />
+<Test name="testPhotosTable" />
+<Test name="testSettingsTable" />
+</TestCase>
+<TestCase name="Contacts_ContactMethodsTest">
+<Test name="test" />
+<Test name="testAddPostalLocation" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testEncodeAndDecodeProtocol" />
+</TestCase>
+<TestCase name="Contacts_OrganizationsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetDisplayLabel" />
+</TestCase>
+<TestCase name="Contacts_PeopleTest">
+<Test name="testAccessPhotoData" />
+<Test name="testAddToGroup" />
+<Test name="testMarkAsContacted" />
+</TestCase>
+<TestCase name="Contacts_PhonesTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetDisplayLabel" />
+<Test name="testGetDisplayLabelCharSequenceArray" />
+</TestCase>
+<TestCase name="Contacts_SettingsTest">
+<Test name="testAccessSetting" />
+</TestCase>
+<TestCase name="MediaStoreIntentsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testPickAudioDir" />
+<Test name="testPickImageDir" />
+<Test name="testPickVideoDir" />
+<Test name="testViewAudioFile" />
+<Test name="testViewImageDir" />
+<Test name="testViewImageFile" />
+<Test name="testViewVideoDir" />
+<Test name="testViewVideoFile" />
+</TestCase>
+<TestCase name="MediaStoreTest">
+<Test name="testGetMediaScannerUri" />
+<Test name="testGetVersion" />
+</TestCase>
+<TestCase name="MediaStore_AudioTest">
+<Test name="testKeyFor" />
+</TestCase>
+<TestCase name="MediaStore_Audio_AlbumsTest">
+<Test name="testAlbumArt" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetContentUri" />
+<Test name="testStoreAudioAlbumsExternal" />
+<Test name="testStoreAudioAlbumsInternal" />
+</TestCase>
+<TestCase name="MediaStore_Audio_ArtistsTest">
+<Test name="testGetContentUri" />
+<Test name="testStoreAudioArtistsExternal" />
+<Test name="testStoreAudioArtistsInternal" />
+</TestCase>
+<TestCase name="MediaStore_Audio_Artists_AlbumsTest">
+<Test name="testGetContentUri" />
+<Test name="testStoreAudioArtistsAlbumsExternal" />
+<Test name="testStoreAudioArtistsAlbumsInternal" />
+</TestCase>
+<TestCase name="MediaStore_Audio_GenresTest">
+<Test name="testGetContentUri" />
+<Test name="testGetContentUriForAudioId" />
+<Test name="testStoreAudioGenresExternal" />
+<Test name="testStoreAudioGenresInternal" />
+</TestCase>
+<TestCase name="MediaStore_Audio_Genres_MembersTest">
+<Test name="testGetContentUri" />
+<Test name="testStoreAudioGenresMembersExternal" />
+<Test name="testStoreAudioGenresMembersInternal" />
+</TestCase>
+<TestCase name="MediaStore_Audio_MediaTest">
+<Test name="testGetContentUri" />
+<Test name="testGetContentUriForPath" />
+<Test name="testStoreAudioMediaExternal" />
+<Test name="testStoreAudioMediaInternal" />
+</TestCase>
+<TestCase name="MediaStore_Audio_PlaylistsTest">
+<Test name="testGetContentUri" />
+<Test name="testStoreAudioPlaylistsExternal" />
+<Test name="testStoreAudioPlaylistsInternal" />
+</TestCase>
+<TestCase name="MediaStore_Audio_Playlists_MembersTest">
+<Test name="testGetContentUri" />
+<Test name="testStoreAudioPlaylistsMembersExternal" />
+<Test name="testStoreAudioPlaylistsMembersInternal" />
+</TestCase>
+<TestCase name="MediaStore_FilesTest">
+<Test name="testAccess" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testCaseSensitivity" />
+<Test name="testGetContentUri" />
+</TestCase>
+<TestCase name="MediaStore_Images_MediaTest">
+<Test name="testGetContentUri" />
+<Test name="testInsertImageWithBitmap" />
+<Test name="testInsertImageWithImagePath" />
+<Test name="testStoreImagesMediaExternal" />
+<Test name="testStoreImagesMediaInternal" />
+</TestCase>
+<TestCase name="MediaStore_Images_ThumbnailsTest">
+<Test name="testGetContentUri" />
+<Test name="testQueryExternalMiniThumbnails" />
+<Test name="testQueryInternalThumbnails" />
+<Test name="testStoreImagesMediaExternal" />
+<Test name="testStoreImagesMediaInternal" />
+</TestCase>
+<TestCase name="MediaStore_VideoTest">
+<Test name="testQuery" />
+</TestCase>
+<TestCase name="MediaStore_Video_MediaTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetContentUri" />
+<Test name="testStoreVideoMediaExternal" />
+<Test name="testStoreVideoMediaInternal" />
+</TestCase>
+<TestCase name="MediaStore_Video_ThumbnailsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetContentUri" />
+<Test name="testGetThumbnail" />
+</TestCase>
+<TestCase name="SearchRecentSuggestionsTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+<Test name="testSearchRecentSuggestions" />
+<Test name="testSuggestionsTable" />
+</TestCase>
+<TestCase name="SettingsTest">
+<Test name="testAccessNonTable" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBluetoothDevicesTable" />
+<Test name="testSecureTable" />
+<Test name="testSystemTable" />
+<Test name="testUserDictionarySettingsExists" />
+</TestCase>
+<TestCase name="Settings_NameValueTableTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetUriFor" />
+<Test name="testPutString" />
+</TestCase>
+<TestCase name="Settings_SecureTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetDefaultValues" />
+<Test name="testGetPutFloat" />
+<Test name="testGetPutInt" />
+<Test name="testGetPutLong" />
+<Test name="testGetPutString" />
+<Test name="testGetUriFor" />
+<Test name="testUnknownSourcesOffByDefault" />
+</TestCase>
+<TestCase name="Settings_SettingNotFoundExceptionTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="Settings_SystemTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetDefaultValues" />
+<Test name="testGetUriFor" />
+<Test name="testSystemSettings" />
+</TestCase>
+<TestCase name="TelephonyProviderTest">
+<Test name="testAccessToApns" />
+<Test name="testOpeningAnyFile" />
+</TestCase>
+<TestCase name="UserDictionary_WordsTest">
+<Test name="testAddWord" />
+<Test name="testAddWord_deprecated" />
+<Test name="testAndroidTestCaseSetupProperly" />
+</TestCase>
+<TestCase name="VoicemailContractTest">
+<Test name="testDataColumnUpdate_throwsIllegalArgumentException" />
+<Test name="testInsert_doesNotUpdateDataColumn" />
+<Test name="testStatusTable" />
+<Test name="testStatusTablePermissions" />
+<Test name="testVoicemailTablePermissions" />
+<Test name="testVoicemailsTable" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

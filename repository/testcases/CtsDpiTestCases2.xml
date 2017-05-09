@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.dpi2" appPackageName="android.dpi2" name="CtsDpiTestCases2" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+</TestPackage>

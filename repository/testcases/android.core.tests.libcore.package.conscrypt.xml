@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestPackage AndroidFramework="Android 1.0" appNameSpace="android.core.tests.libcore.package.conscrypt" appPackageName="android.core.tests.libcore.package.conscrypt" javaPackageFilter="" name="android.core.tests.libcore.package.conscrypt" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="android.core.tests.runner" targetNameSpace="android.core.tests.runner" version="1.0">
+    <TestSuite name="com">
+        <TestSuite name="android">
+            <TestSuite name="org">
+                <TestSuite name="conscrypt">
+                    <TestCase name="TrustedCertificateStoreTest">
+                        <Test name="testEmptyDirectories"/>
+                        <Test name="testOneSystemOneDeleted"/>
+                        <Test name="testTwoSystemTwoDeleted"/>
+                        <Test name="testPartialFileIsIgnored"/>
+                        <Test name="testTwoSystem"/>
+                        <Test name="testTwoUser"/>
+                        <Test name="testOneSystemOneUser"/>
+                        <Test name="testTwoSystemSameSubject"/>
+                        <Test name="testTwoUserSameSubject"/>
+                        <Test name="testOneSystemOneUserSameSubject"/>
+                        <Test name="testOneSystemOneUserOneDeleted"/>
+                        <Test name="testOneSystemOneUserOneDeletedSameSubject"/>
+                        <Test name="testUserMaskingSystem"/>
+                        <Test name="testChain"/>
+                        <Test name="testMissingSystemDirectory"/>
+                        <Test name="testWithExistingUserDirectories"/>
+                        <Test name="testIsTrustAnchorWithReissuedgetCa"/>
+                        <Test name="testInstallEmpty"/>
+                        <Test name="testInstallEmptySystemExists"/>
+                        <Test name="testInstallEmptyDeletedSystemExists"/>
+                        <Test name="testDeleteEmpty"/>
+                        <Test name="testDeleteUser"/>
+                        <Test name="testDeleteSystem"/>
+                        <Test name="testIsUserAddedCertificate"/>
+                    </TestCase>
+                    <TestCase name="TrustManagerImplTest">
+                        <Test name="testLearnIntermediate"/>
+                        <Test name="testDuplicateInChain"/>
+                        <Test name="testGetFullChain"/>
+                        <Test name="testCertPinning"/>
+                    </TestCase>
+                    <TestCase name="SignatureTest">
+                        <Test name="test_getInstance_OpenSSL_ENGINE"/>
+                    </TestCase>
+                    <TestCase name="OpenSSLSignatureTest">
+                        <Test name="test_getInstance"/>
+                    </TestCase>
+                    <TestCase name="NativeCryptoTest">
+                        <Test name="test_EVP_PKEY_cmp"/>
+                        <Test name="test_SSL_CTX_new"/>
+                        <Test name="test_SSL_CTX_free"/>
+                        <Test name="test_SSL_CTX_set_session_id_context"/>
+                        <Test name="test_SSL_new"/>
+                        <Test name="test_SSL_use_certificate"/>
+                        <Test name="test_SSL_use_PrivateKey_for_tls_channel_id"/>
+                        <Test name="test_SSL_use_PrivateKey"/>
+                        <Test name="test_SSL_check_private_key_null"/>
+                        <Test name="test_SSL_check_private_key_no_key_no_cert"/>
+                        <Test name="test_SSL_check_private_key_cert_then_key"/>
+                        <Test name="test_SSL_check_private_key_key_then_cert"/>
+                        <Test name="test_SSL_get_mode"/>
+                        <Test name="test_SSL_set_mode_and_clear_mode"/>
+                        <Test name="test_SSL_get_options"/>
+                        <Test name="test_SSL_set_options"/>
+                        <Test name="test_SSL_clear_options"/>
+                        <Test name="test_SSL_set_cipher_lists"/>
+                        <Test name="test_SSL_set_verify"/>
+                        <Test name="test_SSL_do_handshake_NULL_SSL"/>
+                        <Test name="test_SSL_do_handshake_null_args"/>
+                        <Test name="test_SSL_do_handshake_normal"/>
+                        <Test name="test_SSL_do_handshake_optional_client_certificate"/>
+                        <Test name="test_SSL_do_handshake_missing_required_certificate"/>
+                        <Test name="test_SSL_do_handshake_clientCertificateRequested_throws_after_renegotiate"/>
+                        <Test name="test_SSL_do_handshake_client_timeout"/>
+                        <Test name="test_SSL_do_handshake_server_timeout"/>
+                        <Test name="test_SSL_do_handshake_with_channel_id_normal"/>
+                        <Test name="test_SSL_do_handshake_with_channel_id_not_supported_by_server"/>
+                        <Test name="test_SSL_do_handshake_with_channel_id_not_enabled_by_client"/>
+                        <Test name="test_SSL_set_session"/>
+                        <Test name="test_SSL_set_session_creation_enabled"/>
+                        <Test name="test_SSL_set_tlsext_host_name"/>
+                        <Test name="test_SSL_NpnNegotiateSuccess"/>
+                        <Test name="test_SSL_AlpnNegotiateSuccess"/>
+                        <Test name="test_SSL_get_servername_null"/>
+                        <Test name="test_SSL_renegotiate"/>
+                        <Test name="test_SSL_get_certificate"/>
+                        <Test name="test_SSL_get_peer_cert_chain"/>
+                        <Test name="test_SSL_read"/>
+                        <Test name="test_SSL_write"/>
+                        <Test name="test_SSL_interrupt"/>
+                        <Test name="test_SSL_shutdown"/>
+                        <Test name="test_SSL_free"/>
+                        <Test name="test_SSL_SESSION_session_id"/>
+                        <Test name="test_SSL_SESSION_get_time"/>
+                        <Test name="test_SSL_SESSION_get_version"/>
+                        <Test name="test_SSL_SESSION_cipher"/>
+                        <Test name="test_SSL_SESSION_free"/>
+                        <Test name="test_i2d_SSL_SESSION"/>
+                        <Test name="test_d2i_SSL_SESSION"/>
+                        <Test name="test_X509_NAME_hashes"/>
+                        <Test name="test_ENGINE_by_id_Failure"/>
+                        <Test name="test_ENGINE_by_id_TestEngine"/>
+                        <Test name="test_RAND_bytes_Success"/>
+                        <Test name="test_RAND_bytes_Null_Failure"/>
+                        <Test name="test_EVP_get_digestbyname"/>
+                        <Test name="test_EVP_SignInit"/>
+                        <Test name="test_get_RSA_private_params"/>
+                        <Test name="test_get_RSA_public_params"/>
+                        <Test name="test_DSA_generate_key"/>
+                        <Test name="testEC_GROUP"/>
+                        <Test name="test_EVP_CipherInit_ex_Null_Failure"/>
+                        <Test name="test_EVP_CipherInit_ex_Success"/>
+                        <Test name="test_EVP_CIPHER_iv_length"/>
+                        <Test name="test_OpenSSLKey_toJava"/>
+                        <Test name="test_create_BIO_InputStream"/>
+                        <Test name="test_create_BIO_OutputStream"/>
+                    </TestCase>
+                    <TestCase name="MacTest">
+                        <Test name="test_getInstance_OpenSSL_ENGINE"/>
+                    </TestCase>
+                    <TestCase name="FileClientSessionCacheTest">
+                        <Test name="testMaxSize"/>
+                    </TestCase>
+                    <TestCase name="ClientSessionContextTest">
+                        <Test name="testSimpleAddition"/>
+                        <Test name="testTrimToSize"/>
+                        <Test name="testImplicitRemovalOfOldest"/>
+                    </TestCase>
+                    <TestCase name="CipherSuiteTest">
+                        <Test name="test_getByName"/>
+                        <Test name="test_getByCode"/>
+                        <Test name="test_getSupported"/>
+                        <Test name="test_getSupportedCipherSuiteNames"/>
+                        <Test name="test_getClientKeyType"/>
+                    </TestCase>
+                    <TestCase name="ChainStrengthAnalyzerTest">
+                        <Test name="testMD5"/>
+                        <Test name="test512"/>
+                        <Test name="testGoodChain"/>
+                    </TestCase>
+                    <TestCase name="CertPinManagerTest">
+                        <Test name="testPinFileMaximumLookup"/>
+                        <Test name="testPinEntryMalformedEntry"/>
+                        <Test name="testPinEntryNull"/>
+                        <Test name="testPinEntryEmpty"/>
+                        <Test name="testPinEntryPinFailure"/>
+                        <Test name="testPinEntryPinSuccess"/>
+                        <Test name="testPinEntryNonEnforcing"/>
+                    </TestCase>
+                </TestSuite>
+            </TestSuite>
+        </TestSuite>
+    </TestSuite>
+</TestPackage>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.effect" appPackageName="android.effect" name="CtsEffectTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="effect">
+<TestSuite name="cts">
+<TestCase name="EffectTest">
+<Test name="test1_createContext" />
+<Test name="test2_getFactory" />
+<Test name="test3_availableEffects" />
+<Test name="test4_effectCreate" />
+<Test name="test5_effectCreate" />
+<Test name="test6_effectApply" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

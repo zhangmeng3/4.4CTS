@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="android.accounts.cts" appPackageName="android.accounts" name="CtsAccountManagerTestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="accounts">
+<TestSuite name="cts">
+<TestCase name="AccountManagerTest">
+<Test name="testAddAccount" />
+<Test name="testAddAccountExplicitlyAndRemoveAccount" />
+<Test name="testAddAccountWithCallbackAndHandler" />
+<Test name="testAddOnAccountsUpdatedListenerWithHandler" />
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBlockingGetAuthToken" />
+<Test name="testConfirmCredentials" />
+<Test name="testConfirmCredentialsWithCallbackAndHandler" />
+<Test name="testEditProperties" />
+<Test name="testEditPropertiesWithCallbackAndHandler" />
+<Test name="testGet" />
+<Test name="testGetAccountsAndGetAccountsByType" />
+<Test name="testGetAccountsByTypeAndFeatures" />
+<Test name="testGetAccountsByTypeAndFeaturesWithCallbackAndHandler" />
+<Test name="testGetAuthToken" />
+<Test name="testGetAuthTokenByFeatures" />
+<Test name="testGetAuthTokenWithCallbackAndHandler" />
+<Test name="testGetAuthTokenWithOptions" />
+<Test name="testGetAuthTokenWithOptionsAndCallback" />
+<Test name="testGetAuthenticatorTypes" />
+<Test name="testGetsAreCached" />
+<Test name="testHasFeature" />
+<Test name="testRemoveOnAccountsUpdatedListener" />
+<Test name="testSetAndGetAndClearPassword" />
+<Test name="testSetAndGetUserData" />
+<Test name="testSetAndPeekAndInvalidateAuthToken" />
+<Test name="testUpdateCredentials" />
+<Test name="testUpdateCredentialsWithCallbackAndHandler" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

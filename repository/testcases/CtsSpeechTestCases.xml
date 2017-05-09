@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.speech" appPackageName="android.speech" name="CtsSpeechTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="speech">
+<TestSuite name="tts">
+<TestSuite name="cts">
+<TestCase name="TextToSpeechServiceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testMediaPlayerFails" />
+<Test name="testSpeak" />
+<Test name="testSynthesizeToFile" />
+</TestCase>
+<TestCase name="TextToSpeechTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGetEnginesIncludesDefault" />
+<Test name="testGetEnginesIncludesMock" />
+<Test name="testSpeak" />
+<Test name="testSynthesizeToFile" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

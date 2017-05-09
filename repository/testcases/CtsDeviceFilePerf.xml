@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.filesystemperf" appPackageName="com.android.cts.filesystemperf" name="CtsDeviceFilePerf" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="filesystemperf">
+<TestCase name="AlmostFullTest">
+<Test name="testRandomRead" timeout="60" />
+<Test name="testRandomUpdate" timeout="60" />
+<Test name="testSequentialUpdate" timeout="30" />
+</TestCase>
+<TestCase name="RandomRWTest">
+<Test name="testRandomRead" timeout="60" />
+<Test name="testRandomUpdate" timeout="60" />
+</TestCase>
+<TestCase name="SequentialRWTest">
+<Test name="testSingleSequentialRead" timeout="30" />
+<Test name="testSingleSequentialUpdate" timeout="60" />
+<Test name="testSingleSequentialWrite" timeout="30" />
+</TestCase>
+<TestCase name="TestTest">
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

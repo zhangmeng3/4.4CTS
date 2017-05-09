@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.opengl.cts" appPackageName="android.nativeopengl" name="CtsNativeOpenGLTestCases" runner="GLTestInstrumentation" testType="wrappednative" version="1.0">
+<TestSuite name="android">
+<TestSuite name="nativeopengl">
+<TestCase name="EGLCleanupTest">
+<Test name="TestCorrect" expectation="failure" />
+</TestCase>
+<TestCase name="EGLCreateContextTest">
+<Test name="BadAttributeFails" expectation="failure" />
+</TestCase>
+<TestCase name="GLTest">
+<Test name="ClearColorTest" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestPackage>

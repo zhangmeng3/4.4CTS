@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.hardware" appPackageName="android.hardware" name="CtsHardwareTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="hardware">
+<TestSuite name="camera2">
+<TestSuite name="cts">
+<TestCase name="CameraCaptureResultTest">
+<Test name="testAndroidTestCaseSetupProperly" expectation="failure" />
+<Test name="testCameraCaptureResultAllKeys" expectation="failure" />
+</TestCase>
+<TestCase name="CameraCharacteristicsTest">
+<Test name="testAndroidTestCaseSetupProperly" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAeAvailableAntibandingModes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAeAvailableTargetFpsRanges" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAeCompensationRange" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAeCompensationStep" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAfAvailableModes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAvailableEffects" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAvailableSceneModes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAvailableVideoStabilizationModes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlAwbAvailableModes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidControlMaxRegions" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidFlashInfoAvailable" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidInfoSupportedHardwareLevel" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidJpegAvailableThumbnailSizes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensFacing" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensInfoAvailableApertures" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensInfoAvailableFilterDensities" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensInfoAvailableFocalLengths" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensInfoAvailableOpticalStabilization" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensInfoHyperfocalDistance" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensInfoMinimumFocusDistance" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidLensInfoShadingMapSize" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidRequestMaxNumOutputStreams" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidScalerAvailableFormats" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidScalerAvailableJpegMinDurations" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidScalerAvailableJpegSizes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidScalerAvailableMaxDigitalZoom" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidScalerAvailableProcessedMinDurations" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidScalerAvailableProcessedSizes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorBaseGainFactor" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorInfoActiveArraySize" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorInfoExposureTimeRange" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorInfoMaxFrameDuration" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorInfoPhysicalSize" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorInfoSensitivityRange" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorMaxAnalogSensitivity" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidSensorOrientation" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidStatisticsInfoAvailableFaceDetectModes" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidStatisticsInfoMaxFaceCount" expectation="failure" />
+<Test name="testCameraCharacteristicsAndroidTonemapMaxCurvePoints" expectation="failure" />
+</TestCase>
+<TestCase name="CameraDeviceTest">
+<Test name="testAndroidTestCaseSetupProperly" expectation="failure" />
+<Test name="testCameraDeviceCapture" expectation="failure" />
+<Test name="testCameraDeviceCaptureBurst" expectation="failure" />
+<Test name="testCameraDeviceCreateCaptureBuilder" expectation="failure" />
+<Test name="testCameraDeviceRepeatingBurst" expectation="failure" />
+<Test name="testCameraDeviceRepeatingRequest" expectation="failure" />
+<Test name="testCameraDeviceSetErrorListener" expectation="failure" />
+</TestCase>
+<TestCase name="CameraManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" expectation="failure" />
+<Test name="testCameraManagerGetCameraCharacteristics" expectation="failure" />
+<Test name="testCameraManagerGetDeviceIdList" expectation="failure" />
+<Test name="testCameraManagerInvalidDevice" expectation="failure" />
+<Test name="testCameraManagerListener" expectation="failure" />
+<Test name="testCameraManagerOpenAllCameras" expectation="failure" />
+<Test name="testCameraManagerOpenCameraTwice" expectation="failure" />
+<Test name="testCameraManagerOpenCamerasSerially" expectation="failure" />
+</TestCase>
+<TestCase name="ImageReaderTest">
+<Test name="testAndroidTestCaseSetupProperly" expectation="failure" />
+<Test name="testImageReaderFromCameraFlexibleYuv" expectation="failure" />
+<Test name="testImageReaderFromCameraJpeg" expectation="failure" />
+<Test name="testImageReaderFromCameraRaw" expectation="failure" />
+<Test name="testImageReaderInvalidAccessTest" expectation="failure" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="consumerir">
+<TestSuite name="cts">
+<TestCase name="ConsumerIrTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="test_getCarrierFrequencies" />
+<Test name="test_hasIrEmitter" />
+<Test name="test_timing" />
+<Test name="test_transmit" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+<TestSuite name="cts">
+<TestSuite name="helpers">
+<TestCase name="SensorCtsHelperTest">
+<Test name="testGet95PercentileValue" />
+<Test name="testGetFrequency" />
+<Test name="testGetJitterValues" />
+<Test name="testGetMean" />
+<Test name="testGetMeans" />
+<Test name="testGetPeriod" />
+<Test name="testGetStandardDeviation" />
+<Test name="testGetStandardDeviations" />
+<Test name="testGetTimestampDelayValues" />
+<Test name="testGetVariance" />
+<Test name="testGetVariences" />
+</TestCase>
+<TestCase name="SensorVerificationHelperTest">
+<Test name="testVerifyEventOrdering" />
+<Test name="testVerifyFrequency" />
+<Test name="testVerifyJitter" />
+<Test name="testVerifyMagnitude" />
+<Test name="testVerifyMean" />
+<Test name="testVerifySignum" />
+<Test name="testVerifyStandardDeviation" />
+</TestCase>
+</TestSuite>
+<TestCase name="CameraGLTest">
+<Test name="testCameraToSurfaceTextureMetadata" timeout="20" />
+<Test name="testSetPreviewTextureBothCallbacks" />
+<Test name="testSetPreviewTexturePreviewCallback" />
+<Test name="testSetPreviewTextureTextureCallback" />
+</TestCase>
+<TestCase name="CameraTest">
+<Test name="test3ALockInteraction" />
+<Test name="testAutoExposureLock" />
+<Test name="testAutoWhiteBalanceLock" />
+<Test name="testCancelAutofocus" />
+<Test name="testDisplayOrientation" />
+<Test name="testEnableShutterSound" />
+<Test name="testFaceDetection" />
+<Test name="testFocusAreas" />
+<Test name="testFocusDistances" />
+<Test name="testGetParameterDuringFocus" />
+<Test name="testImmediateZoom" />
+<Test name="testInvalidParameters" />
+<Test name="testJpegCallbackStartPreview" />
+<Test name="testJpegExif" />
+<Test name="testJpegThumbnailSize" />
+<Test name="testLockUnlock" />
+<Test name="testMeteringAreas" />
+<Test name="testMultiCameraRelease" />
+<Test name="testMultipleCameras" />
+<Test name="testParameters" />
+<Test name="testPreviewCallback" />
+<Test name="testPreviewCallbackWithBuffer" />
+<Test name="testPreviewCallbackWithPicture" />
+<Test name="testPreviewFormats" />
+<Test name="testPreviewFpsRange" />
+<Test name="testPreviewPictureSizesCombination" />
+<Test name="testRecordingHint" />
+<Test name="testSceneMode" />
+<Test name="testSetOneShotPreviewCallback" />
+<Test name="testSetPreviewDisplay" />
+<Test name="testSmoothZoom" />
+<Test name="testTakePicture" />
+<Test name="testVideoSnapshot" />
+</TestCase>
+<TestCase name="Camera_ParametersTest">
+<Test name="testAccessMethods" />
+</TestCase>
+<TestCase name="Camera_SizeTest">
+<Test name="testConstructor" />
+</TestCase>
+<TestCase name="GeomagneticFieldTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testGeomagneticField" />
+</TestCase>
+<TestCase name="LowRamDeviceTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testLowRamProductProperty" />
+</TestCase>
+<TestCase name="SensorEventOrderingTests">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testEventOrdering" />
+</TestCase>
+<TestCase name="SensorFrequencyTests">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testJittering" />
+<Test name="testMaxFrequency" />
+<Test name="testMaxFrequencyExpected" />
+</TestCase>
+<TestCase name="SensorIntegrationTests">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testSensorStoppingInteraction" />
+<Test name="testSensorsMovingRates" expectation="failure" />
+<Test name="testSensorsWithSeveralClients" expectation="failure" />
+</TestCase>
+<TestCase name="SensorMeasurementTests">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testEventNorm" />
+<Test name="testStandardDeviation" />
+</TestCase>
+<TestCase name="SensorTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testBatchAndFlush" />
+<Test name="testBatchAndFlushWithHandler" />
+<Test name="testBatchAndFlushWithMutipleSensors" />
+<Test name="testCancelTriggerWithNonTriggerSensor" />
+<Test name="testLegacySensorOperations" />
+<Test name="testRegisterTwiceWithSameSensor" />
+<Test name="testRegisterWithTriggerSensor" />
+<Test name="testRequestTriggerWithNonTriggerSensor" />
+<Test name="testSensorOperations" />
+<Test name="testValuesForAllSensors" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

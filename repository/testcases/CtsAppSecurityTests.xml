@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="android.tests.appsecurity" name="CtsAppSecurityTests" testType="hostSideOnly" jarPath="CtsAppSecurityTests.jar" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="appsecurity">
+<TestCase name="AppSecurityTests">
+<Test name="testAppFailAccessPrivateData" />
+<Test name="testAppUpgradeDifferentCerts" />
+<Test name="testExternalStorageGifts" />
+<Test name="testExternalStorageNone" />
+<Test name="testExternalStorageRead" />
+<Test name="testExternalStorageWrite" />
+<Test name="testInstrumentationDiffCert" />
+<Test name="testMultiUserStorage" />
+<Test name="testPermissionDiffCert" />
+<Test name="testSharedUidDifferentCerts" />
+<Test name="testUninstallRemovesData" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

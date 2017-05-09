@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appPackageName="com.android.cts.uihost" name="CtsHostUi" testType="hostSideOnly" jarPath="CtsHostUi.jar" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="uihost">
+<TestCase name="InstallTimeTest">
+<Test name="testInstallTime" />
+</TestCase>
+<TestCase name="TaskSwitchingTest">
+<Test name="testTaskswitching" timeout="30" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

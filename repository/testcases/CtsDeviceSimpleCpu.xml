@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.simplecpu" appPackageName="com.android.cts.simplecpu" name="CtsDeviceSimpleCpu" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="simplecpu">
+<TestCase name="SimpleCpuTest">
+<Test name="testMatrixMultiplication032" />
+<Test name="testMatrixMultiplication128" />
+<Test name="testMatrixMultiplication200" />
+<Test name="testMatrixMultiplication400" />
+<Test name="testMatrixMultiplication600" timeout="20" />
+<Test name="testSort001MB" />
+<Test name="testSort004KB" />
+<Test name="testSort128KB" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

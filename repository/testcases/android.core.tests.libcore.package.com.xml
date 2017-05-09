@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestPackage AndroidFramework="Android 1.0" appNameSpace="android.core.tests.libcore.package.com" appPackageName="android.core.tests.libcore.package.com" javaPackageFilter="com" name="android.core.tests.libcore.package.com" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="android.core.tests.runner" targetNameSpace="android.core.tests.runner" version="1.0">
+    <TestSuite name="com">
+        <TestSuite name="android">
+            <TestSuite name="org">
+                <TestSuite name="bouncycastle">
+                    <TestSuite name="jce">
+                        <TestSuite name="provider">
+                            <TestCase name="CertBlacklistTest">
+                                <Test name="testPubkeyBlacklistLegit"/>
+                                <Test name="testLegitPubkeyIsntBlacklisted"/>
+                                <Test name="testPubkeyIsBlacklisted"/>
+                                <Test name="testSerialBlacklistLegit"/>
+                                <Test name="testPubkeyBlacklistMultipleLegit"/>
+                                <Test name="testSerialBlacklistMultipleLegit"/>
+                                <Test name="testPubkeyBlacklistMultipleBad"/>
+                                <Test name="testSerialBlacklistMultipleBad"/>
+                                <Test name="testPubkeyBlacklistDoesntExist"/>
+                                <Test name="testSerialBlacklistDoesntExist"/>
+                                <Test name="testPubkeyBlacklistNotHexValues"/>
+                                <Test name="testSerialBlacklistNotHexValues"/>
+                                <Test name="testPubkeyBlacklistIncorrectLength"/>
+                                <Test name="testSerialBlacklistZero"/>
+                                <Test name="testSerialBlacklistNegative"/>
+                                <Test name="testTurkTrustIntermediate1SerialBlacklist"/>
+                                <Test name="testTurkTrustIntermediate1PubkeyBlacklist"/>
+                                <Test name="testTurkTrustIntermediate2SerialBlacklist"/>
+                                <Test name="testTurkTrustIntermediate2PubkeyBlacklist"/>
+                            </TestCase>
+                        </TestSuite>
+                    </TestSuite>
+                    <TestSuite name="crypto">
+                        <TestSuite name="digests">
+                            <TestCase name="DigestTest">
+                                <Test name="testMD5"/>
+                                <Test name="testSHA1"/>
+                                <Test name="testSHA256"/>
+                                <Test name="testSHA384"/>
+                                <Test name="testSHA512"/>
+                            </TestCase>
+                        </TestSuite>
+                    </TestSuite>
+                </TestSuite>
+            </TestSuite>
+        </TestSuite>
+    </TestSuite>
+</TestPackage>

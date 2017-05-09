@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.rscpp" appPackageName="android.rscpp" name="CtsRsCppTestCases" runner="android.test.InstrumentationCtsTestRunner" targetBinaryName="CtsTestStubs" targetNameSpace="com.android.cts.stub" version="1.0">
+<TestSuite name="android">
+<TestSuite name="cts">
+<TestSuite name="rscpp">
+<TestCase name="RS3DLUTTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRSLUT" />
+</TestCase>
+<TestCase name="RSBlendTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRSBlend" />
+</TestCase>
+<TestCase name="RSBlurTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRSBlurFourChannels" />
+<Test name="testRSBlurOneChannel" />
+</TestCase>
+<TestCase name="RSColorMatrixTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRSColorMatrix0" />
+<Test name="testRSColorMatrix1" />
+<Test name="testRSColorMatrix2" />
+<Test name="testRSColorMatrix3" />
+<Test name="testRSColorMatrix4" />
+</TestCase>
+<TestCase name="RSConvolveTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testConvolve3x3" />
+<Test name="testConvolve5x5" />
+</TestCase>
+<TestCase name="RSInitTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRSInit" />
+</TestCase>
+<TestCase name="RSLUTTest">
+<Test name="testAndroidTestCaseSetupProperly" />
+<Test name="testRSLUT" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

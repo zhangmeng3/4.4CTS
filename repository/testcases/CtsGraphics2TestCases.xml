@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.graphics2" appPackageName="android.graphics2" name="CtsGraphics2TestCases" runner="android.test.InstrumentationCtsTestRunner" version="1.0">
+<TestSuite name="android">
+<TestSuite name="graphics2">
+<TestSuite name="cts">
+<TestCase name="TextureViewTest">
+<Test name="testTextureViewActivity" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>
